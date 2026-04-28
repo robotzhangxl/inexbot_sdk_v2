@@ -1,0 +1,8 @@
+{
+  "name": "inexbot-sdk-docs",
+  "version": "1.0.0",
+  "description": "纳博特SDK技术文档",
+  "scripts": {
+    "build": "echo 'No build needed - static Markdown site'"
+  }
+}
