@@ -1,41 +1,9 @@
 ---
-title: 纳博特SDK3
-source: 纳博特SDK3.pdf
+title: 纳博特SDK 示教器二次开发
+source: 纳博特SDK3.md
 category: SDK文档
-converted: 2026-04-27 23:11:38
 ---
 
-
-## Page 1
-
-
-## 目录
-
-  - [Page 1](#page-1)
-  - [Page 2](#page-2)
-  - [Page 3](#page-3)
-  - [Page 4](#page-4)
-  - [Page 5](#page-5)
-  - [Page 6](#page-6)
-  - [Page 7](#page-7)
-  - [Page 8](#page-8)
-  - [Page 9](#page-9)
-  - [Page 10](#page-10)
-  - [Page 11](#page-11)
-  - [Page 12](#page-12)
-  - [Page 13](#page-13)
-  - [Page 14](#page-14)
-  - [Page 15](#page-15)
-  - [Page 16](#page-16)
-  - [Page 17](#page-17)
-  - [Page 18](#page-18)
-  - [Page 19](#page-19)
-  - [Page 20](#page-20)
-  - [Page 21](#page-21)
-  - [Page 22](#page-22)
-  - [Page 23](#page-23)
-
----
 目 录
 示教器
 快速开始
@@ -43,9 +11,6 @@ converted: 2026-04-27 23:11:38
 示例
 硬件接口
 自定义指令
-
-
-## Page 2
 
 示教器
 简介
@@ -78,9 +43,6 @@ Linux Ubuntu 基本操作指令
 1.1 系统要求
 当前推荐的开发环境操作系统为：
 
-
-## Page 3
-
 Ubuntu 20.04
 •
 当前支持的 Qt 编译套件包括：
@@ -109,14 +71,9 @@ LYX （示教盒嵌入式编译套件）
 推荐复制这个链接 https://download.qt.io/new_archive/qt/5.9/5.9.0/qt-opensource-linux-x64-
 5.9.0.run，打开迅雷下载速度更快。
 下载完成后在Ubuntu 20.04中，打开cmd，运行：
-sudo chmod a+x qt-opensource-linux-x64-5.9.0.run  
+sudo chmod a+x qt-opensource-linux-x64-5.9.0.run
 sudo ./qt-opensource-linux-x64-5.9.0.run
-1
-2
 出现qt安装程序后⼀直选择默认，直到这⼀步需要勾选如图所⽰的选项：
-
-
-## Page 4
 
 步骤全部完成后，Qt会被安装到/opt目录下。
 启动Qt，运行：
@@ -127,17 +84,10 @@ sudo ./qt-opensource-linux-x64-5.9.0.run
 1.3.1 Desktop Qt 5.9.0 GCC 64 bit 编译套件安装
 安装GCC，运行：
 
-
-## Page 5
-
-sudo apt install gcc-multilib  
-sudo apt install g++-multilib  
-sudo apt install lib32z1  
+sudo apt install gcc-multilib
+sudo apt install g++-multilib
+sudo apt install lib32z1
 sudo apt install libgl1-mesa-dev
-1
-2
-3
-4
 1.3.2 LYX 编译套件安装
 tslib.tar.gz
 57.75 KB
@@ -149,31 +99,20 @@ gcc.tar.gz
 86.72 MB
 2025-05-26 15:30
 将gcc.tar.gz和qtenv.tar.gz解压到系统的/opt/⽬录下
-sudo tar -zxvf gcc.tar.gz -C /opt 
+sudo tar -zxvf gcc.tar.gz -C /opt
 sudo tar -zxvf qtenv.tar.gz -C /opt
-1
-2
 将tslib.tar.gz解压到系统的/usr/local⽬录下
 sudo tar -zxvf tslib.tar.gz -C /usr/local
-1
 配置32位编译环境
 sudo dpkg --add-architecture i386
 sudo apt update
 sudo apt install libc6-dev-i386
 sudo apt install g++-multilib
 sudo apt install libstdc++6:i386
-1
-2
-3
-4
-5
 打开qt，添加 LYX 编译套件，详细步骤可⻅附件：
 Qt开发环境配置说明.pdf
 2.63 MB
 2025-05-26 16:19
-
-
-## Page 6
 
 至此，我们常用的两个编译套件就配置完成了。
 3. 远程登陆到示教器
@@ -182,14 +121,9 @@ Qt开发环境配置说明.pdf
 IP为192.168.1.245，所以电脑连接控制器的网口同样需要设置为1网段（比如可以设置192.168.1.110）。设
 置完成之后在Ubuntu中打开一个新的终端输入
 ping 192.168.1.245
-1
 如出现不成功的情况，请检查网线的连接，电脑的IP，示教器的IP。
 3.2 使用ssh登陆到示教器
 ssh root@192.168.1.245
-1
-
-
-## Page 7
 
 然后密码输入1234，即可进行远程控制了。
 示教器程序执行在/userfs/app/下，使用./Qt-tp -qws即可启动示教器程序，使用killall -9 Qt-tp杀死示教器程
@@ -204,9 +138,6 @@ Include 文件夹中为头文件；
 Library 文件夹中为静态库文件包括 linux 平台和 ARM 平台的库文件（使用ARM 平台交叉编译的程序只适
 用于纳博特公司的 T30 示教器使用）；
 静态库结构说明
-
-
-## Page 8
 
 1.nextp.h 头文件接口说明：
 //创建 Nextp 类对象
@@ -282,9 +213,6 @@ void hideTechnologyToolbuttons();
 35
 36
 
-
-## Page 9
-
     ReceivedFifthUserCommand = 0x920e,
 };
 37
@@ -297,12 +225,6 @@ root["robot"] =1;
 root["booldata"] =true;
 root["data"] = 1.1;
 root["name"] =”nihao”;
-1
-2
-3
-4
-5
-6
 解析 Json 数据示例
 QByteArray jsonData //控制器发送的数据
 Json::Value root;
@@ -330,34 +252,19 @@ if(reader.parse(jsonData.toStdString(), root))
 支持将 QLineEdit 控件提升为数字输入框
 提升方法：右键选择一个 QLineEdit 控件 --->Promote to--->DigitalLineEdit
 
-
-## Page 10
-
 右侧树形结构中可以看到该控件 Classs 属性变为 DigitLineEdit
-
-
-## Page 11
 
 程序运行后控件效果，单击控件会弹出数字键盘：
 4.lineeditwidget.h 提供数字和字符输入框 支持将 QLineEdit 控件提升为数字与字符输入框 提升方法：右键
 选择一个 QLineEdit 控 件 --->Promote to--->lineEditWidget
 
-
-## Page 12
-
 右侧树形结构中可以看到该控件 Classs 属性变为 lineEditWidget
 程序运行后控件效果，单击控件会弹出数字与字母键盘：
 Demo 说明​
 
-
-## Page 13
-
 1. Demo 结构图 demo 文件夹名称：NextpMode
 2. Demo 文件类说明
 2.1 settingparawidget.h settingparawidget.cpp settingparawidget.ui 三个文件为用户自定义窗体
-
-
-## Page 14
 
 2.2 widgetmanager.h widgetmanager.cpp 为管理类连接用户自定义窗体和静态库
 2.2 静态库文件夹 nextplib 需要放置在 demod 的 NextpMode 文件夹下
@@ -365,20 +272,11 @@ Demo 说明​
 运 Demo 程序点击【操作员】> 选择管理员>输入密码 123456 登录
 点击左侧【工艺】按钮> 用户 进入自定义窗体
 
-
-## Page 15
-
 点击修改按钮 可以修改参数 点击保存将发送参数到控制器
 QtCreator 控制台会打印发送到控制器的数据
 
-
-## Page 16
-
 如果调用函数 void hideTechnologyToolbuttons();会隐藏除工艺在主界 面上自定义按钮以外的其他工艺按
 钮
-
-
-## Page 17
 
 示例
 包含示教器上硬件按钮以及滑轮的控制示例、自定义指令的示例
@@ -397,20 +295,6 @@ class MainWindow : public QMainWindow
 {
     Q_OBJECT
 public:
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-
-
-## Page 18
 
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
@@ -481,9 +365,6 @@ MainWindow::MainWindow(QWidget *parent) :
 16
 17
 18
-
-
-## Page 19
 
     if (switchfd < 0) {
         qCritical() << "Failed to open device:" << strerror(errno);
@@ -564,10 +445,7 @@ void MainWindow::onDataAvailable()
 55
 56
 
-
-## Page 20
-
-    while ((bytesRead = ::read(switchfd, switchbuttons, sizeof(switchbuttons))) > 
+    while ((bytesRead = ::read(switchfd, switchbuttons, sizeof(switchbuttons))) >
 0) {
         qDebug() << "Data received:" << QByteArray(switchbuttons, bytesRead);
         QString CurMode = "";
@@ -644,9 +522,6 @@ void MainWindow::onDataAvailable()
 92
 93
 94
-
-
-## Page 21
 
     if (bytesRead < 0 && errno != EAGAIN) {
         qWarning() << "Read error:" << strerror(errno);
@@ -726,9 +601,6 @@ s))
 130
 131
 
-
-## Page 22
-
     }
     else if(CurEnable == "00000000")
     {
@@ -785,9 +657,6 @@ st QByteArray &)),this,SLOT(slot_receiveMessage(const quint16 &,const QByteArray
 11
 12
 13
-
-
-## Page 23
 
 }
 14
