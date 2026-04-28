@@ -1,0 +1,70 @@
+site_name: 纳博特SDK技术文档
+site_url: https://robotzhangxl.github.io/inexbot_sdk_v2/
+site_description: 纳博特SDK技术文档，包含通讯协议、运动控制、工艺应用等内容
+docs_dir: .
+theme:
+  name: material
+  language: zh
+  palette:
+    primary: blue
+    accent: blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+nav:
+  - README.md
+  - 通讯协议:
+    - 01_通讯协议/5000端口协议.md
+    - 01_通讯协议/7000端口协议.md
+    - 01_通讯协议/EIP.md
+    - 01_通讯协议/Modbus.md
+    - 01_通讯协议/OPCUA.md
+    - 01_通讯协议/Tcp通讯.md
+    - 01_通讯协议/总线.md
+    - 01_通讯协议/数据上传.md
+  - 运动控制:
+    - 02_运动控制/DH参数.md
+    - 02_运动控制/传送带.md
+    - 02_运动控制/变量.md
+    - 02_运动控制/复位点.md
+    - 02_运动控制/工具手.md
+    - 02_运动控制/干涉区.md
+    - 02_运动控制/操作参数.md
+    - 02_运动控制/标定.md
+    - 02_运动控制/独立轴.md
+    - 02_运动控制/用户坐标.md
+    - 02_运动控制/跟随误差&电机过载保护.md
+    - 02_运动控制/运动控制.md
+    - 02_运动控制/零点.md
+  - 工艺应用:
+    - 03_工艺应用/寻位跟踪.md
+    - 03_工艺应用/焊接工艺.md
+    - 03_工艺应用/码垛工艺.md
+    - 03_工艺应用/视觉工艺.md
+  - 高级功能:
+    - 04_高级功能/动力学.md
+    - 04_高级功能/示教器与上位机的通讯连接.md
+    - 04_高级功能/遥操作.md
+  - 系统配置:
+    - 05_系统配置/IO.md
+    - 05_系统配置/其他.md
+    - 05_系统配置/其他外设.md
+    - 05_系统配置/参数设置.md
+    - 05_系统配置/报错.md
+    - 05_系统配置/状态.md
+    - 05_系统配置/系统.md
+  - SDK文档:
+    - 06_SDK文档/纳博特SDK1.md
+    - 06_SDK文档/纳博特SDK2.md
+    - 06_SDK文档/纳博特SDK3.md
+  - 其他:
+    - 09_其他/finsTCP.md
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - admonition
+  - tables
+  - toc:
+      permalink: true
