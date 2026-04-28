@@ -1,0 +1,9275 @@
+---
+title: 纳博特SDK2
+source: 纳博特SDK2.pdf
+category: SDK文档
+converted: 2026-04-27 23:11:38
+---
+
+
+## Page 1
+
+
+## 目录
+
+  - [Page 1](#page-1)
+  - [Page 2](#page-2)
+  - [Page 3](#page-3)
+  - [Page 4](#page-4)
+  - [Page 5](#page-5)
+  - [Page 6](#page-6)
+  - [Page 7](#page-7)
+  - [Page 8](#page-8)
+  - [Page 9](#page-9)
+  - [Page 10](#page-10)
+  - [Page 11](#page-11)
+  - [Page 12](#page-12)
+  - [Page 13](#page-13)
+  - [Page 14](#page-14)
+  - [Page 15](#page-15)
+  - [Page 16](#page-16)
+  - [Page 17](#page-17)
+  - [Page 18](#page-18)
+  - [Page 19](#page-19)
+  - [Page 20](#page-20)
+  - [Page 21](#page-21)
+  - [Page 22](#page-22)
+  - [Page 23](#page-23)
+  - [Page 24](#page-24)
+  - [Page 25](#page-25)
+  - [Page 26](#page-26)
+  - [Page 27](#page-27)
+  - [Page 28](#page-28)
+  - [Page 29](#page-29)
+  - [Page 30](#page-30)
+  - [Page 31](#page-31)
+  - [Page 32](#page-32)
+  - [Page 33](#page-33)
+  - [Page 34](#page-34)
+  - [Page 35](#page-35)
+  - [Page 36](#page-36)
+  - [Page 37](#page-37)
+  - [Page 38](#page-38)
+  - [Page 39](#page-39)
+  - [Page 40](#page-40)
+  - [Page 41](#page-41)
+  - [Page 42](#page-42)
+  - [Page 43](#page-43)
+  - [Page 44](#page-44)
+  - [Page 45](#page-45)
+  - [Page 46](#page-46)
+  - [Page 47](#page-47)
+  - [Page 48](#page-48)
+  - [Page 49](#page-49)
+  - [Page 50](#page-50)
+  - [Page 51](#page-51)
+  - [Page 52](#page-52)
+  - [Page 53](#page-53)
+  - [Page 54](#page-54)
+  - [Page 55](#page-55)
+  - [Page 56](#page-56)
+  - [Page 57](#page-57)
+  - [Page 58](#page-58)
+  - [Page 59](#page-59)
+  - [Page 60](#page-60)
+  - [Page 61](#page-61)
+  - [Page 62](#page-62)
+  - [Page 63](#page-63)
+  - [Page 64](#page-64)
+  - [Page 65](#page-65)
+  - [Page 66](#page-66)
+  - [Page 67](#page-67)
+  - [Page 68](#page-68)
+  - [Page 69](#page-69)
+  - [Page 70](#page-70)
+  - [Page 71](#page-71)
+  - [Page 72](#page-72)
+  - [Page 73](#page-73)
+  - [Page 74](#page-74)
+  - [Page 75](#page-75)
+  - [Page 76](#page-76)
+  - [Page 77](#page-77)
+  - [Page 78](#page-78)
+  - [Page 79](#page-79)
+  - [Page 80](#page-80)
+  - [Page 81](#page-81)
+  - [Page 82](#page-82)
+  - [Page 83](#page-83)
+  - [Page 84](#page-84)
+  - [Page 85](#page-85)
+  - [Page 86](#page-86)
+  - [Page 87](#page-87)
+  - [Page 88](#page-88)
+  - [Page 89](#page-89)
+  - [Page 90](#page-90)
+  - [Page 91](#page-91)
+  - [Page 92](#page-92)
+  - [Page 93](#page-93)
+  - [Page 94](#page-94)
+  - [Page 95](#page-95)
+  - [Page 96](#page-96)
+  - [Page 97](#page-97)
+  - [Page 98](#page-98)
+  - [Page 99](#page-99)
+  - [Page 100](#page-100)
+  - [Page 101](#page-101)
+  - [Page 102](#page-102)
+  - [Page 103](#page-103)
+  - [Page 104](#page-104)
+  - [Page 105](#page-105)
+  - [Page 106](#page-106)
+  - [Page 107](#page-107)
+  - [Page 108](#page-108)
+  - [Page 109](#page-109)
+  - [Page 110](#page-110)
+  - [Page 111](#page-111)
+  - [Page 112](#page-112)
+  - [Page 113](#page-113)
+  - [Page 114](#page-114)
+  - [Page 115](#page-115)
+  - [Page 116](#page-116)
+  - [Page 117](#page-117)
+  - [Page 118](#page-118)
+  - [Page 119](#page-119)
+  - [Page 120](#page-120)
+  - [Page 121](#page-121)
+  - [Page 122](#page-122)
+  - [Page 123](#page-123)
+  - [Page 124](#page-124)
+  - [Page 125](#page-125)
+  - [Page 126](#page-126)
+  - [Page 127](#page-127)
+  - [Page 128](#page-128)
+  - [Page 129](#page-129)
+  - [Page 130](#page-130)
+  - [Page 131](#page-131)
+  - [Page 132](#page-132)
+  - [Page 133](#page-133)
+  - [Page 134](#page-134)
+  - [Page 135](#page-135)
+  - [Page 136](#page-136)
+  - [Page 137](#page-137)
+  - [Page 138](#page-138)
+  - [Page 139](#page-139)
+  - [Page 140](#page-140)
+  - [Page 141](#page-141)
+  - [Page 142](#page-142)
+  - [Page 143](#page-143)
+  - [Page 144](#page-144)
+  - [Page 145](#page-145)
+  - [Page 146](#page-146)
+  - [Page 147](#page-147)
+  - [Page 148](#page-148)
+  - [Page 149](#page-149)
+  - [Page 150](#page-150)
+  - [Page 151](#page-151)
+  - [Page 152](#page-152)
+  - [Page 153](#page-153)
+  - [Page 154](#page-154)
+  - [Page 155](#page-155)
+  - [Page 156](#page-156)
+  - [Page 157](#page-157)
+  - [Page 158](#page-158)
+  - [Page 159](#page-159)
+  - [Page 160](#page-160)
+  - [Page 161](#page-161)
+  - [Page 162](#page-162)
+  - [Page 163](#page-163)
+  - [Page 164](#page-164)
+  - [Page 165](#page-165)
+  - [Page 166](#page-166)
+  - [Page 167](#page-167)
+  - [Page 168](#page-168)
+  - [Page 169](#page-169)
+  - [Page 170](#page-170)
+  - [Page 171](#page-171)
+  - [Page 172](#page-172)
+  - [Page 173](#page-173)
+  - [Page 174](#page-174)
+  - [Page 175](#page-175)
+  - [Page 176](#page-176)
+  - [Page 177](#page-177)
+  - [Page 178](#page-178)
+  - [Page 179](#page-179)
+  - [Page 180](#page-180)
+  - [Page 181](#page-181)
+  - [Page 182](#page-182)
+  - [Page 183](#page-183)
+  - [Page 184](#page-184)
+  - [Page 185](#page-185)
+  - [Page 186](#page-186)
+  - [Page 187](#page-187)
+  - [Page 188](#page-188)
+  - [Page 189](#page-189)
+  - [Page 190](#page-190)
+
+---
+目 录
+控制器
+快速开始
+二次开发API（机器人基本参数设置）
+二次开发API（作业文件，指令操作）
+二次开发API（码垛工艺）
+示例
+自定义指令
+示教器实现
+接口介绍
+示教器自定义指令使用示例
+控制器实现
+接口介绍
+控制器自定义指令使用示例
+自定义指令demo
+
+
+## Page 2
+
+控制器
+简介
+控制器二次开发是基于控制器所提供的接口来进行的二次开发。
+程序运行在控制器内部，适合用来开发专用工艺。
+学习路线
+在学习控制器的二次开发前，我们默认您已经具备以下知识：
+1. C++语言；
+2. Linux 系统（Ubuntu 发行版）的使用；
+3. 工业机器人相关基础知识；
+4. Eclipse/Vim/Emacs 等任一编辑器。
+如果您不具备以上知识，我们给您推荐以下教程：
+C++教程
+•
+Ubuntu 完全教程，让你成为 Ubuntu 高手！
+•
+Linux Ubuntu 基本操作指令
+•
+纳博特小课堂
+•
+纳博特控制系统操作手册
+•
+快速开始
+1. 环境安装
+1.1 系统要求
+当前推荐的开发环境操作系统为：
+Ubuntu 20.04
+•
+当前支持的编译套件包括：
+gcc-4.8
+•
+gcc-9.4
+•
+aarch64-linux-gnu-gcc-5.3
+•
+
+
+## Page 3
+
+需要根据不同的控制器型号，选择不同的编译套件。
+我们提供打包了所有开发环境的镜像文件，当然也可以在任意一台 Ubuntu 20.04 下参照小节《1.2 编译套
+件安装》来安装。
+直接获取安装好了的虚拟机
+点击这里 可以下载得到配置好开发环境的、基于VirtualBox软件使用的Ubuntu 20.04.1 系统的虚拟
+机;
+点击这里 可以下载得到基于Windows系统的VirtualBox软件安装包，如需其他系统版本的请自行
+到 VirtualBox官网 进行下载。
+安装VirtualBox软件（注意按转路径不能带有中文）
+•
+打开下载的“开发环境虚拟机”文件夹，按照“README.txt”文件说明安装虚拟机;
+•
+开机后登录账户“nbt”，密码是“123”。
+•
+1.2 编译套件安装
+以下编译链根据具体的控制器硬件选择安装：
+1.2.1 gcc-4.8 编译套件安装
+因为 Ubuntu 20.04 自带的源 gcc 最低版本无法安装4.8。我们需要添加 trusty 的源。
+sudo sh -c 'echo "deb http://dk.archive.ubuntu.com/ubuntu/ trusty main" >> /etc/a 
+pt/sources.list'  
+sudo sh -c 'echo "deb http://dk.archive.ubuntu.com/ubuntu/ trusty universe" >> /e 
+tc/apt/sources.list'  
+1
+2
+sudo apt update  
+sudo apt install -y gcc-4.8 g++-4.8 
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 40  
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 40 
+sudo apt-get install -y gcc-4.8-multilib g++-4.8-multilib
+1
+2
+3
+4
+5
+下载 lib32 库文件
+
+
+## Page 4
+
+lib32.xxx
+17.37 MB
+2025-04-24 15:05
+解压lib32.xxx⽂件，并替换原有的/usr/lib32⽂件夹。
+tar -zxvf lib32.xxx  
+sudo rm -rf /usr/lib32  
+sudo mv usr/lib32 /usr/
+1
+2
+3
+1.2.2 gcc-9.4 编译套件安装
+Ubuntu20.04 的源直接安装即可。
+sudo apt install gcc g++
+1
+1.2.3 aarch64-linux-gnu-gcc-5.3 编译套件安装
+下载编译套件：链接: gcc-linaro-5.3.1-2016.05-x86_64_aarch64-linux-gnu.tar.gz 提取码: w33y
+新建T5⽂件夹，将gcc-linaro-5.3.1-2016.05-x86_64_aarch64-linux-gnu.tar.gz解压进去。
+mkdir ~/T5
+tar -zxvf gcc-linaro-5.3.1-2016.05-x86_64_aarch64-linux-gnu.tar.gz -C ~/T5
+1
+2
+添加环境变量
+gedit ~/.bashrc
+1
+将下面这行拷贝到最后，保存退出即可。
+export PATH=$PATH:$HOME/T5/gcc-linaro-5.3.1-2016.05-x86_64_aarch64-linux-gnu/bin
+1
+
+
+## Page 5
+
+2. 构建项目
+2.1 项目初始化
+可以使用VS code或者其它IDE来开发。
+新建一个 demo 文件夹，将头文件放到include文件夹下，将 libNexRob.a 放到lib文件夹下。，目录的结构
+参考如下：
+├── include
+│   ├── nrcAPI.h
+│   └── nrcAPI_advance.h
+├── lib
+│   └── libNexRob.a
+└── src
+    └── main.cpp
+1
+2
+3
+4
+5
+6
+7
+2.2 main.cpp文件
+#include <iostream>
+#include "nrcAPI.h"
+void SystemStartup() {
+  //输出Nexmotion版本库信息
+  std::cout << "库版本：" << NRC_GetNexMotionLibVersion() << std::endl;
+  //启动控制系统
+  NRC_StartController();
+  //检测控制系统是否初始化完成
+  while (NRC_GetControlInitComplete() != 1 ) {
+    NRC_Delayms(100);   //延时100ms
+  }
+  //清除所有错误
+  NRC_ClearAllError();
+  std::cout << "----" << NRC_GetControlInitComplete() << std::endl;
+  std::cout << "StartController Success" << std::endl;
+  std::cout << "获取同步版本号" << NRC_GetSyncVersion() << std::endl;
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+
+
+## Page 6
+
+  NRC_Delayms(200);
+}
+int main() {
+  //系统启动
+  SystemStartup();
+  
+  std::cout << "Hello World" << std::endl;
+  //保持程序继续运行
+  while(true) {
+    NRC_Delayms(2000);
+  }
+}
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+2.3 编译代码
+2.3.1 直接编译
+确认自己的控制器系统架构，选择对应的编译链工具，下面使用的是gcc-4.8，根据架构不同，可以换成
+gcc-9。
+注：如果是x64架构的控制器需要将g++-4.8修改为g++-9，-m32修改为-m64，如果控制器是x86架
+构的可不用进行修改。
+g++-4.8 -m32 -o nrc2.out src/*.cpp -I./include -L./lib -lNexRob -lpthread -lm -ld
+l -lrt -std=c++11
+1
+2.3.2 使用Makefile
+新建Makeifile文件
+在demo目录下新建Makefile文件，将下面内容拷贝到Makefile文件中，并保存。
+TARGET=nrc2.out
+all :
+	
+g++-4.8 -m32 -o nrc2.out src/*.cpp -I./include -L./lib -lNexRob -lpthread
+ -lm -ldl -lrt -std=c++11
+1
+2
+3
+
+
+## Page 7
+
+clean :
+	
+rm $(TARGET) $(objects)
+4
+5
+Makefile文件建好之后在编译时只需要在demo文件目录下打开终端输入make即可编译控制器可执行程序
+在demo目录下打开一个新的终端，输入make，编译完成后在demo目录下有一个nrc2.out的可执行程序
+编译的流程如下图：
+3. 远程登陆到控制器
+3.1 确认电脑连接上控制器
+首先确保你的电脑已经跟控制器连接了通讯，电脑的IP需要跟控制器的IP在同一网段下。控制器的出厂默认
+IP为192.168.1.13，所以电脑连接控制器的网口同样需要设置为1网段（比如可以设置192.168.1.110）。设置
+完成之后在Ubuntu中打开一个新的终端输入
+ping 192.168.1.13
+1
+出现下面如图所示，即为同控制器通讯通讯成功：
+
+
+## Page 8
+
+如出现不成功的情况，请检查网线的连接，电脑的IP，控制器的IP。
+3.2 使用ssh登陆到控制器
+ssh inexbot@192.168.1.13
+1
+然后密码输入123，即可进行远程控制了。
+3.3 查看控制器系统架构
+登陆进控制器后，可以通过uname -a查看控制器的架构
+
+
+## Page 9
+
+图中所示是三个i686，分别为机器硬件名，处理器类型，硬件平台。i686我们俗称为32位系统。
+4. 将程序上传到控制器运行
+4.1 使用SCP上传程序
+编译完成后，我们将要把程序给替换进控制器当中运行我们自己编译的二次开发程序，继续在当前终端下
+输入
+scp nrc2.out inexbot@192.168.1.13:~/robot
+1
+输入完成后会出现一句 “ inexbot@192.168.1.13's password: “。
+我们继续敲123即可，当出现下图就表示程序已经程序替换进控制器当中了。
+当然也会出现替换不成功的时候，终端会显示Text file busy，这种情况就是控制器原本的nrc2.out程序还在
+运行，无法被替换。
+
+
+## Page 10
+
+这就需要ssh远程登陆到控制器的后台中将正在开启的nrc2.out进程给关闭。
+sudo killall -9 nrc2.out
+1
+进程关闭后就可以再次执行上面提到的scp的操作，就可以成功把二次开发程序替换到控制器当中。
+4.2 远程登陆到控制器中启动程序
+随后就可以执行我们编译的二次开发程序，，在控制器后台的robot目录下输入
+sudo ./nrc2.out
+1
+执行的效果如下如：
+到这一步我们的二次开发项目已经成功运行起来了。
+
+
+## Page 11
+
+二次开发API（机器人基本参数设置）
+概述
+本章旨在帮助用户对于二次开发的库和函数接口的调用，参数的设置等。目录如下：
+第一章：系统控制与初始化
+1.1 系统启动与初始化
+1.2 伺服使能与状态控制
+1.3 操作模式与状态
+第二章：机器人基本参数设置
+2.1 机器人类型与配置
+2.2 伺服映射与配置
+2.3 机器人轴数与限制
+第三章：外部轴配置与管理
+3.1 外部轴基本设置
+3.2 外部轴运动参数
+3.3 外部轴标定
+3.4 外部轴运动控制
+
+
+## Page 12
+
+第四章：运动控制与操作
+4.1 点动控制
+4.2 运动控制
+4.3 速度控制
+第五章：力矩与动力学控制
+5.1 力矩控制
+5.2 动力学辨识
+5.3 碰撞检测
+第六章：坐标系与标定
+6.1 坐标系管理
+6.2 工具坐标系
+6.3 用户坐标系
+6.4 位置与零点设置
+第七章：位置与变量管理
+7.1 位置获取与监控
+7.2 变量管理
+
+
+## Page 13
+
+第八章：IO与通信控制
+8.1 IO配置与操作
+8.2 通信接口
+第九章：错误处理与消息管理
+9.1 消息管理
+9.2 错误处理
+第十章：示教器与作业文件控制
+10.1 示教器控制
+10.2 作业文件与自定义指令
+第十一章：回调函数与周期控制
+11.1 回调函数设置
+版本信息
+二次开发版
+本
+公司
+1.1.0
+INEXBOT
+
+
+## Page 14
+
+版本迭代
+版本
+修改日期
+修改人
+描述
+1.0.0
+20250310
+Shanyufeng
+初始版本
+1.1.0
+20260403
+ZhangHongyu
+接口功能分类
+第一章：系统控制与初始化
+概述
+本章介绍系统启动、初始化、控制器网络配置、重启与恢复出厂设置等功能。
+1.1 系统启动与初始化
+函数名称
+函数功能
+NRC_StartController
+系统启动函数。
+NRC_GetControlInitComplete
+查看系统初始化是否完成。
+NRC_RestoreFactorySettings
+恢复出厂设置。
+NRC_RebootController
+重启控制器。
+NRC_ModifyControllerIP
+修改控制器IP地址。
+NRC_GetControlCycle
+获取控制器与伺服的通讯周期。
+NRC_ShieldedTeachingPendant
+屏蔽示教器连接状态检测(需要在系统启动函数
+前调用)。
+NRC_GetRobotSum
+获取机器人数量。
+NRC_SetRobotMode
+设置机器人为多机模式。
+NRC_Delayms
+系统延时一定时间。
+NRC_LogInfo
+向NRC系统中打印日志。
+NRC_GetNexMotionLibVersion
+获取NexMotion库版本信息。
+NRC_GetSyncVersion
+获取同步版本号。
+
+
+## Page 15
+
+1.2 伺服使能与状态控制
+函数名称
+函数功能
+NRC_PowerOn
+伺服上使能。
+NRC_PowerOff
+伺服下使能。
+NRC_ServoEnable
+按下deadman键，使伺服处于上使能的状态。
+NRC_ServoDisable
+松开deadman键，使伺服处于下使能的状态。
+NRC_SetServoReadyStatus
+切换伺服准备状态。
+NRC_GetServoStatus
+获取伺服状态。
+NRC_GetPowerOffSaveSignal
+获取机器人通电状态。
+NRC_SetServoModerOfOperation
+设置伺服运行模式。
+NRC_Rbt_SetServoModerOfOper
+ation
+设置伺服运行模式,多机版。
+NRC_GetServoMode
+获取伺服运行模式。
+NRC_GetStatusWord
+读取伺服状态字。
+1.3 操作模式与状态
+函数名称
+函数功能
+NRC_SetOperationMode
+设置操作模式。
+NRC_SetRunModeAutoManBegFl
+ag
+设置切到运行模式自动上电。
+NRC_GetProgramRunStatus
+获取当前程序运行状态。
+NRC_GetRobotRunStatus
+获取当前机器人运动状态。
+NRC_GetTeachBoxConnectStatus
+获取是否连接了示教盒。
+第二章：机器人基本参数设置
+概述
+
+
+## Page 16
+
+本章介绍机器人基本参数的设置函数接口，包括机器人类型配置、伺服映射、DH参数、关节/笛卡尔参数等
+基础设置。
+2.1 机器人类型与配置
+函数名称
+函数功能
+NRC_SetRobotTypeConfig
+设置机器人类型。
+NRC_Rbt_SetRobotTypeConfig
+设置机器人类型（多机版）。
+NRC_GetRobotTypeConfig
+获取机器人类型。
+NRC_Rbt_GetRobotTypeConfig
+获取机器人类型（多机版）。
+NRC_SetRobotDHConfig
+设置机器人DH参数。
+NRC_GetRobotDHConfig
+获取机器人DH参数。
+NRC_SetRobotJointConfig
+设置机器人关节参数。
+NRC_SetRobotDecareConfig
+设置机器人笛卡尔参数。
+NRC_GetRobotDecareConfig
+获取机器人笛卡尔参数。
+NRC_CalcConfiguration
+计算机器人各关节在acsPos下的形态,仅对
+R_GENERAL_6S类型机器人有效,其余机器人类型
+下conf值为0。
+2.2 伺服映射与配置
+
+
+## Page 17
+
+函数名称
+函数功能
+NRC_SetServoMapRelation
+设置伺服映射关系。
+NRC_SetAllServoMapRelation
+设置伺服映射关系(仅一个机器人的时候可以使用)。
+NRC_Rbt_SetAllServoMapRelation
+设置伺服映射关系 (多机版)。
+NRC_GetConnectServoTypeList
+获取连接的伺服类型列表。
+NRC_GetSlaveNumByID
+通过从站vendorID和productCode获取从站的编号列
+表。
+NRC_ecatSetCommand
+设置伺服某命令字的值。
+NRC_ecatGetCommand
+读取伺服某命令字的值。
+NRC_GetPDOAddrMap
+获取从站PDO的映射地址。
+2.3 机器人轴数与限制
+函数名称
+函数功能
+NRC_GetRobotAxisSum
+获取机器人轴数。
+NRC_GetSyncAxisSum
+获取外部轴轴数。
+NRC_SetRobotRangeLimit
+设置机器人范围限制。
+NRC_GetRobotRangeLimit
+获取机器人范围限制。
+NRC_SetOverTolerance
+设置机器人轴超差。
+NRC_Rbt_SetOverTolerance
+设置机器人轴超差，多机版。
+NRC_GetTolerance
+获取机器人轴超差。
+NRC_Rbt_GetTolerance
+获取机器人轴超差，多机版。
+NRC_ShieldFollowError
+屏蔽机器人轴跟随误差。
+第三章：外部轴配置与管理
+概述
+本章介绍外部轴（地轨、变位机等）的参数设置、标定、运动控制等功能。
+
+
+## Page 18
+
+3.1 外部轴基本设置
+函数名称
+函数功能
+NRC_SetSyncJointNum
+设置机器人外部轴数目。
+NRC_GetSyncGroupNum
+获取当前外部轴组号。
+NRC_SetSyncGroupNum
+设置机器人外部轴组号。
+NRC_SetSyncJointPara
+设置机器人外部轴参数。
+NRC_GetSyncJointPara
+获取机器人外部轴参数。
+NRC_Rbt_GetSyncJointType
+获取机器人外部轴组类型。
+NRC_EncoderZeroOffsetSync
+设置外部轴零点偏移。
+3.2 外部轴运动参数
+函数名称
+函数功能
+NRC_SetSyncJogJointSpeedConfig
+设置机器人外部轴点动关节速度。
+NRC_GetSyncJogJointSpeedConfig
+获取机器人外部轴点动关节速度。
+NRC_GetSyncRackConversionRati
+o
+获取外部轴地轨转换比。
+NRC_SetSyncRackConversionRatio
+设置外部轴地轨转换比。
+NRC_SetSyncCooperation
+设置外部轴地轨是否协作。
+NRC_GetSyncCooperation
+获取外部轴地轨是否协作。
+NRC_ResetSyncAxisMultipleTurns
+调用该接口，把外部轴当前位置重置到-360°~360°内,效果
+同示教器界面中的复位外部轴多圈转动量指令,该接口仅能
+重置单个外部轴。
+3.3 外部轴标定
+函数名称
+函数功能
+NRC_SetSyncGroupCarbinarion
+标定外部轴点位(组号，点位编号)。
+NRC_GetSyncGroupCarbinarion
+查询某组外部轴是否标定。
+NRC_CalSyncCalibrationResult
+计算外部轴标定结果。
+NRC_SetCurrentSyncPosToZeroPos
+将外部轴当前位置设置为零点或清除多圈值。
+
+
+## Page 19
+
+3.4 外部轴运动控制
+函数名称
+函数功能
+NRC_RobotMoveJointSync
+机器人外部轴点到点运动，机器人外部轴以 vel 的速度从
+当前位置以点到点方式运行到 synctarget 位置。
+NRC_RobotMoveLineSync
+机器人外部轴直线运动，机器人本体以 vel 的速度从当前
+位置以直线方式运行到 target 位置，机器人外部轴以 vel
+的速度从当前位置以点到点方式运行到 synctarget 位
+置。
+NRC_GetAxisVelSync
+获取外部运动速度。
+NRC_SingleSyncAxisMoveJConstVel
+_For_CustomInstructionCB
+调用该接口,在运行模式下，外部轴syncAxis将会以恒定
+的vel运动,同时调用多个该函数只有第一个该函数有效。
+NRC_StopSingleSyncAxisMoveJCons
+tVel_For_CustomInstructionCB
+调用该接口,将停止外部轴恒速运动,该接口必须在有外部
+轴恒速运动状态下调用，否则返回-1。
+NRC_GetSingleSyncAxisMoveJConst
+VelMoving
+调用该接口获取单个外部轴恒速运动标志位。
+第四章：运动控制与操作
+概述
+本章涵盖机器人运动控制相关接口，包括操作模式设置、点动控制、点到点运动、复位、速度控制等。
+4.1 点动控制
+函数名称
+函数功能
+NRC_JogMove
+开始点动某轴。
+NRC_JogMoveStop
+停止某关节点动。
+NRC_JogMoveStopAll
+停止所有关节点动。
+NRC_SetJogJointSpeedConfig
+点动关节速度设置。
+NRC_GetJogJointSpeedConfig
+获取点动关节速度。
+NRC_SetJogRectangularSpeedConfig
+点动直角速度设置。
+NRC_GetJogRectangularSpeedConfig
+获取点动直角速度。
+NRC_SetJogSensitivitySpeedConfig
+设置点动灵敏度。
+NRC_SetJogMoveCalculateNum
+设置点动插补点位个数。
+
+
+## Page 20
+
+4.2 运动控制
+函数名称
+函数功能
+NRC_RobotMoveJoint
+机器人点到点运行。
+NRC_StartResetPoint
+机器人回到复位点的位置。
+NRC_GetPlanningPosition
+获取规划队列的第一个点位。
+NRC_SetTargetPosition
+设置机器人目标位置。
+NRC_PV_SetTargetVelocity
+设置PV模式下运行速度。
+NRC_PV_SetTargetAccAndDec
+设置PV模式下运行加速度，减速度。
+NRC_SetTargetVelocity
+设置目标速度值。
+NRC_PosReachable
+判断本体点位target和外部轴点位syncTarget是否超限，结
+果由result返回，result值为true表示可以到达，值为false
+表示不可到达。
+4.3 速度控制
+函数名称
+函数功能
+NRC_SetTeachRunSpeedPer
+设置示教速度百分比。
+NRC_GetTeachRunSpeedPer
+获取示教速度百分比。
+NRC_SetAutoRunSpeedPer
+设置自动速度百分比。
+NRC_SetAutoRunSpeedPer_robot
+设置自动速度百分比(多机版本)。
+NRC_GetAutoRunSpeedPer
+获取自动速度百分比。
+NRC_GetAutoRunSpeedPer_robot
+获取自动速度百分比(多机版本)。
+NRC_SetTeachMaxStepSpeed
+设置示教模式最大单步速度。
+NRC_GetTeachMaxStepSpeed
+获取示教模式最大单步速度。
+NRC_SetAbsolutePosResolution
+设置机器人绝对位置分辨率。
+NRC_SetInterpolationMethod
+设置机器人插补方式。
+第五章：力矩与动力学控制
+概述
+本章包含力矩控制、动力学辨识、碰撞检测、力矩监控等功能。
+
+
+## Page 21
+
+5.1 力矩控制
+函数名称
+函数功能
+NRC_SetTargetTorque
+设置机器人目标力矩。
+NRC_SetMaxTorque
+设置机器人轴最大力矩。
+NRC_GetMaxTorque
+获取机器人轴最大力矩。
+NRC_Rbt_SetMaxTorque
+获取机器人轴最大力矩，多机版。
+NRC_GetActualTorque
+获取机器人轴实际力矩。
+NRC_GetActualCurrent
+获取实际电流。
+NRC_GetMaxCurrent
+获取最大电流。
+NRC_GetRatedTorque
+获取各关节额定力矩。
+NRC_Rbt_GetRatedTorque
+获取各关节额定力矩 多机版。
+NRC_GetTorq
+获取各关节力矩,单位为千分比。
+NRC_Rbt_GetTorq
+获取各关节力矩,单位为千分比 多机版。
+NRC_GetSyncTorq
+获取各外部轴关节力矩,单位为千分比。
+NRC_Rbt_GetSyncTorq
+获取各外部轴关节力矩,单位为千分比 多机版。
+5.2 动力学辨识
+函数名称
+函数功能
+NRC_SetIdentityParam
+设置动力学辨识所需的两个参数并返回当前轨迹范围下
+机器人末端在Z坐标轴上的最大值和最小值。
+NRC_RunSafeCheckProgram
+运行范围安全检测程序，该函数功能是运行一次动力学
+辨识的轨迹，以便确认周围环境是否安全，即确保机器
+人进行辨识时不会碰到周围的人或物。
+NRC_RunIdentifyProgram
+执行动力学辨识程序，该函数的功能是进行动力学辨
+识，沿预定轨迹运行十次，每次运行完成后会对获取到
+的数据进行计算并返回理论力矩与实际力矩的误差值。
+NRC_GetIdentifyError
+获取十次辨识力矩误差值，该函数的功能是获取十次辨
+识计算的理论力矩与实际力矩的误差值。
+NRC_StopIdentityProgram
+停止动力学辨识程序。
+
+
+## Page 22
+
+5.3 碰撞检测
+函数名称
+函数功能
+NRC_SetCollisionParam
+设置各关节判定发生碰撞时理论力矩与实际力矩的差值
+的绝对值，该值越大则判断碰撞发生的灵敏度越低。
+NRC_SetCollisionSwitch
+打开或关闭碰撞检测功能。
+NRC_GetCollisionSwitch
+查看碰撞检测功能是否打开。
+NRC_SetDynamicTrackingErrorMaxAll
+ow
+设置最大允许动态超差值。
+NRC_SetStaticTrackingErrorMaxAllow
+设置最大允许静态超差值。
+第六章：坐标系与标定
+概述
+本章介绍坐标系管理、工具/用户坐标系标定、切换与参数设置功能。
+6.1 坐标系管理
+函数名称
+函数功能
+NRC_SetCurrentCoord
+切换当前坐标系。
+NRC_GetCurrentCoord
+获取当前坐标系。
+NRC_PositionACStoMCS
+将机器人关节坐标值转换为直角坐标值。
+NRC_PositionMCStoACS
+将机器人直角坐标值转换为关节坐标值。
+NRC_TcpCalculate
+计算特定坐标系下，点位进行固定距离偏移后的位置。
+6.2 工具坐标系
+
+
+## Page 23
+
+函数名称
+函数功能
+NRC_SetToolCoordParm
+设置工具手参数。
+NRC_GetToolCoordParm
+获取工具手参数。
+NRC_CalibrationToolCoord_7Pos
+标定工具手--7点标定法，标定工具手，自动计算工具手末
+端位置相对机器人末端位置的偏移量，从而确定该工具坐
+标系。
+NRC_CalibrationToolCoord_2Pos_Se
+tPos
+2点标定-设置点数据。
+NRC_CalibrationToolCoord_2Pos_Ca
+cl
+2点标定-计算标定结果。
+NRC_CalibrationToolCoord_2Pos_Sa
+ve
+将2点标定的结果写入到指定的工具手中。
+NRC_SwitchToolCoord
+切换当前工具手。
+NRC_GetCurrentToolCoord
+获取当前工具手编号。
+6.3 用户坐标系
+函数名称
+函数功能
+NRC_SetUserCoordParm
+设置用户坐标参数。
+NRC_GetUserCoordParm
+获取用户坐标参数。
+NRC_CalibrationUserCoord
+标定用户坐标，标定用户坐标系，自动计算用户坐标系原点
+相对机器人直角坐标系原点的偏移量，从而确定该用户坐标
+系。
+NRC_SwitchUserCoord
+切换当前用户坐标。
+NRC_GetCurrentUserCoord
+获取当前用户坐标编号。
+6.4 位置与零点设置
+函数名称
+函数功能
+NRC_SetCurrentPosToZeroPos
+将当前位置设置为零点或清除多圈值。
+NRC_Rbt_SetCurrentPosToZeroPos
+将当前位置设置为零点或清除多圈值(多机版)。
+NRC_Rbt_SetSingleCircleValue
+设置零点位置单圈值(多机版)。
+NRC_Rbt_GetSingleCircleValue
+获取零点位置单圈值(多机版)。
+NRC_GetEncoderPosition
+获取编码器点位。
+
+
+## Page 24
+
+第七章：位置与变量管理
+概述
+本章包含位置获取、位置变量设置、变量管理等功能。
+7.1 位置获取与监控
+函数名称
+函数功能
+NRC_GetCurrentPos
+获取当前位置。
+NRC_Rbt_GetCurrentPos
+获取当前位置(多机版)。
+NRC_GetOtherToolPos
+获取当前位置下其他工具坐标系表示的位置。
+NRC_GetAngularVel
+获取关节角速度,单位 rad/s。
+NRC_GetLinerVel
+获取关节线速度,单位 mm/s。
+NRC_GetCurrentMotorVel
+获取电机转速。
+NRC_Rbt_GetCurrentMotorVel
+获取电机转速（多机版）。
+NRC_GetCurrentSyncPos
+获取外部轴当前位置，该函数可以获取外部轴位置，位置数
+据由参数引用 position 返回。
+NRC_Rbt_GetCurrentSyncPos
+获取外部轴当前位置(多机版)，该函数可以获取在 coord 坐
+标系下外部轴位置，位置数据由参数引用 position 返回。
+NRC_GetCurrentTrackingError
+获取当前超差值。
+NRC_GetMaxTrackingError
+获取最大超差值。
+7.2 变量管理
+
+
+## Page 25
+
+函数名称
+函数功能
+NRC_ReadBoolVar
+读取BOOL变量的值。
+NRC_ReadIntVar
+读取INT变量的值。
+NRC_ReadDoubleVar
+读取DOUBLE变量的值。
+NRC_SetBoolVar
+设置BOOL变量的值。
+NRC_SetIntVar
+设置INT变量的值。
+NRC_SetDoubleVar
+设置DOUBLE变量的值。
+NRC_SetGlobalPositionVariable
+设置全局位置变量坐标值。
+NRC_SetGlobalPositionVariableNot
+e
+设置全局位置变量注释。
+NRC_GetGlobalPositionVariable
+获取全局位置变量坐标值。
+NRC_GetGlobalPositionVariableNot
+e
+获取全局位置变量注释。
+NRC_GetCurrentTime
+获取当前时间。
+第八章：IO与通信控制
+概述
+本章介绍数字/模拟IO控制、CAN总线通信、EtherCAT配置、外部通信等接口。
+8.1 IO配置与操作
+
+
+## Page 26
+
+函数名称
+函数功能
+NRC_GetIOBoardSum
+返回IO板数量。
+NRC_GetIOConfig
+返回特定IO板对应的IO端口数量。
+NRC_DigOut
+打开或者关闭指定的IO的数字输出状态。
+NRC_DigOutByBoard
+根据IO板号，打开或者关闭指定的IO的数字输出状态。
+NRC_ReadDigOut
+读取数字IO输出端口的状态。
+NRC_ReadDigOutByBoard
+根据IO板号，读取数字IO输出端口的状态。
+NRC_ReadDigIn
+读取数字IO输入端口的状态。
+NRC_ReadDigInByBoard
+根据IO板号，读取数字IO输入端口的状态。
+NRC_AnaOut
+设置模拟IO端口输出的值。
+NRC_ReadAnaOut
+读取模拟IO输出端口的状态。
+NRC_ReadAnaIn
+读取模拟IO输入端口的状态。
+NRC_EnableCustomIOFunction
+使能自定义IO功能。
+NRC_SetCustomIODoutConfig
+设置自定义IO dout配置。
+NRC_SetCustomIODinConfig
+设置自定义IO din配置。
+NRC_SetCheckExioEnable
+设置内置tcp接口扩展IO检测使能标志。
+NRC_GetEthercatIOConfig
+获取EthercatIO配置。
+8.2 通信接口
+函数名称
+函数功能
+NRC_SetCANBaudRate
+设置CAN通讯的波特率。
+NRC_SendCANData
+CAN通讯发送一帧数据。
+NRC_SetCommunicationParam
+调用该接口用于设置外部TCP通信的相关参数。
+NRC_SetCommunicationStatus
+设置TCP通信的开关。
+NRC_SetTcpMessageCallback
+设置外部TCP通信收到消息的回调函数。
+NRC_CommSendMessage
+调用该接口,将向控制器发送消息。
+NRC_GetModbusSlaveConnectStatu
+s
+获取modbus从站连接状态。
+NRC_GetModbusMasterConnectStat
+us
+获取modbus主站连接状态。
+NRC_SetSocketCustomProtocalCB
+该函数的功能是自定义socket通讯协议。
+NRC_SendSocketCustomProtocal
+发送socket通信。
+
+
+## Page 27
+
+第九章：错误处理与消息管理
+概述
+本章包含错误处理、消息管理、回调函数设置等功能。
+9.1 消息管理
+函数名称
+函数功能
+NRC_SetMsgHappenCallback
+设置消息发生时的回调函数。
+NRC_FirstMessagePop
+弹出队列中最早的消息。
+NRC_LastMessagePop
+弹出队列中最后的消息。
+NRC_GetMessage
+获取队列中第num个消息。
+NRC_GetMessageSize
+获取队列中消息总数。
+NRC_ClearMessage
+获取当前用户坐标编号。
+NRC_TriggerErrorReport
+用户主动触发报错。
+9.2 错误处理
+函数名称
+函数功能
+NRC_ClearServoError
+清除伺服错误。
+NRC_ClearAllError
+清除全部错误，清空消息的队列，同时清除伺服错误。
+NRC_SetFaultResetCB
+设置清错按键回调函数,不影响控制器本身的清错功能。
+第十章：示教器与作业文件控制
+概述
+本章包含示教器交互、作业文件操作、自定义指令等功能。其他指令文档请参考作业文件文档
+10.1 示教器控制
+
+
+## Page 28
+
+函数名称
+函数功能
+NRC_GetTeachBoxConnectStatus
+获取是否连接了示教盒。
+NRC_SendCursorJumpCmdToTeach
+box
+向示教器发送光标跳行命令,示教器响应后,会将光标跳转到指定作业
+文件的指定行。
+NRC_GetOpenJobFileName
+获取当前打开的作业文件的名称。
+10.2 作业文件与自定义指令
+函数名称
+函数功能
+NRC_SetJobFileCustomInstructionCB
+将一个函数绑定到自定义指令中。
+NRC_SetJobFileCustomInstructionPre
+TreatmentCB
+将一个函数绑定到自定义指令的预处理函数中。
+NRC_SetJobFileCustomInstructionPo
+stTreatmentCB
+将一个函数绑定到自定义指令的后处理函数中。
+NRC_ParseJobfileToAppendRunInstru
+ction
+把作业文件中的所有指令解析成可以作为追加模式指令的队列。
+NRC_SetCustomFileTransfer
+设置可导入导出的自定义配置文件。
+第十一章：回调函数与周期控制
+概述
+本章介绍各种回调函数设置、周期控制、实时监控等功能。
+11.1 回调函数设置
+函数名称
+函数功能
+NRC_SetMsgHappenCallback
+设置消息发生时的回调函数。
+NRC_SetSocketCustomProtocalCB
+该函数的功能是自定义socket通讯协议。
+NRC_SetJobFileCustomInstructionCB
+将一个函数绑定到自定义指令中。
+NRC_SetJobFileCustomInstructionPreTr
+eatmentCB
+将一个函数绑定到自定义指令的预处理函数中。
+NRC_SetJobFileCustomInstructionPostT
+reatmentCB
+将一个函数绑定到自定义指令的后处理函数中。
+NRC_SetTcpMessageCallback
+设置外部TCP通信收到消息的回调函数。
+NRC_SetFaultResetCB
+设置清错按键回调函数,不影响控制器本身的清错功能。
+NRC_robotRunCycle_Callback
+设置一个自定义的无参函数,将每个EtherCat通讯周期(默认1ms)回调
+一次。
+
+
+## Page 29
+
+以下是各接口详细描述
+NRC_Delayms
+函数原型
+int NRC_Delayms(int ms);
+功能描述
+系统延时一定时间。
+参数说明
+输入参数：
+ms为要延时的时间，单位为毫秒
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_LogInfo
+函数原型
+void NRC_LogInfo(const char* format, ...);
+功能描述
+向NRC系统中打印日志。
+参数说明
+输入参数：
+format为需要打印的内容
+返回值
+无
+备注说明
+用法与printf()一致。
+NRC_GetNexMotionLibVersion
+函数原型
+std::string NRC_GetNexMotionLibVersion();
+功能描述
+获取NexMotion库版本信息。
+参数说明
+无
+返回值
+返回NexMotion库版本信息。
+备注说明
+无
+NRC_GetSyncVersion
+
+
+## Page 30
+
+函数原型
+std::string NRC_GetSyncVersion();
+功能描述
+获取同步版本号。
+参数说明
+无
+返回值
+返回同步版本号。
+备注说明
+无
+NRC_StartController
+函数原型
+int NRC_StartController(int netPort = 4);
+功能描述
+系统启动函数。
+参数说明
+输入参数：
+连接伺服的网口的端口号,默认为4,根据具体工控机型号设置
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+启动系统需要时间，请使用 NRC_GetControlInitComplete() 函数查看系统是否初始化完成，在初始化完成前，
+请勿调用其他函数。
+NRC_GetControlInitComplete
+函数原型
+int NRC_GetControlInitComplete();
+功能描述
+查看系统初始化是否完成。
+参数说明
+无
+返回值
+返回系统是否初始化完成
+0：表示未完成
+1：表示已完成
+备注说明
+无
+NRC_SetServoReadyStatus
+函数原型
+int NRC_SetServoReadyStatus(int status);
+功能描述
+切换伺服准备状态。
+参数说明
+输入参数：
+输入参数：status  0-伺服禁止  1-伺服允许
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+切换伺服状态前请先检查伺服目前有没报错，如果有报错则无法正常切换伺服的状态。
+
+
+## Page 31
+
+NRC_GetServoStatus
+函数原型
+int NRC_GetServoStatus();
+功能描述
+获取伺服状态。
+参数说明
+无
+返回值
+返回伺服状态
+0-伺服禁止
+1-伺服允许（就绪）
+2-伺服报警
+3-伺服允许
+备注说明
+无
+NRC_SetOperationMode
+函数原型
+int NRC_SetOperationMode(NRC_OperationMode mode);
+功能描述
+设置操作模式。
+参数说明
+输入参数：
+mode  0-示教模式 1-远程模式 2-运行模式
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetTeachRunSpeedPer
+函数原型
+int NRC_SetTeachRunSpeedPer(int speedPer);
+功能描述
+设置示教速度百分比。
+参数说明
+输入参数：
+speedPer:
+参数范围：0 < speedPer  <= 100
+寸动参数: -1，-2, -3   (关节坐标系下：-1表示0.1度，-2表示0.01度,-3表示0.001度；其他模式下：-1表示
+1mm/s，-2表示0.1mm/s,-3表示0.01mm/s)
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetTeachRunSpeedPer
+
+
+## Page 32
+
+函数原型
+int NRC_GetTeachRunSpeedPer();
+功能描述
+获取示教速度百分比。
+参数说明
+无
+返回值
+返回示教速度百分比
+返回值范围：-2 < NRC_GetTeachRunSpeedPer()  <= 100
+备注说明
+NRC_GetTeachRunSpeedPer() != 0
+NRC_SetAutoRunSpeedPer
+函数原型
+int NRC_SetAutoRunSpeedPer(int speedPer);
+功能描述
+设置自动速度百分比。
+参数说明
+输入参数： 
+speedPer:
+参数范围：0 <  speedPer  <= 100
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetAutoRunSpeedPer_robot
+函数原型
+int NRC_SetAutoRunSpeedPer_robot(int robotNum,int speedPer);
+功能描述
+设置自动速度百分比(多机版本)。
+参数说明
+输入参数： 
+speedPer  参数范围：0 <  speedPer  <= 100
+robotNum 选择机器人的编号[1,4]
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetAutoRunSpeedPer
+函数原型
+int NRC_GetAutoRunSpeedPer();
+功能描述
+获取自动速度百分比。
+参数说明
+无
+返回值
+返回自动速度百分比
+返回值范围：0< NRC_GetAutoRunSpeedPer()  <= 100
+备注说明
+无
+
+
+## Page 33
+
+NRC_GetAutoRunSpeedPer_robot
+函数原型
+int NRC_GetAutoRunSpeedPer_robot(int robotNum);
+功能描述
+获取自动速度百分比(多机版本)。
+参数说明
+输入参数：
+robotNum 选择机器人的编号[1,4]
+返回值
+返回自动速度百分比
+返回值范围：0< NRC_GetAutoRunSpeedPer()  <= 100
+备注说明
+无
+NRC_SetCurrentCoord
+函数原型
+int NRC_SetCurrentCoord(NRC_COORD coord);
+功能描述
+切换当前坐标系。
+参数说明
+输入参数：
+coord  0-关节坐标 1-直角坐标 2-工具坐标 3-用户坐标
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetCurrentCoord
+函数原型
+NRC_COORD NRC_GetCurrentCoord();
+功能描述
+获取当前坐标系。
+参数说明
+无
+返回值
+返回当前坐标系：0-关节坐标 1-直角坐标 2-工具坐标 3-用户坐标
+备注说明
+无
+NRC_ServoEnable
+
+
+## Page 34
+
+函数原型
+int NRC_ServoEnable();
+功能描述
+按下deadman键，使伺服处于上使能的状态。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+按下deadman键,使机器人上电
+使用此接口上电后，再调用对应接口 NRC_ServoEnable() 下电时，可以自动先停止正在运行中的机器人，再进
+行下电
+仅示教模式下可用，并且示教模式下推荐使用该接口
+调用该函数前，请将伺服准备状态切换至伺服就绪，可调用 NRC_SetServoReadyStatus(int status) 函数切换伺
+服状态
+成功调用该函数后，伺服将处于上电使能状态，请注意安全
+NRC_ServoDisable
+函数原型
+int NRC_ServoDisable();
+功能描述
+松开deadman键，使伺服处于下使能的状态。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+可将通过 NRC_ServoEnable() 接口上电的机器人，进行下电
+成功调用该函数后，伺服将下电，处于未使能状态
+仅示教模式下可用，并且示教模式下推荐使用该接口
+NRC_GetPowerOffSaveSignal
+函数原型
+bool NRC_GetPowerOffSaveSignal();
+功能描述
+获取机器人通电状态。
+参数说明
+无
+返回值
+返回机器人的通电状态：0-未通电 1-已通电
+备注说明
+无
+NRC_JogMove
+
+
+## Page 35
+
+函数原型
+int NRC_JogMove(int axis, double vel);
+功能描述
+开始点动某轴。
+参数说明
+输入参数：
+axis 要进行点动的轴，取值范围1-6
+输入参数：
+vel  轴运动方向和速度，取值范围[-1,-0.01)U(0.01,1]
+正负号代表正反方向
+系数为速度比例，实际速度为示教速度*vel*电机速度
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用NRC_JogMove点动结束后必须要调用NRC_JogMoveStop将当前的axis点动的轴给停止，否则会出现点动
+其他轴的时候之前点动的轴也跟着一起运动
+NRC_JogMoveStop
+函数原型
+int NRC_JogMoveStop(int axis);
+功能描述
+停止某关节点动。
+参数说明
+输入参数：
+axis 要停止进行点动的轴，取值范围1-6
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用NRC_JogMove点动结束后必须要调用NRC_JogMoveStop将当前的axis点动的轴给停止，否则会出现点动
+其他轴的时候之前点动的轴也跟着一起运动
+NRC_JogMoveStopAll
+函数原型
+int NRC_JogMoveStopAll();
+功能描述
+停止所有关节点动。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数后，机器人点动将会停止，机器人将减速
+NRC_GetOtherToolPos
+
+
+## Page 36
+
+函数原型
+int NRC_GetOtherToolPos(int ToolNum, NRC_Position& position);
+功能描述
+获取当前位置下其他工具坐标系表示的位置。
+参数说明
+输入参数： 
+ToolNum 工具手的编号
+输出参数： 
+position  返回选定工具手下的坐标
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetCurrentPos
+函数原型
+int NRC_GetCurrentPos(NRC_COORD coord, NRC_Position& position);
+功能描述
+获取当前位置。
+参数说明
+输入参数： 
+coord    0-关节坐标 1-直角坐标 2-工具坐标 3-用户坐标
+输出参数： 
+position  返回选定坐标系下的坐标位置
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_Rbt_GetCurrentPos
+函数原型
+int NRC_Rbt_GetCurrentPos(int robotNum, NRC_COORD coord, NRC_Position& position);
+功能描述
+获取当前位置(多机版)。
+参数说明
+输入参数： 
+robotNum 传入机器人编号(1-4)
+coord    0-关节坐标 1-直角坐标 2-工具坐标 3-用户坐标
+输出参数： 
+position  返回选定坐标系下的坐标位置
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_PositionACStoMCS
+
+
+## Page 37
+
+函数原型
+int NRC_PositionACStoMCS(NRC_Position& posACS, NRC_Position& posMCS);
+功能描述
+将机器人关节坐标值转换为直角坐标值。
+参数说明
+输入参数：
+ posACS  要进行转换的关节坐标值
+输出参数：
+ posMCS  转换的结果通过其返回
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_PositionMCStoACS
+函数原型
+int NRC_PositionMCStoACS(NRC_Position& posMCS, NRC_Position& posACS);
+功能描述
+将机器人直角坐标值转换为关节坐标值。
+参数说明
+输入参数：
+ posMCS  要进行转换的直角坐标值
+输出参数：
+ posACS  转换的结果通过其返回
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetProgramRunStatus
+函数原型
+int NRC_GetProgramRunStatus();
+功能描述
+获取当前程序运行状态。
+参数说明
+无
+返回值
+返回机器人当前程序运行状态
+0 程序处于停止状态
+1 程序处于暂停状态
+2 程序处于运行状态
+备注说明
+无
+NRC_GetRobotRunStatus
+
+
+## Page 38
+
+函数原型
+int NRC_GetRobotRunStatus();
+功能描述
+获取当前机器人运动状态。
+参数说明
+无
+返回值
+返回当前机器人运动状态
+0 机器人处于停止状态
+1 机器人处于运动状态
+备注说明
+无
+NRC_PowerOn
+函数原型
+int NRC_PowerOn();
+功能描述
+伺服上使能。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请将伺服准备状态切换至伺服就绪，可调用 NRC_SetServoReadyStatus(int status) 函数切换伺
+服状态
+成功调用该函数后，伺服将处于上电使能状态，请注意安全
+NRC_PowerOff
+函数原型
+int NRC_PowerOff();
+功能描述
+伺服下使能。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+成功调用该函数后，伺服将下电，处于未使能状态成功调用该函数后，伺服将处于上电使能状态，请注意安全
+请勿在机器人运动时调用该接口，可能会导致机器人突然停止，造成剧烈抖动
+NRC_RobotMoveJoint
+
+
+## Page 39
+
+函数原型
+int NRC_RobotMoveJoint(int vel, const NRC_Position& target, int acc, int dec);
+功能描述
+机器人点到点运行。
+参数说明
+输入参数： 
+vel  机器人的运行速度，为机器人最大速度的百分比，参数范围：0 < vel <= 100
+target 机器人运动目标位置，详见 NRC_Position
+acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请将伺服上电使能，可调用 NRC_ServoEnable() 函数将伺服上电
+成功调用该函数后，机器人将开始运动，请注意安全
+NRC_StartResetPoint
+函数原型
+int NRC_StartResetPoint();
+功能描述
+机器人回到复位点的位置。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+若在示教模式下调用该函数，请先将伺服上电使能，可调用 NRC_ServoEnable() 函数将伺服上电
+成功调用该函数后，机器人将开始运动，请注意安全
+NRC_DigOut
+函数原型
+void NRC_DigOut(int port, int value);
+功能描述
+打开或者关闭指定的IO的数字输出状态。
+参数说明
+输入参数：
+port  要输出的数字IO端口，最大范围为 1 <= port <= 16，实际范围取决于所连接点IO模块上的IO端口数目
+value  要输出的状态 0-输出低电平 1-输出高电平
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_DigOutByBoard
+
+
+## Page 40
+
+函数原型
+void NRC_DigOutByBoard(int board_id, int port_id, int value);
+功能描述
+根据IO板号，打开或者关闭指定的IO的数字输出状态。
+参数说明
+输入参数：
+port_id： 要输出的数字IO端口，最大范围为 1 <= port <= 16，实际范围取决于所连接点IO模块上的IO端口数目
+value  要输出的状态 0-输出低电平 1-输出高电平
+board_id  要输出的IO板号，最大范围为 1 <= board_id <= 4，实际范围取决于所连接的IO板数量
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_ReadDigOut
+函数原型
+int NRC_ReadDigOut(int port);
+功能描述
+读取数字IO输出端口的状态。
+参数说明
+输入参数：
+port 要读取的数字IO端口，最大范围为 1 <= port <= 16，实际范围取决于所连接点IO模块上的IO端口数目
+返回值
+返回该端口当前状态
+0 当前处于低电平
+1 当前处于高电平
+-1该端口不存在
+备注说明
+无
+NRC_ReadDigOutByBoard
+函数原型
+int NRC_ReadDigOutByBoard(int board_id, int port_id);
+功能描述
+根据IO板号，读取数字IO输出端口的状态。
+参数说明
+输入参数：
+board_id 要读取的IO板号，最大范围为 1 <= board_id <= 4，实际范围取决于所连接的IO板数量
+port_id 要读取的IO板号所对应的数字IO端口，最大范围为 1 <= port <= 16，实际范围取决于该IO板号所对应
+IO版的IO端口数目
+返回值
+返回该端口当前状态
+0 当前处于低电平
+1 当前处于高电平
+-1该端口不存在
+备注说明
+无
+NRC_ReadDigIn
+
+
+## Page 41
+
+函数原型
+int NRC_ReadDigIn(int port);
+功能描述
+读取数字IO输入端口的状态。
+参数说明
+输入参数：
+port 要读取的数字IO端口，最大范围为 1 <= port <= 16，实际范围取决于所连接点IO模块上的IO端口数目
+返回值
+返回该端口当前状态
+0 当前处于低电平
+1 当前处于高电平
+-1该端口不存在
+备注说明
+无
+NRC_ReadDigInByBoard
+函数原型
+int NRC_ReadDigInByBoard(int board_id, int port_id);
+功能描述
+根据IO板号，读取数字IO输入端口的状态。
+参数说明
+输入参数：
+board_id 要读取的IO板号，最大范围为 1 <= board_id <= 4，实际范围取决于所连接的IO板数量
+port_id 要读取的IO板号所对应的数字IO端口，最大范围为 1 <= port <= 16，实际范围取决于该IO板号所对应
+IO版的IO端口数目
+返回值
+返回该端口当前状态
+0 当前处于低电平
+1 当前处于高电平
+-1该端口不存在
+备注说明
+无
+NRC_AnaOut
+函数原型
+void NRC_AnaOut(int port, double value);
+功能描述
+设置模拟IO端口输出的值。
+参数说明
+输入参数：
+port 要输出的模拟IO端口，最大范围为 1 <= port <= 16，实际范围取决于所连接点IO模块上的IO端口数目
+value 选定的模拟IO端口要输出的数值
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_ReadAnaOut
+
+
+## Page 42
+
+函数原型
+int NRC_ReadAnaOut(int port,double& value);
+功能描述
+读取模拟IO输出端口的状态。
+参数说明
+输入参数：
+port 要读取的模拟IO端口，最大范围为 1 <= port <= 16，实际范围取决于所连接点IO模块上的IO端口数目
+value 返回该端口当前数值
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_ReadAnaIn
+函数原型
+int NRC_ReadAnaIn(int port,double& value);
+功能描述
+读取模拟IO输入端口的状态。
+参数说明
+输入参数：
+port 要读取的模拟IO端口，最大范围为 1 <= port <= 16，实际范围取决于所连接点IO模块上的IO端口数目
+value 返回该端口当前数值
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetCANBaudRate
+函数原型
+void NRC_SetCANBaudRate(unsigned int port, unsigned int baud);
+功能描述
+设置CAN通讯的波特率。
+参数说明
+输入参数：
+port  设置使用的can端口号
+baud  设置的波特率
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SendCANData
+
+
+## Page 43
+
+函数原型
+void NRC_SendCANData(unsigned int port, unsigned int sendCanID, const unsigned char buff[8], unsigned int
+sendLen=8);
+功能描述
+CAN通讯发送一帧数据。
+参数说明
+输入参数：
+port  设置使用的can端口号
+sendID 设置帧ID通过该变量返回
+sendlen 设置发送数据长度
+buff 要发送的数据
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_ReadBoolVar
+函数原型
+bool NRC_ReadBoolVar(int num);
+功能描述
+读取BOOL变量的值。
+参数说明
+输入参数：
+num  变量BOOL的编号，取值范围：0 < num <= 999
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_ReadIntVar
+函数原型
+int NRC_ReadIntVar(int num);
+功能描述
+读取INT变量的值。
+参数说明
+输入参数：
+num  变量INT的编号，取值范围：0 < num <= 999
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_ReadDoubleVar
+
+
+## Page 44
+
+函数原型
+double NRC_ReadDoubleVar(int num);
+功能描述
+读取DOUBLE变量的值。
+参数说明
+输入参数：
+num  变量DOUBLE的编号，取值范围：0 < num <= 999
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetBoolVar
+函数原型
+int NRC_SetBoolVar(int num, bool value);
+功能描述
+设置BOOL变量的值。
+参数说明
+输入参数：
+num  变量BOOL的编号，取值范围：0 < num <= 999
+value 要设置的目标值
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetIntVar
+函数原型
+int NRC_SetIntVar(int num, int value);
+功能描述
+设置INT变量的值。
+参数说明
+输入参数：
+num  变量INT的编号，取值范围：0 < num <= 999
+value 要设置的目标值
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetDoubleVar
+
+
+## Page 45
+
+函数原型
+int NRC_SetIntVar(int num, double value);
+功能描述
+设置DOUBLE变量的值。
+参数说明
+输入参数：
+num  变量DOUBLE的编号，取值范围：0 < num <= 999
+value 要设置的目标值
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetGlobalPositionVariable
+函数原型
+int NRC_SetGlobalPositionVariable(int num, const NRC_Position &pos_set);
+功能描述
+设置全局位置变量坐标值。
+参数说明
+输入参数：
+num   要设置的全局位置变量编号,0 < num <= 999
+pos_set 要设置的全局位置变量坐标值
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetGlobalPositionVariableNote
+函数原型
+int NRC_SetGlobalPositionVariableNote(int num, std::string note);
+功能描述
+设置全局位置变量注释。
+参数说明
+输入参数：
+num   要设置的全局位置变量编号,0 < num <= 999
+note  给全局变量设置的注释
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetGlobalPositionVariable
+
+
+## Page 46
+
+函数原型
+int NRC_GetGlobalPositionVariable(int num, NRC_Position& pos_get);
+功能描述
+获取全局位置变量坐标值。
+参数说明
+输入参数：
+num   要获取的全局位置变量编号,0 < num <= 999
+pos_get 要获取的全局位置变量坐标值
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetGlobalPositionVariableNote
+函数原型
+int NRC_GetGlobalPositionVariableNote(int num, std::string& note);
+功能描述
+获取全局位置变量注释。
+参数说明
+输入参数：
+num   要获取的全局位置变量编号,0 < num <= 999
+note  获取全局变量的注释
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetRobotTypeConfig
+
+
+## Page 47
+
+函数原型
+int NRC_SetRobotTypeConfig(const std::string &type);
+功能描述
+设置机器人类型。
+参数说明
+输出参数：
+type ：
+  - "R_GENERAL_6S" 六轴
+  - "R_SCARA" 四轴SCARA
+  - "R_FOURAXIS_PALLET" 四轴码垛
+  - "R_FOURAXIS" 四轴
+  - "R_GENERAL_1S" 一轴
+  - "R_GENERAL_5S" 五轴
+  - "R_GENERAL_6S_1" 六轴异形一
+  - "R_SCARA_TWOAXIS" 两轴SCARA
+  - "R_SCARA_THREEAXIS" 三轴SCARA
+  - "R_THREE_CARTESIAN_COORDINATE" 三轴直角
+  - "R_THREE_CARTESIAN_COORDINATE_1" 三轴异形一
+  - "R_GENERAL_7S_RBT" 七轴
+  - "R_SCARA_1" 四轴SCARA异形一
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_Rbt_SetRobotTypeConfig
+
+
+## Page 48
+
+函数原型
+int NRC_Rbt_SetRobotTypeConfig(int robotNum, const std::string &type);
+功能描述
+设置机器人类型（多机版）。
+参数说明
+输出参数：
+index  当前作业文件要运行的总次数，设置为0时循环运行，参数范围：index >= 0
+返回值
+输出参数：
+robotNum 机器人编号(1-4)
+输出参数：
+type：
+  - "R_GENERAL_6S" 六轴
+  - "R_SCARA" 四轴SCARA
+  - "R_FOURAXIS_PALLET" 四轴码垛
+  - "R_FOURAXIS" 四轴
+  - "R_GENERAL_1S" 一轴
+  - "R_GENERAL_5S" 五轴
+  - "R_GENERAL_6S_1" 六轴异形一
+  - "R_SCARA_TWOAXIS" 两轴SCARA
+  - "R_SCARA_THREEAXIS" 三轴SCARA
+  - "R_THREE_CARTESIAN_COORDINATE" 三轴直角
+  - "R_THREE_CARTESIAN_COORDINATE_1" 三轴异形一
+  - "R_GENERAL_7S_RBT" 七轴
+  - "R_SCARA_1" 四轴SCARA异形一
+备注说明
+无
+NRC_GetRobotTypeConfig
+函数原型
+int NRC_GetRobotTypeConfig(std::string& type);
+功能描述
+获取机器人类型。
+参数说明
+输出参数：
+type:
+  - "R_GENERAL_6S" 六轴
+  - "R_SCARA" 四轴SCARA
+  - "R_FOURAXIS_PALLET" 四轴码垛
+  - "R_FOURAXIS" 四轴
+  - "R_GENERAL_1S" 一轴
+  - "R_GENERAL_5S" 五轴
+  - "R_GENERAL_6S_1" 六轴异形一
+  - "R_SCARA_TWOAXIS" 两轴SCARA
+  - "R_SCARA_THREEAXIS" 三轴SCARA
+  - "R_THREE_CARTESIAN_COORDINATE" 三轴直角
+  - "R_THREE_CARTESIAN_COORDINATE_1" 三轴异形一
+  - "R_GENERAL_7S_RBT" 七轴
+  - "R_SCARA_1" 四轴SCARA异形一
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+
+
+## Page 49
+
+NRC_Rbt_GetRobotTypeConfig
+函数原型
+int NRC_GetRobotTypeConfig(std::string& type);
+功能描述
+获取机器人类型（多机版）。
+参数说明
+输出参数：
+robotNum  机器人编号(1-4)
+type:
+  - "R_GENERAL_6S" 六轴
+  - "R_SCARA" 四轴SCARA
+  - "R_FOURAXIS_PALLET" 四轴码垛
+  - "R_FOURAXIS" 四轴
+  - "R_GENERAL_1S" 一轴
+  - "R_GENERAL_5S" 五轴
+  - "R_GENERAL_6S_1" 六轴异形一
+  - "R_SCARA_TWOAXIS" 两轴SCARA
+  - "R_SCARA_THREEAXIS" 三轴SCARA
+  - "R_THREE_CARTESIAN_COORDINATE" 三轴直角
+  - "R_THREE_CARTESIAN_COORDINATE_1" 三轴异形一
+  - "R_GENERAL_7S_RBT" 七轴
+  - "R_SCARA_1" 四轴SCARA异形一
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetServoMapRelation
+
+
+## Page 50
+
+函数原型
+int NRC_SetServoMapRelation(std::vector<int> servoMap,std::vector<int> syncServoMap);
+功能描述
+设置伺服映射关系。
+参数说明
+输入参数：
+servoMap 伺服映射关系，个数为设置的机器人总轴数，值为每一轴所连接的伺服编号
+syncServoMap  外部轴伺服映射关系，个数为3，值为每一轴所连接的伺服编号,若外部轴不足3个，对应位置值
+为0
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+机器人轴与伺服对应关系为：
+    - 1轴 连接 第2个伺服
+    - 2轴 连接 第3个伺服
+    - 3轴 连接 第1个伺服
+    - 4轴 连接 第4个伺服
+    - 5轴 连接 第6个伺服
+    - 6轴 连接 第5个伺服
+    - 则 servoMap 的值为 { 2, 3, 1, 4, 6, 5 }
+外部轴个数与伺服对应关系：
+    - 无外部轴，则 syncServoMap 值为 {0 ,0 ,0}
+    - 一个外部轴，则 syncServoMap 值为 {7 ,0 ,0}
+    - 两个外部轴，则 syncServoMap 值为 {7 ,8 ,0}
+以后替代函数为NRC_SetAllServoMapRelation！
+NRC_SetAllServoMapRelation
+
+
+## Page 51
+
+函数原型
+int NRC_SetAllServoMapRelation(std::vector<int> servoMap,int syncGroupSum, int syncType[],
+std::vector<std::vector<int>> syncServoMap);
+功能描述
+设置伺服映射关系(仅一个机器人的时候可以使用)。
+参数说明
+输入参数：
+servoMap  伺服映射关系，个数为设置的机器人总轴数，值为每一轴所连接的伺服编号
+syncGroupSum  外部轴组最大数目，最大为3,最多支持两个双变位机加一个地轨
+syncType  外部轴组类型，0:无，1:单轴变位机，2:双轴变位机，3:地轨
+syncServoMap  外部轴伺服映射关系
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+机器人轴与伺服对应关系为：
+    - 1轴 连接 第2个伺服
+    - 2轴 连接 第3个伺服
+    - 3轴 连接 第1个伺服
+    - 4轴 连接 第4个伺服
+    - 5轴 连接 第6个伺服
+    - 6轴 连接 第5个伺服
+    - 则 servoMap 的值为 { 2, 3, 1, 4, 6, 5 }
+外部轴个数与伺服对应关系
+    - 无外部轴，则 syncGroupSum 值为0,
+    - 一个单轴变位机，则 syncGroupSum 值1,syncType为{1,0,0},syncServoMap为{{7}}
+    - 两个双轴变位机，一个地轨，则 syncGroupSum 值3,syncType为{2,2,3},syncServoMap为{{7,8},{9,10},
+{11}}
+NRC_Rbt_SetAllServoMapRelation
+
+
+## Page 52
+
+函数原型
+int NRC_Rbt_SetAllServoMapRelation(unsigned int robotSum, std::vector<std::string> robotType,
+std::vector<std::vector<int>> servoMap, std::vector<NRC_SyncParam> syncMap);
+功能描述
+设置伺服映射关系 (多机版)。
+参数说明
+输入参数：
+robotSum  机器人总数,最大为4
+servoMap  伺服映射关系，个数为设置的机器人总轴数，值为每一轴所连接的伺服编号
+syncGroupSum  外部轴组最大数目，最大为3,最多支持两个双变位机加一个地轨
+syncType  外部轴组类型，0:无，1:单轴变位机，2:双轴变位机，3:地轨
+syncServoMap  外部轴伺服映射关系
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+机器人轴与伺服对应关系为(以两个四轴机器人为例)：
+   - 机器人1的1轴 连接 第2个伺服
+   - 机器人1的2轴 连接 第3个伺服
+ - 机器人1的3轴 连接 第1个伺服
+   -机器人1的 4轴 连接 第4个伺服
+ - 机器人2的1轴 连接 第1个伺服
+   - 机器人2的2轴 连接 第2个伺服
+   - 机器人2的3轴 连接 第3个伺服
+   -机器人2的 4轴 连接 第4个伺服
+则 servoMap 的值为 {{ 2, 3, 1, 4 },{ 1, 2, 3, 4 }}
+外部轴个数与伺服对应关系(以两个四轴机器人为例)：
+无外部轴，则syncGroupSum 值为0,
+一个单轴变位机 则syncMap 值为{NRC_SyncMap one, NRC_SyncMap two},
+NRC_SyncMap one
+{
+syncGroupSum = 1;
+std::vector<std::vector<int>> syncServoMap = {{5}};
+std::vector<std::vector<int>> syncType = {1,0,0};
+}
+NRC_SyncMap two 和NRC_SyncMap one一样;
+两个双轴变位机，一个地轨，则syncMap 值为{NRC_SyncMap one}(以一个机器人为例),
+NRC_SyncMap one
+{
+syncGroupSum = 3;
+std::vector<std::vector<int>> syncServoMap = {{5,6},{7,8},{9}}
+std::vector<std::vector<int>> syncType = {2,2,3};
+ }
+NRC_GetConnectServoTypeList
+函数原型
+std::vector<std::string> NRC_GetConnectServoTypeList(int nameType = 0);
+功能描述
+获取连接的伺服类型列表。
+参数说明
+输入参数：
+nameType  伺服名称类型,0:中文名称,1:英文名称
+返回值
+伺服名称列表
+备注说明
+无
+
+
+## Page 53
+
+NRC_GetSlaveNumByID
+函数原型
+std::vector<int> NRC_GetSlaveNumByID(unsigned int vendorID, unsigned int productCode);
+功能描述
+通过从站vendorID和productCode获取从站的编号列表。
+参数说明
+输入参数：
+vendorID  从站的vendorID
+productCode  从站的productCode
+返回值
+所有该类型从站的编号的列表
+备注说明
+无
+NRC_GetPDOAddrMap
+函数原型
+unsigned char * NRC_GetPDOAddrMap(unsigned int slaveNum, unsigned short index);
+功能描述
+获取从站PDO的映射地址。
+参数说明
+输入参数：
+slaveNum 从站编号
+index  PDO的索引
+返回值
+PDO的映射地址，若从站编号错误或无该PDO，则返回nullptr，若该索引的PDO存在多个，将只会返回1个
+备注说明
+返回的映射地址，需要根据PDO的数据类型，自行转换指针类型后才能使用
+NRC_GetPDOAddrMap
+函数原型
+unsigned char * NRC_GetPDOAddrMap(unsigned int slaveNum, unsigned short index, unsigned short subindex);
+功能描述
+获取从站PDO的映射地址。
+参数说明
+输入参数：
+slaveNum 从站编号
+index  PDO的索引
+subindex   PDO的子索引
+返回值
+PDO的映射地址，若从站编号错误或无该PDO，则返回nullptr
+备注说明
+返回的映射地址，需要根据PDO的数据类型，自行转换指针类型后才能使用
+NRC_GetEthercatIOConfig
+
+
+## Page 54
+
+函数原型
+int GetEthercatIOConfig(int &sum, std::vector<std::string> &typeVec);
+功能描述
+获取EthercatIO配置。
+参数说明
+输入参数：
+sum 返回EthercatIO板数目
+typeVec  返回EthercatIO类型
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_EnableCustomIOFunction
+函数原型
+void NRC_EnableCustomIOFunction();
+功能描述
+使能自定义IO功能。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+请在调用控制器启动函数 NRC_StartController 前调用使能,否则将不生效
+NRC_SetCustomIODoutConfig
+函数原型
+int NRC_SetCustomIODoutConfig(unsigned int sum, int* addr);
+功能描述
+设置自定义IO dout配置。
+参数说明
+输入参数：
+sum  自定义IO dout的数目，参数范围：sum >= 0
+addr 自定义IO dout的对应地址,一个int数值对应1个端口
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+设置自定义IO dout的数目和对应地址，1表示高电平，0表示低电平
+NRC_SetCustomIODinConfig
+
+
+## Page 55
+
+函数原型
+int NRC_SetCustomIODinConfig(unsigned int sum, int* addr);
+功能描述
+设置自定义IO din配置。
+参数说明
+输入参数：
+sum  自定义IO din的数目，参数范围：sum >= 0
+addr 自定义IO din的对应地址,一个int数值对应1个端口
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+设置自定义IO din的数目和对应地址，1表示高电平，0表示低电平
+NRC_SetCheckExioEnable
+函数原型
+void NRC_SetCheckExioEnable(bool enable);
+功能描述
+设置内置tcp接口扩展IO检测使能标志。
+参数说明
+输入参数：
+enable 默认为true,检测扩展IO,设置为false时,将不检测扩展IO
+返回值
+无
+备注说明
+请在调用控制器启动函数 NRC_StartController 前设置使能标志,否则将不生效
+NRC_SetRobotDHConfig
+函数原型
+int NRC_SetRobotDHConfig(NRC_RobotDHConfig config);
+功能描述
+设置机器人DH参数。
+参数说明
+输入参数：
+config 机器人DH参数
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+请在伺服停止或伺服就绪状态下设置该参数
+NRC_GetRobotDHConfig
+
+
+## Page 56
+
+函数原型
+int NRC_GetRobotDHConfig(NRC_RobotDHConfig& config);
+功能描述
+获取机器人DH参数。
+参数说明
+输出参数：
+config 机器人DH参数
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetRobotJointConfig
+函数原型
+int NRC_SetRobotJointConfig(int axisNum, NRC_RobotJointConfig config);
+功能描述
+设置机器人关节参数。
+参数说明
+输入参数：
+axisNum 要设置的轴的序号，参数范围：1 <= axisNum <= 机器人轴总数
+config   机器人DH参数
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+请在伺服停止或伺服就绪状态下设置该参数
+NRC_SetRobotDecareConfig
+函数原型
+int NRC_SetRobotDecareConfig(NRC_RobotDecareConfig config);
+功能描述
+设置机器人笛卡尔参数。
+参数说明
+输入参数：
+config 机器人的笛卡尔参数，具体看NRC_RobotDecareConfig结构体内容
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+请在伺服停止或伺服就绪状态下设置该参数
+NRC_GetRobotDecareConfig
+
+
+## Page 57
+
+函数原型
+int NRC_GetRobotDecareConfig(NRC_RobotDecareConfig& config);
+功能描述
+获取机器人笛卡尔参数。
+参数说明
+输出参数：
+config 机器人的笛卡尔参数，具体看NRC_RobotDecareConfig结构体内容
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetJogJointSpeedConfig
+函数原型
+int NRC_SetJogJointSpeedConfig(int axisNum, double maxSpeed, double acc);
+功能描述
+点动关节速度设置。
+参数说明
+输入参数：
+axisNum 要设置的轴的序号，参数范围：1 <= axisNum <= 机器人轴总数
+maxSpeed  点动时，该轴可以达到的最大速度，单位：度/秒
+acc  点动时，该轴的加速度，单位：度/平方秒
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+请在伺服停止或伺服就绪状态下设置该参数
+NRC_GetJogJointSpeedConfig
+函数原型
+int NRC_GetJogJointSpeedConfig(int axisNum, double& maxSpeed, double& acc);
+功能描述
+获取点动关节速度。
+参数说明
+输入参数：
+axisNum 要设置的轴的序号，参数范围：1 <= axisNum <= 机器人轴总数
+输出参数：
+maxSpeed  点动时，该轴可以达到的最大速度，单位：度/秒
+acc  点动时，该轴的加速度，单位：度/平方秒
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetJogRectangularSpeedConfig
+
+
+## Page 58
+
+函数原型
+int NRC_SetJogRectangularSpeedConfig(double maxSpeed, double acc);
+功能描述
+点动直角速度设置。
+参数说明
+输入参数：
+maxSpeed 点动时，直角坐标可以达到的最大速度，单位：毫米/秒
+acc  点动时，直角坐标的加速度，单位：毫米/平方秒
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+请在伺服停止或伺服就绪状态下设置该参数
+NRC_GetJogRectangularSpeedConfig
+函数原型
+int NRC_GetJogRectangularSpeedConfig(double& maxSpeed, double& acc);
+功能描述
+获取点动直角速度。
+参数说明
+输出参数：
+maxSpeed 点动时，直角坐标可以达到的最大速度，单位：毫米/秒
+acc  点动时，直角坐标的加速度，单位：毫米/平方秒
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetJogSensitivitySpeedConfig
+函数原型
+int NRC_SetJogSensitivitySpeedConfig(double sensitivity);
+功能描述
+设置点动灵敏度。
+参数说明
+输入参数：
+sensitivity  该值越小，点动响应越慢，该值越大，点动误差越大，误差较大时，可能引起机器人抖动，单位：
+度，默认初始值0.001，参数范围：0.0001 <= sensitivity < 1
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+请在伺服停止或伺服就绪状态下设置该参数
+NRC_SetInterpolationMethod
+
+
+## Page 59
+
+函数原型
+int NRC_SetInterpolationMethod(int method);
+功能描述
+设置机器人插补方式。
+参数说明
+输入参数：
+method 机器人运动时的插补方式：
+  - 0 S型插补，机器人加减速较为平滑，但相对于梯形插补加减速较慢，一般大型机器人用该插补方式
+  - 1 梯形插补，机器人加减速较为迅速，但容易造成机器人抖动、过载等现象，一般小型机器人用该插补方式
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+请在伺服停止或伺服就绪状态下设置该参数
+NRC_SetAbsolutePosResolution
+函数原型
+int NRC_SetAbsolutePosResolution(double resolution);
+功能描述
+设置机器人绝对位置分辨率。
+参数说明
+输入参数：
+resolution 机器人对位置的分辨率，当两个位置之间的差距小于该值时，机器人将认为这两个位置为同一位置，
+单位：度，参数范围：0.0001 <= resolution <= 0.1
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+请在伺服停止或伺服就绪状态下设置该参数
+NRC_SetDynamicTrackingErrorMaxAllow
+函数原型
+int NRC_SetDynamicTrackingErrorMaxAllow(int trackingError[]);
+功能描述
+设置最大允许动态超差值。
+参数说明
+输入参数：
+trackingError 最大允许动态超差值，当超差值大于该值时，机器人将停止运行，数组成员个数应不小于机器人
+的轴数，单位：万分之一度，参数范围：100 <= trackingError <= 5000000
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+请在伺服停止或伺服就绪状态下设置该参数
+NRC_SetStaticTrackingErrorMaxAllow
+
+
+## Page 60
+
+函数原型
+int NRC_SetStaticTrackingErrorMaxAllow(int trackingError[]);
+功能描述
+设置最大允许静态超差值。
+参数说明
+输入参数：
+trackingError 最大允许静态超差值，当超差值大于该值时，机器人将停止运行，数组成员个数应不小于机器人
+的轴数，单位：万分之一度，参数范围：100 <= trackingError <= 5000000
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+请在伺服停止或伺服就绪状态下设置该参数
+NRC_SetRobotRangeLimit
+函数原型
+int NRC_SetRobotRangeLimit(NRC_RobotRangeLimit range, bool enable, int robotRangeNum,int workType,
+bool isInInterfer, int port, int value);
+功能描述
+设置机器人范围限制。
+参数说明
+输入参数：
+range see NRC_RobotRangeLimit
+enable 使能机器人范围，参数范围：0 关闭，１使能
+robotRangeNum 机器人范围编号，参数范围：0 < robotRangeNum < 100
+workType 机器人范围生效方式，参数范围：0 输出状态，１触发停止
+isInInterfer 生效范围，参数范围：true 设置范围内生效，false 设置范围外生效
+port 输出io端口号，仅在workType为０时有效
+value 输出io高低电平，参数范围：0 低电平，１高电平
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+请在伺服停止或伺服就绪状态下设置该参数
+NRC_GetRobotRangeLimit
+
+
+## Page 61
+
+函数原型
+int NRC_GetRobotRangeLimit(int robotRangeNum, NRC_RobotRangeLimit& range, bool &enable, int
+&workType, bool &isInInterfer, int &port, int &value);
+功能描述
+获取机器人范围限制。
+参数说明
+输入参数：
+robotRangeNum 机器人范围编号，参数范围：0 < robotRangeNum < 100
+输出参数：
+range see NRC_RobotRangeLimit
+enable 使能机器人范围，参数范围：0 关闭，１使能
+workType 机器人范围生效方式，参数范围：0 输出状态，１触发停止
+isInInterfer 生效范围，参数范围：true 设置范围内生效，false 设置范围外生效
+port 输出io端口号，仅在workType为０时有效
+value 输出io高低电平，参数范围：0 低电平，１高电平
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetTeachMaxStepSpeed
+函数原型
+int NRC_SetTeachMaxStepSpeed(int maxJointSpeed, int maxDecareSpeed);
+功能描述
+设置示教模式最大单步速度。
+参数说明
+输入参数：
+maxJointSpeed  示教模式下单步运行时最大关节运行速度，单位百分比，参数范围：0 < maxJointSpeed <= 100
+maxDecareSpeed  示教模式下单步运行时最大直线运行速度，单位mm/s，参数范围：2 <= maxJointSpeed <=
+9999
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+请在伺服停止或伺服就绪状态下设置该参数
+NRC_GetTeachMaxStepSpeed
+函数原型
+int NRC_GetTeachMaxStepSpeed(int &maxJointSpeed, int &maxDecareSpeed);
+功能描述
+获取示教模式最大单步速度。
+参数说明
+输出参数：
+maxJointSpeed  示教模式下单步运行时最大关节运行速度，单位百分比，参数范围：0 < maxJointSpeed <= 100
+maxDecareSpeed  示教模式下单步运行时最大直线运行速度，单位mm/s，参数范围：2 <= maxJointSpeed <=
+9999
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+
+
+## Page 62
+
+NRC_SetCurrentPosToZeroPos
+函数原型
+int NRC_SetCurrentPosToZeroPos(int axisNum,bool mod);
+功能描述
+将当前位置设置为零点或清除多圈值。
+参数说明
+输入参数：
+axisNum  操作的轴的序号，当axisNum为0时，表示全部轴，参数范围：0 <= axisNum <= 机器人轴总数
+mod  为设置零点或清除多圈值，0为设置零点，1为清除多圈值
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+请在伺服停止或伺服就绪状态下设置该参数
+执行该函数大约需要两三秒时间
+对于大多数类型的伺服，执行该函数时，会使伺服使能上电，请注意安全
+NRC_Rbt_SetCurrentPosToZeroPos
+函数原型
+int NRC_Rbt_SetCurrentPosToZeroPos(int robotNum, int axisNum,bool mod);
+功能描述
+将当前位置设置为零点或清除多圈值(多机版)。
+参数说明
+输入参数：
+robotNum  需要设置零点或清空多圈值的机器人编号
+axisNum  操作的轴的序号，当axisNum为0时，表示全部轴，参数范围：0 <= axisNum <= 机器人轴总数
+mod  为设置零点或清除多圈值，0为设置零点，1为清除多圈值
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+请在伺服停止或伺服就绪状态下设置该参数
+执行该函数大约需要两三秒时间
+对于大多数类型的伺服，执行该函数时，会使伺服使能上电，请注意安全
+NRC_Rbt_SetSingleCircleValue
+函数原型
+int NRC_Rbt_SetSingleCircleValue(int robotNum, const std::vector<int>& value);
+功能描述
+设置零点位置单圈值(多机版)。
+参数说明
+输入参数：
+robotNum  需要设置零点或清空多圈值的机器人编号
+value  传入各个轴零点位置单圈值数组，0 < value.size() <= 7
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+此操作有可能导致机器人精度丢失、无法正常运行、曾建立的点位无法运行等问题，请谨慎操作
+
+
+## Page 63
+
+NRC_Rbt_GetSingleCircleValue
+函数原型
+int NRC_Rbt_GetSingleCircleValue(int robotNum, std::vector<int>& value);
+功能描述
+获取零点位置单圈值(多机版)。
+参数说明
+输入参数：
+robotNum  需要设置零点或清空多圈值的机器人编号
+输出参数：
+value  获取到的值存入此数组
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetUserCoordParm
+函数原型
+int NRC_SetUserCoordParm(int userNum, const NRC_Position& deviation);
+功能描述
+设置用户坐标参数。
+参数说明
+输入参数：
+userNum  要设置的用户坐标系的编号，参数范围：0 < userNum < 1000
+deviation  用户坐标系原点相对机器人直角坐标系原点的偏移量
+  - deviation.coord 该参数无用
+  - deviation.pos[0]-deviation.pos[2] 分别为x,y,z三轴位置的偏移量，单位：毫米
+  - deviation.pos[3]-deviation.pos[5] 分别为x,y,z三轴方向的偏移量，单位：弧度
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+设置用户坐标系原点相对机器人直角坐标系原点的偏移量，从而确定该用户坐标系
+由于实际使用中，很难测量方向的偏移量，所有该函数很少使用，一般使用 NRC_CalibrationUserCoord(int
+userNum, NRC_Position& origin, NRC_Position& X_Axis, NRC_Position& XOY_Plane) 函数对用户坐标进行标
+定，自动计算出偏移量
+NRC_GetUserCoordParm
+
+
+## Page 64
+
+函数原型
+int NRC_GetUserCoordParm(int userNum,NRC_Position& deviation);
+功能描述
+获取用户坐标参数。
+参数说明
+输入参数：
+userNum  用户坐标系的编号，参数范围：0 < userNum < 1000
+输出参数：
+deviation  用户坐标系原点相对机器人直角坐标系原点的偏移量
+  - deviation.coord 该参数无用
+  - deviation.pos[0]-deviation.pos[2] 分别为x,y,z三轴位置的偏移量，单位：毫米
+  - deviation.pos[3]-deviation.pos[5] 分别为x,y,z三轴方向的偏移量，单位：弧度
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_CalibrationUserCoord
+函数原型
+int NRC_CalibrationUserCoord(int userNum, const NRC_Position& origin, const NRC_Position& X_Axis, const
+NRC_Position& XOY_Plane);
+功能描述
+标定用户坐标，标定用户坐标系，自动计算用户坐标系原点相对机器人直角坐标系原点的偏移量，从而确定该
+用户坐标系。
+参数说明
+输入参数：
+userNum 要标定的用户坐标系的编号，参数范围：0 < userNum < 10
+origin  用户坐标系原点在机器人直角坐标系中的位置
+X_Axis  用户坐标系X轴正方向上任一点在机器人直角坐标系中的位置
+XOY_Plane 用户坐标系XOY平面上任一点在机器人直角坐标系中的位置
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SwitchUserCoord
+函数原型
+int NRC_SwitchUserCoord(int tagetUser);
+功能描述
+切换当前用户坐标。
+参数说明
+输入参数：
+tagetUser 要切换的目标用户坐标系的编号，参数范围：0 < tagetUser < 10
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+
+
+## Page 65
+
+NRC_GetCurrentUserCoord
+函数原型
+int NRC_GetCurrentUserCoord();
+功能描述
+获取当前用户坐标编号。
+参数说明
+无
+返回值
+用户坐标编号
+备注说明
+无
+NRC_SetToolCoordParm
+函数原型
+int NRC_SetToolCoordParm(int toolNum, const NRC_Position& deviation, const std::vector<double>& payload =
+std::vector<double>(5, 0.0), bool load = false);
+功能描述
+设置工具手参数。
+参数说明
+输入参数：
+toolNum  要设置的工具手的编号，参数范围：0 < toolNum < 1000
+deviation  工具手末端位置相对机器人末端位置的偏移量
+  - deviation.coord 该参数无用
+  - deviation.pos[0]-deviation.pos[2] 分别为x,y,z三轴位置的偏移量，单位：毫米
+  - deviation.pos[3]-deviation.pos[5] 分别为x,y,z三轴方向的偏移量，对于四轴SCARA机器人该参数无用，单
+位：弧度
+payload  当前作业文件要运行的总次数，设置为0时循环运行，参数范围：index >= 0
+- payload[0] 负载质量，单位：千克
+    - payload[1] 负载惯量，单位：0.001千克每平方米
+    - payload[2]~payload[4] 分别代表质心X、Y、Z，单位：米，范围[-999999,999999]
+load  是否修改负载质量等参数，默认为false 不修改，true 则进行修改
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+实际使用中，一般根据工具手的设计尺寸图，直接填入该参数
+NRC_GetToolCoordParm
+
+
+## Page 66
+
+函数原型
+int NRC_GetToolCoordParm(int toolNum, NRC_Position& deviation, std::vector<double>& payload);
+功能描述
+获取工具手参数。
+参数说明
+输入参数：
+toolNum  要获取的工具手的编号，参数范围：0 < toolNum < 1000
+输出参数：
+deviation 要获取到的工具手参数,工具手末端位置相对机器人末端位置的偏移量
+payload  要获取到的工具手负载质量等参数
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_CalibrationToolCoord_7Pos
+函数原型
+int NRC_CalibrationToolCoord_7Pos(int toolNum, NRC_Position& pos1, NRC_Position& pos2, NRC_Position&
+pos3, NRC_Position& pos4, NRC_Position& pos5, NRC_Position& pos6, NRC_Position& pos7, int
+calibrationPointNum = 7);
+功能描述
+标定工具手--7点标定法，标定工具手，自动计算工具手末端位置相对机器人末端位置的偏移量，从而确定该工
+具坐标系。
+参数说明
+输入参数：
+toolNum 要获取的工具手的编号，参数范围：0 < toolNum < 1000
+pos1 将工具手末端对准一个固定尖端，并保持工具手垂直的一个位置
+pos2 将工具手末端对准一个固定尖端，选取一个位置，不能和pos1，pos3，pos4是同一位置
+pos3 将工具手末端对准一个固定尖端，选取一个位置，不能和pos1，pos2，pos4是同一位置
+pos4 将工具手末端对准一个固定尖端，选取一个位置，不能和pos1，pos2，pos3是同一位置
+pos5 保持工具手垂直的一个位置，可以和pos1点是同一位置
+pos6 相对pos5的X轴正方向上的一个位置
+pos7 相对pos6的Y轴正方向上的一个位置
+calibrationPointNum 6:六点标定,7:七点标定
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+7点标定法仅对六轴串联机器人有效！
+NRC_SwitchToolCoord
+
+
+## Page 67
+
+函数原型
+int NRC_SwitchToolCoord(int tagetTool);
+功能描述
+切换当前工具手。
+参数说明
+输入参数：
+tagetUser 要切换的目标工具手的编号，0表示无工具手，参数范围：0 <= tagetTool < 10
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetCurrentToolCoord
+函数原型
+int NRC_GetCurrentToolCoord();
+功能描述
+获取当前工具手编号。
+参数说明
+无
+返回值
+当前工具手的编号，工具手初始默认值为0，即无工具手
+备注说明
+无
+NRC_CalibrationToolCoord_2Pos_SetPos
+函数原型
+int NRC_CalibrationToolCoord_2Pos_SetPos(int posNum, const NRC_Position& pos);
+功能描述
+2点标定-设置点数据。
+参数说明
+输入参数：
+posNum 标定的点的编号，参数范围：1 <= posNum <= 2
+pos  标定的点的位置，需为关节坐标系下的位置
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+示例：
+  NRC_CalibrationToolCoord_2Pos_SetPos(1, pos1);
+ NRC_CalibrationToolCoord_2Pos_SetPos(2, pos2);
+ if (NRC_CalibrationToolCoord_2Pos_Cacl() == 0)
+ {
+   //将标定结果写入工具手1
+   NRC_CalibrationToolCoord_2Pos_Save(1);
+ }
+NRC_CalibrationToolCoord_2Pos_Cacl
+
+
+## Page 68
+
+函数原型
+int NRC_CalibrationToolCoord_2Pos_Cacl();
+功能描述
+2点标定-计算标定结果。
+参数说明
+无
+返回值
+计算标定结果是否成功 0 计算成功 -1 计算失败
+备注说明
+无
+NRC_CalibrationToolCoord_2Pos_Save
+函数原型
+int NRC_CalibrationToolCoord_2Pos_Save(int tagetTool);
+功能描述
+将2点标定的结果写入到指定的工具手中。
+参数说明
+输入参数：
+tagetTool  要写入的工具手编号，参数范围：1 < tagetTool < 10
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_ecatSetCommand
+函数原型
+int NRC_ecatSetCommand(unsigned int axisNum, unsigned int index, unsigned int subindex, unsigned char*
+value, unsigned int size);
+功能描述
+设置伺服某命令字的值。
+参数说明
+输入参数：
+axisNum 机器人的轴编号
+index 命令字编码
+subindex 命令字子编码
+value 要设置进去的值
+size 命令字对应的值的字节数
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+示例：
+  unsigned short value = 3000;
+ NRC_ecatSetCommand(1, 0x6072, 0, (signed short* )&value, sizeof(value));
+NRC_ecatGetCommand
+
+
+## Page 69
+
+函数原型
+int NRC_ecatGetCommand(unsigned int axisNum, unsigned int index, unsigned int subindex, unsigned char*
+value, unsigned int size);
+功能描述
+读取伺服某命令字的值。
+参数说明
+输入参数：
+axisNum 机器人的轴编号
+index 命令字编码
+subindex 命令字子编码
+size 命令字对应的值的字节数
+输出参数：
+value 结果存放入此指针返回
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+示例：
+unsigned short value = 0;
+NRC_ecatGetCommand(1, 0x6041, 0, (unsigned char* )&value, sizeof(value));
+printf("value=%d\n", value);
+unsigned int value = 0;
+NRC_ecatGetCommand(3, 0x202C, 0, (unsigned char* )&value, sizeof(value));
+printf("value=%d\n", value);
+NRC_ModifyControllerIP
+函数原型
+int NRC_ModifyControllerIP(const std::string &name, const std::string &ip, const std::string &gateway, const
+std::string &dns);
+功能描述
+修改控制器IP地址。
+参数说明
+输入参数：
+name  网口名称
+ip 要修改为的目标IP，要符合IP规则
+gateway 控制器网关
+dns  控制器DNS
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+修改后一定要记得修改后的ip，否则无法重现连接控制器，需要返厂！
+NRC_RestoreFactorySettings
+
+
+## Page 70
+
+函数原型
+int NRC_RestoreFactorySettings(bool clearConfigFile,bool clearExtendedFile);
+功能描述
+恢复出厂设置。
+参数说明
+输入参数：
+clearConfigFile 系统所有配置文件
+clearExtendedFile 所有扩展文件
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+恢复出厂设置后，控制器中的各数据将会被清除，请谨慎操作
+调用该函数后，控制器随即就会重启
+NRC_RebootController
+函数原型
+int NRC_RebootController();
+功能描述
+重启控制器。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数后，控制器随即就会重启
+NRC_GetCurrentMotorVel
+函数原型
+int NRC_GetCurrentMotorVel(double vel[]);
+功能描述
+获取电机转速。
+参数说明
+输出参数：
+vel 电机转速将通过数组返回，数组成员个数应不小于机器人的轴数
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_Rbt_GetCurrentMotorVel
+
+
+## Page 71
+
+函数原型
+int NRC_Rbt_GetCurrentMotorVel(int robotNum, double vel[]);
+功能描述
+获取电机转速（多机版）。
+参数说明
+输入参数：
+robotNum 传入机器人编号(1-4)
+输出参数
+vel 电机转速将通过数组返回，数组成员个数应不小于机器人的轴数
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetCurrentTrackingError
+函数原型
+int NRC_GetCurrentTrackingError(double trackingError[]);
+功能描述
+获取当前超差值。
+参数说明
+输出参数
+trackingError 当前超差值将通过数组返回，数组成员个数应不小于机器人的轴数
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetMaxTrackingError
+函数原型
+int NRC_GetMaxTrackingError(double maxTrackingError[]);
+功能描述
+获取最大超差值。
+参数说明
+输出参数
+maxTrackingError 最大超差值将通过数组返回，数组成员个数应不小于机器人的轴数
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetRobotAxisSum
+
+
+## Page 72
+
+函数原型
+int NRC_GetRobotAxisSum();
+功能描述
+获取机器人轴数。
+参数说明
+无
+返回值
+机器人轴数
+备注说明
+无
+NRC_GetSyncAxisSum
+函数原型
+int NRC_GetSyncAxisSum();
+功能描述
+获取外部轴轴数。
+参数说明
+无
+返回值
+外部轴轴数
+备注说明
+无
+NRC_GetCurrentTime
+函数原型
+NRC_TIME NRC_GetCurrentTime();
+功能描述
+获取当前时间。
+参数说明
+无
+返回值
+NRC_TIME结构体
+备注说明
+无
+NRC_SetMsgHappenCallback
+函数原型
+int NRC_SetMsgHappenCallback(void (*fun)(void));
+功能描述
+设置消息发生时的回调函数。
+参数说明
+输入参数：
+fun 回调函数的函数指针
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+当有消息发生时，将会调用此回调函数
+NRC_FirstMessagePop
+
+
+## Page 73
+
+函数原型
+NRC_Message NRC_FirstMessagePop();
+功能描述
+弹出队列中最早的消息。
+参数说明
+无
+返回值
+返回队列中最早的消息，并从队列中移除该消息
+备注说明
+无
+NRC_LastMessagePop
+函数原型
+NRC_Message NRC_LastMessagePop();
+功能描述
+弹出队列中最后的消息。
+参数说明
+无
+返回值
+返回队列中最后的消息，并从队列中移除该消息
+备注说明
+无
+NRC_GetMessage
+函数原型
+int NRC_GetMessage(int num, NRC_Message& msg);
+功能描述
+获取队列中第num个消息。
+参数说明
+输入参数：
+num 要获取的消息在队列中的编号，最早的消息编号为1，取值范围：0 < num <= NRC_GetMessageSize()
+输出参数：
+msg 获取的消息通过此参数返回
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+获取队列中第num个消息，不会移除该消息
+NRC_GetMessageSize
+函数原型
+int NRC_GetMessageSize();
+功能描述
+获取队列中消息总数。
+参数说明
+无
+返回值
+队列中消息总数
+备注说明
+无
+NRC_ClearMessage
+
+
+## Page 74
+
+函数原型
+void NRC_ClearMessage();
+功能描述
+获取当前用户坐标编号。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_ClearServoError
+函数原型
+int NRC_ClearServoError();
+功能描述
+清除伺服错误。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+并不是所有的伺服错误都可以直接清除，有些错误是需要先排除错误情况才能清除！
+NRC_ClearAllError
+函数原型
+int NRC_ClearAllError();
+功能描述
+清除全部错误，清空消息的队列，同时清除伺服错误。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+并不是所有的伺服错误都可以直接清除，有些错误是需要先排除错误情况才能清除！
+NRC_GetAngularVel
+
+
+## Page 75
+
+函数原型
+int NRC_GetAngularVel(double* angular);
+功能描述
+获取关节角速度,单位 rad/s。
+参数说明
+输出参数：
+angular 角速度数组，最大长度为 12
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetLinerVel
+函数原型
+int NRC_GetLinerVel(double& linevel);
+功能描述
+获取关节线速度,单位 mm/s。
+参数说明
+输出参数：
+linevel 末端线速度
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetAxisVelSync
+函数原型
+int NRC_GetAxisVelSync(double* syncangular);
+功能描述
+获取外部运动速度。
+参数说明
+输出参数：
+syncangular运动速度数组，最大长度为 12
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+若外部轴为直线轴，单位为 mm/s，若为关节轴，单位为 °/s
+NRC_GetTorq
+
+
+## Page 76
+
+函数原型
+int NRC_GetTorq(double* torq);
+功能描述
+获取各关节力矩,单位为千分比。
+参数说明
+输出参数：
+torq  以数组的形式返回各关节的力矩值
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_Rbt_GetTorq
+函数原型
+int NRC_Rbt_GetTorq(int robotNum, double* torq);
+功能描述
+获取各关节力矩,单位为千分比 多机版。
+参数说明
+输入参数：
+robotNum 机器人编号
+输出参数：
+torq  以数组的形式返回各关节的力矩值
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetSyncTorq
+函数原型
+int NRC_GetSyncTorq(double* torq);
+功能描述
+获取各外部轴关节力矩,单位为千分比。
+参数说明
+输出参数：
+torq  以数组的形式返回各外部轴关节的力矩值
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_Rbt_GetSyncTorq
+
+
+## Page 77
+
+函数原型
+int NRC_Rbt_GetSyncTorq(int robotNum, double* torq);
+功能描述
+获取各外部轴关节力矩,单位为千分比 多机版。
+参数说明
+输入参数：
+robotNum 机器人编号
+输出参数：
+torq  以数组的形式返回各外部轴关节的力矩值
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetRatedTorque
+函数原型
+int NRC_GetRatedTorque(double* ratedTorq);
+功能描述
+获取各关节额定力矩。
+参数说明
+输入参数：
+syncangular运动速度数组，最大长度为 12
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_Rbt_GetRatedTorque
+函数原型
+int NRC_Rbt_GetRatedTorque(int robotNum, double* ratedTorq);
+功能描述
+获取各关节额定力矩 多机版。
+参数说明
+输入参数：
+ratedTorq以数组的形式返回各关节的额定力矩值
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetSyncJointNum
+
+
+## Page 78
+
+函数原型
+int NRC_SetSyncJointNum(int syncGroupNum, std::vector<int> syncGroupType);
+功能描述
+设置机器人外部轴数目。
+参数说明
+输入参数：
+syncGroupNum 要设置的外部轴轴组数，参数范围：0 <= syncGroupNum <= 3
+syncGroupType 要设置的外部轴各轴组类型，1:单轴变位机,2:双轴变位机,3:
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+请在伺服停止或伺服就绪状态下设置该参数。
+修改后重启才能生效！！！
+NRC_Rbt_GetSyncJointType
+函数原型
+int NRC_Rbt_GetSyncJointType(int robot, std::vector<int>& sync_group_type);
+功能描述
+获取机器人外部轴组类型。
+参数说明
+输入参数：
+robot 机器人号， 0< robot <= 4
+输出参数：
+sync_group_type 获取到的数据按照外部轴连接顺序存入sync_group_type容器
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+外部轴各轴组类型，1:单轴变位机,2:双轴变位机,3:地轨
+NRC_GetSyncRackConversionRatio
+函数原型
+int NRC_GetSyncRackConversionRatio(double & xDirection,double & yDirection,double & zDirection);
+功能描述
+获取外部轴地轨转换比。
+参数说明
+输出参数：
+xDirection   X方向
+yDirection   Y方向
+zDirection   Z方向
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetSyncRackConversionRatio
+
+
+## Page 79
+
+函数原型
+Int NRC_SetSyncRackConversionRatio(double xDirection,double yDirection,double zDirection);
+功能描述
+设置外部轴地轨转换比。
+参数说明
+输入参数：
+xDirection   X方向
+yDirection   Y方向
+zDirection   Z方向
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetSyncCooperation
+函数原型
+int NRC_SetSyncCooperation(bool coopertion);
+功能描述
+设置外部轴地轨是否协作。
+参数说明
+输入参数：
+coopertion：是否协作
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetSyncCooperation
+函数原型
+int NRC_GetSyncCooperation(int syncGroupNum);
+功能描述
+获取外部轴地轨是否协作。
+参数说明
+输入参数：
+syncGroupNum：轴组的序号，参数范围：1 <= syncGroupNum <= 3
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_CalSyncCalibrationResult
+
+
+## Page 80
+
+函数原型
+int NRC_CalSyncCalibrationResult(int syncGroupNum);
+功能描述
+计算外部轴标定结果。
+参数说明
+输入参数：
+syncGroupNum 轴组的序号，参数范围：1 <= syncGroupNum <= 3
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetSyncGroupNum
+函数原型
+int NRC_GetSyncGroupNum();
+功能描述
+获取当前外部轴组号。
+参数说明
+无
+返回值
+外部轴组号
+备注说明
+无
+NRC_SetSyncGroupNum
+函数原型
+int NRC_SetSyncGroupNum(int syncGroupNum);
+功能描述
+设置机器人外部轴组号。
+参数说明
+输入参数：
+syncGroupNum 要设置的轴组的序号，参数范围：1 <= syncGroupNum <= 3
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetSyncGroupCarbinarion
+
+
+## Page 81
+
+函数原型
+int NRC_GetSyncGroupCarbinarion(int syncGroupNum);
+功能描述
+查询某组外部轴是否标定。
+参数说明
+输入参数：
+syncGroupNum 要查询的轴组的序号，参数范围：1 <= syncGroupNum <= 3
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetSyncGroupCarbinarion
+函数原型
+int NRC_SetSyncGroupCarbinarion(int syncGroupNum,int pointNum);
+功能描述
+标定外部轴点位(组号，点位编号)。
+参数说明
+输入参数：
+syncGroupNum 要设置的轴组的序号，参数范围：1 <= syncGroupNum <= 3
+pointNum 要设置的点位编号，0 <= pointNum <= 4
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetSyncJointPara
+函数原型
+int NRC_SetSyncJointPara(int syncGroupNum, int syncAxisNum, NRC_RobotJointConfig config);
+功能描述
+设置机器人外部轴参数。
+参数说明
+输入参数：
+syncGroupNum 要设置的轴组的序号，参数范围：1 <= syncGroupNum <= 3
+syncAxisNum 要设置的某轴组中轴的序号，参数范围：1 <= syncAxisNum <= 2
+config  see NRC_RobotJointConfig
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+请在伺服停止或伺服就绪状态下设置该参数
+NRC_GetSyncJointPara
+
+
+## Page 82
+
+函数原型
+int NRC_GetSyncJointPara(int syncGroupNum, int syncAxisNum, NRC_RobotJointConfig& config);
+功能描述
+获取机器人外部轴参数。
+参数说明
+输入参数：
+syncGroupNum 要设置的轴组的序号，参数范围：1 <= syncGroupNum <= 3
+syncAxisNum 要设置的某轴组中轴的序号，参数范围：1 <= syncAxisNum <= 2
+输出参数：
+config  see NRC_RobotJointConfig
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetSyncJogJointSpeedConfig
+函数原型
+int NRC_SetSyncJogJointSpeedConfig(int groupNum, int axisNum, double maxSpeed, double acc);
+功能描述
+设置机器人外部轴点动关节速度。
+参数说明
+输入参数：
+groupNum 要设置的轴组序号，参数范围：1 <= groupNum <= 外部轴轴组总数
+axisNum 要设置的轴在轴组中的序号，参数范围：1 <= axisNum <= 轴组组总数
+maxSpeed 点动时，该轴可以达到的最大速度，单位：度/秒
+acc 点动时，该轴的加速度，单位：度/平方秒
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+请在伺服停止或伺服就绪状态下设置该参数
+NRC_GetSyncJogJointSpeedConfig
+函数原型
+int NRC_GetSyncJogJointSpeedConfig(int groupNum, int axisNum, double& maxSpeed, double& acc);
+功能描述
+获取机器人外部轴点动关节速度。
+参数说明
+输入参数：
+groupNum 要设置的轴组序号，参数范围：1 <= groupNum <= 外部轴轴组总数
+axisNum 要设置的轴在轴组中的序号，参数范围：1 <= axisNum <= 轴组组总数
+输出参数：
+maxSpeed 点动时，该轴可以达到的最大速度，单位：度/秒
+acc 点动时，该轴的加速度，单位：度/平方秒
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+
+
+## Page 83
+
+NRC_SetCurrentSyncPosToZeroPos
+函数原型
+int NRC_SetCurrentSyncPosToZeroPos(int axisNum,bool mod);
+功能描述
+将外部轴当前位置设置为零点或清除多圈值。
+参数说明
+输入参数：
+axisNum 操作的轴的序号，当axisNum为0时，表示全部外部轴，参数范围：0 <= axisNum <= 外部轴轴总数
+mod为设置零点或清除多圈值，0为设置零点，1为清除多圈值
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+请在伺服停止或伺服就绪状态下设置该参数。
+执行该函数大约需要两三秒时间。
+对于大多数类型的伺服，执行该函数时，会使伺服使能上电，请注意安全。
+NRC_RobotMoveJointSync
+函数原型
+int NRC_RobotMoveJointSync(int vel,NRC_Position target, const NRC_SyncPosition& targetSync,  int acc, int
+dec);
+功能描述
+机器人外部轴点到点运动，机器人外部轴以 vel 的速度从当前位置以点到点方式运行到 synctarget 位置。
+参数说明
+输入参数：
+vel 机器人外部轴的运行速度，为机器人外部轴最大速度的百分比，参数范围：0 < vel <= 100
+target 机器人本体运动目标位置，详见 NRC_Position
+targetSync 机器人外部轴运动目标位置，详见 NRC_SyncPosition
+acc 机器人外部轴运行加速度，为机器人外部轴各关节最大加速度的百分比，参数范围：0 < vel <= 100
+dec 机器人外部轴运行减速度，为机器人外部轴各关节最大减速度的百分比，参数范围：0 < vel <= 100
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请将伺服上电使能，可调用 NRC_ServoEnable() 函数将伺服上电。成功调用该函数后，机器人
+外部轴将开始运动，请注意安全。
+NRC_RobotMoveLineSync
+
+
+## Page 84
+
+函数原型
+int NRC_RobotMoveLineSync(int vel,NRC_Position target, const NRC_SyncPosition& targetSync,  int acc, int
+dec);
+功能描述
+机器人外部轴直线运动，机器人本体以 vel 的速度从当前位置以直线方式运行到 target 位置，机器人外部轴以
+vel 的速度从当前位置以点到点方式运行到 synctarget 位置。
+参数说明
+输入参数：
+vel 机器人的运行速度，为机器人最大速度的百分比，参数范围：0 < vel <= 100
+acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+target 机器人运动目标位置，详见 NRC_Position
+targetSync 外部轴运动目标位置，详见 NRC_SyncPosition
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请将伺服上电使能，可调用 NRC_ServoEnable() 函数将伺服上电。成功调用该函数后，机器人
+外部轴将开始运动，请注意安全。
+NRC_GetCurrentSyncPos
+函数原型
+int NRC_GetCurrentSyncPos(NRC_SyncPosition& position);
+功能描述
+获取外部轴当前位置，该函数可以获取外部轴位置，位置数据由参数引用 position 返回。
+参数说明
+输出参数：
+NRC_SyncPosition 外部轴当前位置
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_Rbt_GetCurrentSyncPos
+函数原型
+int NRC_Rbt_GetCurrentSyncPos(int robotNum, NRC_SyncPosition& position);
+功能描述
+获取外部轴当前位置(多机版)，该函数可以获取在 coord 坐标系下外部轴位置，位置数据由参数引用 position 返
+回。
+参数说明
+输入参数：
+robotNum 机器人编号(1-4)
+输出参数：
+NRC_SyncPosition 外部轴当前位置
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_PosReachable
+
+
+## Page 85
+
+函数原型
+int NRC_PosReachable(NRC_Position target,NRC_SyncPosition syncTarget,bool &result);
+功能描述
+该函数可以判断本体点位target和外部轴点位syncTarget是否超限，结果由result返回，result值为true表示可以到
+达，值为false表示不可到达。
+参数说明
+输入参数：
+target  see NRC_Position
+syncTarget  see NRC_SyncPosition
+输出参数：
+result  true表示可以到达，值为false表示不可到达
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetIdentityParam
+函数原型
+int NRC_SetIdentityParam(int size,int vel,double& zMax,double& zMin);
+功能描述
+该函数用于设置动力学辨识所需的两个参数并返回当前轨迹范围下机器人末端在Z坐标轴上的最大值和最小值。
+参数说明
+输入参数：
+size,控制辨识轨迹的范围
+vel,控制辨识轨迹的速度
+输出参数：
+zMax末端运行到的Z的最大值
+zMin末端运行到的Z的最小值
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+动力学辨识过程中机器人会大幅度运动，因此要确保机器人的运动范围内空旷，无障碍物。执行动力学辨识功
+能前请认真阅读以下注意事项：
+ * 1.目前动力学辨识功能只适用于六轴机器人空载状态下对本体进行辨识。
+ * 2.该辨识方法所得动力学参数与手填动力学参数无关。
+ * 3.执行辨识程序前确保机器人的运动范围内空旷，无障碍物。
+ * 4.辨识轨迹的范围由参数size控制，100时为最大范围；辨识轨迹的速度由参数vel控制，100时为最大速度，
+此时辨识轨迹运行时间为10秒。
+ * 5.辨识轨迹的参数的设置规则：首先设定一个较小的vel值(建议20)，并设置一个较小的size值(建议20)，并执
+行安全检测程序(NRC_RunSafeCheckProgram)，
+ * 在安全的基础上逐步增大size的值，直至达到最大的安全运行范围(此时size值可能未达到100，取决于机器人
+的运行环境)。
+ * 在得到环境所允许的最大size值后，把vel值设置为100，执行辨识程序(NRC_RunIdentifyProgram)。
+ * 6.执行辨识时vel值必须是100，而size值没有固定值(理论上size越接近100辨识精度越高)。
+NRC_RunSafeCheckProgram
+
+
+## Page 86
+
+函数原型
+int NRC_RunSafeCheckProgram();
+功能描述
+运行范围安全检测程序，该函数功能是运行一次动力学辨识的轨迹，以便确认周围环境是否安全，即确保机器
+人进行辨识时不会碰到周围的人或物。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_RunIdentifyProgram
+函数原型
+int NRC_RunIdentifyProgram();
+功能描述
+执行动力学辨识程序，该函数的功能是进行动力学辨识，沿预定轨迹运行十次，每次运行完成后会对获取到的
+数据进行计算并返回理论力矩与实际力矩的误差值。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetIdentifyError
+函数原型
+int NRC_GetIdentifyError(double* error);
+功能描述
+获取十次辨识力矩误差值，该函数的功能是获取十次辨识计算的理论力矩与实际力矩的误差值。
+参数说明
+输出参数：
+error 返回理论力矩与实际力矩的误差值，数组长度为60，每6个数据为一次运行轨迹所得到的误差值，共有十
+次轨迹的误差值
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_StopIdentityProgram
+
+
+## Page 87
+
+函数原型
+int NRC_StopIdentityProgram();
+功能描述
+停止动力学辨识程序。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetCollisionParam
+函数原型
+int NRC_SetCollisionParam(double* param);
+功能描述
+该函数的功能是设置各关节判定发生碰撞时理论力矩与实际力矩的差值的绝对值，该值越大则判断碰撞发生的
+灵敏度越低。
+参数说明
+输入参数：
+param是六位数组，从首元素到尾元素依次表示一到六关节的阈值
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetCollisionSwitch
+函数原型
+int NRC_SetCollisionSwitch(bool param);
+功能描述
+该函数的功能是打开或关闭碰撞检测功能。
+参数说明
+输入参数：
+param true为打开碰撞检测功能，false为关闭碰撞检测功能
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetCollisionSwitch
+
+
+## Page 88
+
+函数原型
+int NRC_GetCollisionSwitch(double* syncangular);
+功能描述
+该函数的功能是查看碰撞检测功能是否打开。
+参数说明
+输出参数：
+param true为碰撞检测功能打开，false为碰撞检测功能关闭
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_CalcConfiguration
+函数原型
+int NRC_CalcConfiguration(double* acsPos,int& conf);
+功能描述
+该函数的功能是计算机器人各关节在acsPos下的形态,仅对R_GENERAL_6S类型机器人有效,其余机器人类型下
+conf值为0。
+参数说明
+输入参数：
+acsPos 六维数组，用于传入机器人各关节位置
+输出参数：
+conf 传出机器人形态值的计算结果,0表示机器人类型不是R_GENERAL_6S,1-8对应机器人的8个形态值
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetSocketCustomProtocalCB
+函数原型
+int NRC_SetSocketCustomProtocalCB(int commandNum,void (*fun)(std::string));
+功能描述
+该函数的功能是自定义socket通讯协议。
+参数说明
+输入参数：
+commandNum 通讯编号,范围 0x9200 - 0x920e
+(*fun)(string) 函数句柄，即commandNum指令要调用的函数
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SendSocketCustomProtocal
+
+
+## Page 89
+
+函数原型
+int NRC_SendSocketCustomProtocal(int commandNum,std::string str);
+功能描述
+发送socket通信。
+参数说明
+输入参数：
+commandNum 通讯编号,范围 0x9200 - 0x920e
+str 发送的内容
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetTeachBoxConnectStatus
+函数原型
+bool NRC_GetTeachBoxConnectStatus();
+功能描述
+获取是否连接了示教盒。
+参数说明
+无
+返回值
+是否连接了示教盒
+备注说明
+无
+NRC_SetJobFileCustomInstructionCB
+函数原型
+int NRC_SetJobFileCustomInstructionCB(bool (*fun)(int,const std::string &,const std::string &));
+功能描述
+该函数的功能是将一个函数绑定到自定义指令中。
+参数说明
+输入参数：
+(*fun)(int,std::string,std::string) 函数指针，即自定义指令要调用的函数
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+回调函数指针中的参数分别为该自定义指令的编号，该自定义指令的字符串参数，该自定义指令调用的点位名
+称（未调用则此参数为空）
+NRC_SetJobFileCustomInstructionPreTreatmentCB
+
+
+## Page 90
+
+函数原型
+int NRC_SetJobFileCustomInstructionPreTreatmentCB(void (*fun)(int,const std::string &,const std::string &));
+功能描述
+该函数的功能是将一个函数绑定到自定义指令的预处理函数中。
+参数说明
+输入参数：
+(*fun)(int,std::string,std::string) 函数指针，即自定义指令要调用的预处理函数
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+回调函数指针中的参数分别为该自定义指令的编号，该自定义指令的字符串参数，该自定义指令调用的点位名
+称（未调用则此参数为空）
+NRC_SetJobFileCustomInstructionPostTreatmentCB
+函数原型
+int NRC_SetJobFileCustomInstructionPostTreatmentCB(void (*fun)(int,const std::string &,const std::string &));
+功能描述
+该函数的功能是将一个函数绑定到自定义指令的后处理函数中。
+参数说明
+输入参数：
+(*fun)(int,std::string,std::string) 函数指针，即自定义指令要调用的后处理函数
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+回调函数指针中的参数分别为该自定义指令的编号，该自定义指令的字符串参数，该自定义指令调用的点位名
+称（未调用则此参数为空）
+NRC_ParseJobfileToAppendRunInstruction
+函数原型
+int NRC_ParseJobfileToAppendRunInstruction(const std::string &fileName, std::vector<NRC_InstrDataBase*>&
+instrVec);
+功能描述
+该函数的功能是把作业文件中的所有指令解析成可以作为追加模式指令的队列。
+参数说明
+输入参数：
+fileName 要解析的作业文件名
+输出参数：
+instrVec 解析完成后得到的追加模式指令队列
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_TriggerErrorReport
+
+
+## Page 91
+
+函数原型
+int NRC_TriggerErrorReport(int kind,const std::string &text);
+功能描述
+用户主动触发报错。
+参数说明
+输入参数：
+kind <消息级别：0:一般消息，1:警告消息，2:错误消息，3:重要消息
+text 报错内容
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetOpenJobFileName
+函数原型
+int NRC_GetOpenJobFileName(std::string& name);
+功能描述
+该函数的功能是获取当前打开的作业文件的名称。
+参数说明
+输出参数：
+name 返回当前打开的作业文件的名称
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SendCursorJumpCmdToTeachbox
+函数原型
+int NRC_SendCursorJumpCmdToTeachbox(const std::string& name, int line);
+功能描述
+调用该接口,将向示教器发送光标跳行命令,示教器响应后,会将光标跳转到指定作业文件的指定行。
+参数说明
+输入参数：
+line 跳转到指定作业文件的指定行
+输出参数：
+name 返回当前打开的作业文件的名称
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SingleSyncAxisMoveJConstVel_For_CustomInstructionCB
+
+
+## Page 92
+
+函数原型
+int NRC_SingleSyncAxisMoveJConstVel_For_CustomInstructionCB(int syncAxis,double vel);
+功能描述
+调用该接口,在运行模式下，外部轴syncAxis将会以恒定的vel运动,同时调用多个该函数只有第一个该函数有效。
+参数说明
+输入参数：
+syncAxis 要运动的外部轴号,从1开始,比如需要外部轴1运动，则syncAxis传入1
+vel 运动的速度，单位度每秒
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_StopSingleSyncAxisMoveJConstVel_For_CustomInstructionCB
+函数原型
+int NRC_StopSingleSyncAxisMoveJConstVel_For_CustomInstructionCB();
+功能描述
+调用该接口,将停止外部轴恒速运动,该接口必须在有外部轴恒速运动状态下调用，否则返回-1。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetSingleSyncAxisMoveJConstVelMoving
+函数原型
+int NRC_GetSingleSyncAxisMoveJConstVelMoving(bool& moving);
+功能描述
+调用该接口获取单个外部轴恒速运动标志位。
+参数说明
+输出参数：
+moving true表示NRC_SingleSyncAxisMoveJConstVel_For_CustomInstructionCB正在生效,false表示
+NRC_SingleSyncAxisMoveJConstVel_For_CustomInstructionCB未生效
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_ResetSyncAxisMultipleTurns
+
+
+## Page 93
+
+函数原型
+int NRC_ResetSyncAxisMultipleTurns(int syncAxis);
+功能描述
+调用该接口，把外部轴当前位置重置到-360°~360°内,效果同示教器界面中的复位外部轴多圈转动量指令,该接口
+仅能重置单个外部轴。
+参数说明
+输入参数：
+要重置的外部轴号,从1开始,比如需要重置外部轴1，则syncAxis传入1
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetFaultResetCB
+函数原型
+int NRC_SetFaultResetCB(void (*fun)());
+功能描述
+该函数的功能是设置清错按键回调函数,不影响控制器本身的清错功能。
+参数说明
+输入参数：
+void (*fun)()  注册一个函数，在示教器按下清错按键时调用改注册的函数
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetRunModeAutoManBegFlag
+函数原型
+int NRC_SetRunModeAutoManBegFlag(bool flag);
+功能描述
+设置切到运行模式自动上电。
+参数说明
+输入参数：
+flag  0-切到运行模式不会自动上电  1-切到运行模式自动上电
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetServoModerOfOperation
+
+
+## Page 94
+
+函数原型
+int NRC_SetServoModerOfOperation(unsigned char moderValue);
+功能描述
+设置伺服运行模式。
+参数说明
+输入参数：
+moderValue 伺服运行模式：3:速度模式PV,８:周期位置模式CSP, 9:周期同步速度模式(CSV), 10:周期同步转矩模
+式(CST)
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_Rbt_SetServoModerOfOperation
+函数原型
+int NRC_Rbt_SetServoModerOfOperation(int rotbotNum, unsigned char moderValue);
+功能描述
+设置伺服运行模式,多机版。
+参数说明
+输入参数：
+rotbotNum 机器人编号(1-4)
+moderValue 伺服运行模式：3:速度模式PV, ８:周期位置模式CSP,  9:周期同步速度模式(CSV),  10:周期同步转矩
+模式(CST)
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_PV_SetTargetVelocity
+函数原型
+int NRC_PV_SetTargetVelocity(int robotNum, unsigned int axisNum, double vel);
+功能描述
+调用该接口,将设置PV模式下运行速度。
+参数说明
+输入参数：
+robotNum  机器人编号(1-4)
+axisNum   轴号,1为起始轴数
+vel   设置速度值　单位r/min
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+仅在PV模式下有用
+NRC_PV_SetTargetAccAndDec
+
+
+## Page 95
+
+函数原型
+int NRC_PV_SetTargetAccAndDec(int robotNum, unsigned int axisNum, double acc, double dec);
+功能描述
+调用该接口,将设置PV模式下运行加速度，减速度。
+参数说明
+输入参数：
+robotNum  机器人编号(1-4)
+axisNum   轴号,1为起始轴数
+acc  加速度值　单位r/min
+dec  减速度值　单位r/min
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+仅在PV模式下有用
+NRC_GetIOConfig
+函数原型
+int NRC_GetIOConfig(int ioNum, int ioType);
+功能描述
+调用该接口,可以返回特定IO板对应的IO端口数量。
+参数说明
+输入参数：
+ioNum  IO板编号, 欲查询连接的IO板，就传入对应IO板编号，范围[1-4]
+ioType  IO端口类型 DIN = 0, DOUT = 1, AIN = 2, AOUT = 3
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+示例：目前共连接3块IO板，查询该IO版DIN端口数：
+
+NRC_GetIOConfig(3，0); // 范围不能超过3
+NRC_GetIOBoardSum
+函数原型
+int NRC_GetIOBoardSum();
+功能描述
+调用该接口,可以返回IO板数量。
+参数说明
+输入参数：
+syncangular运动速度数组，最大长度为 12
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetTargetPosition
+
+
+## Page 96
+
+函数原型
+int NRC_SetTargetPosition(double* targetPosition);
+功能描述
+调用该接口,将设置机器人目标位置。
+参数说明
+输入参数：
+targetPosition 传入各关节的角度位置的数组
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetTargetTorque
+函数原型
+int NRC_SetTargetTorque(signed short* targetTorq);
+功能描述
+设置机器人目标力矩。
+参数说明
+输入参数：
+targetTorq  传入各关节的目标力矩的数组
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetMaxTorque
+函数原型
+int NRC_SetMaxTorque(int axis, signed short torque);
+功能描述
+设置机器人轴最大力矩。
+参数说明
+输入参数：
+axis  轴号
+torque  轴最大力矩 参考:3000
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetMaxTorque
+
+
+## Page 97
+
+函数原型
+int NRC_GetMaxTorque(int axis, signed short& torque);
+功能描述
+获取机器人轴最大力矩。
+参数说明
+输入参数：
+axis  轴号
+输出参数：
+torque  轴最大力矩存储变量
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_Rbt_SetMaxTorque
+函数原型
+int NRC_Rbt_SetMaxTorque(int robotNum, int axis, signed short torque);
+功能描述
+获取机器人轴最大力矩，多机版。
+参数说明
+输入参数：
+robotNum 传入机器人编号(1-4)
+axis  轴号
+输出参数：
+torque  轴最大力矩存储变量
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetActualTorque
+函数原型
+int NRC_GetActualTorque(int robotNum, int axis, signed short& torque);
+功能描述
+获取机器人轴实际力矩。
+参数说明
+输入参数：
+robotNum  传入机器人编号(1-4)
+axis  轴号
+输出参数：
+torque  轴实际力矩存储变量
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetActualCurrent
+
+
+## Page 98
+
+函数原型
+int NRC_GetActualCurrent(int robotNum, int axis, signed short& current);
+功能描述
+获取实际电流。
+参数说明
+输入参数：
+robotNum  传入机器人编号(1-4)
+axis  轴号
+输出参数：
+current 电流存储变量
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetMaxCurrent
+函数原型
+int NRC_GetMaxCurrent(int robotNum, int axis, signed short& current);
+功能描述
+获取最大电流。
+参数说明
+输入参数：
+robotNum  传入机器人编号(1-4)
+axis  轴号
+输出参数：
+current 最大电流存储变量
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetOverTolerance
+函数原型
+int NRC_SetOverTolerance(int axis, unsigned int tolerance);
+功能描述
+设置机器人轴超差。
+参数说明
+输入参数：
+axis  轴号
+tolerance  机器人轴最大超差
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_Rbt_SetOverTolerance
+
+
+## Page 99
+
+函数原型
+int NRC_Rbt_SetOverTolerance(int robotNum, int axis, unsigned int tolerance);
+功能描述
+设置机器人轴超差，多机版。
+参数说明
+输入参数：
+robotNum 传入机器人编号(1-4)
+axis  轴号
+tolerance  机器人轴最大超差
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetTolerance
+函数原型
+int NRC_GetTolerance(int axis, unsigned int& tolerance);
+功能描述
+获取机器人轴超差。
+参数说明
+输入参数：
+axis  轴号
+输出参数：
+tolerance  轴超差存储变量
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_Rbt_GetTolerance
+函数原型
+int NRC_Rbt_GetTolerance(int robotNum, int axis, unsigned int& tolerance);
+功能描述
+获取机器人轴超差，多机版。
+参数说明
+输入参数：
+robotNum 传入机器人编号(1-4)
+axis  轴号
+输出参数：
+tolerance  轴超差存储变量
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_ShieldFollowError
+
+
+## Page 100
+
+函数原型
+int NRC_ShieldFollowError(int axis, bool shield);
+功能描述
+屏蔽机器人轴跟随误差。
+参数说明
+输入参数：
+axis  轴号
+shield  屏蔽
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_robotRunCycle_Callback
+函数原型
+int NRC_robotRunCycle_Callback(void (*fun)());
+功能描述
+设置一个自定义的无参函数，调用该接口,将每个EtherCat通讯周期(默认1ms)回调一次。
+参数说明
+输入参数：
+void (*fun)()  注册一个无返回值无参的函数，每个EtherCat通讯周期调用一次该函数
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+回调函数中不得含有任何耗时操作
+NRC_GetServoMode
+
+
+## Page 101
+
+函数原型
+int NRC_GetServoMode(int *servoMode);
+功能描述
+获取伺服运行模式。
+参数说明
+输出参数：
+servoMode 以数组形式返回每个伺服运行模式：
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+servoMode ：以数组形式返回每个伺服运行模式：
+* 0-模式不变；
+*1-规划位置模式（PP）；
+*2-速度模式（VL）；
+*3-规划速度模式（PV）；
+*4-规划转矩模式（PT）；
+*5-保留；
+*6-寻原点模式（HM）；
+*7-插补位置模式（IP），暂不支持；
+*8-周期同步位置模式（CSP）；
+*9-周期同步速度模式（CSV）；
+*10-周期同步转矩模式（CST）。
+NRC_SetTargetVelocity
+函数原型
+int NRC_SetTargetVelocity(int *axisVel);
+功能描述
+设置目标速度值。
+参数说明
+输入参数：
+axisVel  传入一个double数组设置速度值(注:数组的大小需要和当前机器人轴数一致)
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetJogMoveCalculateNum
+函数原型
+int NRC_SetJogMoveCalculateNum(int num);
+功能描述
+设置点动插补点位个数。
+参数说明
+输入参数：
+num  点位个数
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+
+
+## Page 102
+
+NRC_GetPlanningPosition
+函数原型
+int NRC_GetPlanningPosition(int axisSum, double *axisPosition);
+功能描述
+获取规划队列的第一个点位。
+参数说明
+输入参数：
+axisSum  机器人总轴数
+输出参数：
+axisPosition  返回获取点位的结果,数组纬度是axisSum
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetRobotSum
+函数原型
+int NRC_GetRobotSum(int &robotSum);
+功能描述
+获取机器人数量。
+参数说明
+输出参数：
+robotSum 传入一个int变量,以引用的方式返回当前的机器人数量;
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_ShieldedTeachingPendant
+函数原型
+int NRC_ShieldedTeachingPendant(bool status);
+功能描述
+调用该接口,将屏蔽示教器连接状态检测(需要在系统启动函数前调用)。
+参数说明
+输入参数：
+status 传入的状态 true:屏蔽和示教器的通讯　false:打开和示教器的通讯
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetControlCycle
+
+
+## Page 103
+
+函数原型
+int NRC_GetControlCycle();
+功能描述
+获取控制器与伺服的通讯周期。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_EncoderZeroOffsetSync
+函数原型
+int NRC_EncoderZeroOffsetSync(int updateAxis,double offset);
+功能描述
+设置外部轴零点偏移。
+参数说明
+输入参数：
+updateAxis  需要偏移的外部轴号，范围[1,5]
+offset  偏移量
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetEncoderPosition
+函数原型
+int NRC_GetEncoderPosition(int slaveNum);
+功能描述
+获取编码器点位 。
+参数说明
+输入参数：
+slaveNum  轴号
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetCustomFileTransfer
+
+
+## Page 104
+
+函数原型
+void NRC_SetCustomFileTransfer(const NRC_FileParam & fileParamVector);
+功能描述
+设置可导入导出的自定义配置文件。
+参数说明
+输入参数：
+fileParamVector 配置文件参数
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+fileParamVector 示例："global.json","config/global.json","1.0.0"
+NRC_SetRobotMode
+函数原型
+int NRC_SetRobotMode(int mode);
+功能描述
+设置机器人为多机模式。
+参数说明
+输入参数：
+mode 0-单机模式  1-多机模式
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_TcpCalculate
+函数原型
+int NRC_TcpCalculate(int robotNum, NRC_Position pos, const NRC_Position& deviation, NRC_COORD coord,
+NRC_Position& resultPos);
+功能描述
+计算特定坐标系下，点位进行固定距离偏移后的位置。
+参数说明
+输入参数：
+robotNum  机器人编号1-4
+pos  要进行偏移的点
+coord  坐标系
+输出参数：
+deviation  偏移距离
+resultPos 计算结果存储点位
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetStatusWord
+
+
+## Page 105
+
+函数原型
+int NRC_GetStatusWord(int robotNum, int axis, signed short& value);
+功能描述
+读取伺服状态字。
+参数说明
+输入参数：
+robotNum  传入机器人编号(1-4)
+axis  轴号
+输出参数：
+value  状态值存储变量
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetCommunicationParam
+函数原型
+int NRC_SetCommunicationParam( const std::string& ip, int port, int robot, int craft, int type, int numberSystem,
+const std::string& frameHeader, const std::string& separator, const std::string& terminator);
+功能描述
+调用该接口用于设置外部TCP通信的相关参数。
+参数说明
+输入参数：
+ip  IP地址，指定外部通信的目标IP
+port  端口号，指定外部通信的目标端口
+robot  机器人编号1-4
+craft  工艺编号  1-9
+type  0服务端  1客户端
+numberSystem  0 十进制 1十六进制
+frameHeader  帧头，用于标识通信数据的开始
+separator  分隔符，用于分隔通信数据中的不同部分
+terminator 终止符，用于标识通信数据的结束
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetCommunicationStatus
+
+
+## Page 106
+
+函数原型
+int NRC_SetCommunicationStatus(bool status, int craft, int robot);
+功能描述
+设置TCP通信的开关。
+参数说明
+输入参数：
+status  true开启  false关闭
+craft 工艺编号  1-9
+robot  机器人编号1-4
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_SetTcpMessageCallback
+函数原型
+int NRC_SetTcpMessageCallback(void (*callback)(const std::string& message));
+功能描述
+设置外部TCP通信收到消息的回调函数。
+参数说明
+输入参数：
+callback 回调函数指针
+message接收到的数据
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_CommSendMessage
+函数原型
+int NRC_CommSendMessage(const std::string& message, int craft, int robot);
+功能描述
+调用该接口,将向控制器发送消息。
+参数说明
+输入参数：
+message  发送的数据
+craft 工艺编号  1-9
+robot 机器人编号1-4
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetModbusSlaveConnectStatus
+
+
+## Page 107
+
+函数原型
+int NRC_GetModbusSlaveConnectStatus(bool& status);
+功能描述
+获取modbus从站连接状态。
+参数说明
+输出参数：
+status  获取到的连接状态
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_GetModbusMasterConnectStatus
+函数原型
+int NRC_GetModbusMasterConnectStatus(int craft, bool& status);
+功能描述
+获取modbus主站连接状态。
+参数说明
+输入参数：
+craft  工艺编号
+输出参数：
+status  获取到的连接状态
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+二次开发API（作业文件，指令操作）
+
+
+## Page 108
+
+NRC_CreateJobfile
+新建作业文件。
+NRC_OpenJobfile
+打开作业文件。
+NRC_DeleteJobfile
+删除作业文件。
+NRC_JudgeJobIsExist
+检测作业文件是否存在。
+NRC_CreatePthreadJobfile
+新建局部后台程序。
+NRC_OpenPthreadJobfile
+打开局部后台程序。
+NRC_DeletePthreadJobfile
+删除局部后台程序。
+NRC_JudgePthreadJobIsExist
+检测局部后台程序是否存在。
+NRC_GetJobfileLineSum
+当前打开的作业文件的总行数。
+NRC_StartRunJobfile
+开始/继续运行作业文件。
+NRC_StepRunJobfile
+单步运行作业文件一行指令。
+NRC_PauseRunJobfile
+暂停运行作业文件。
+NRC_StopRunJobfile
+停止运行作业文件。
+NRC_GetDistanceToOldTrack
+获取当前位置距离原插补轨迹停止点的距离。
+NRC_StopRunJobfileNotPoweroff
+停止运行作业文件并且不下使能。
+NRC_GetCurrentOrderRuns
+获取当前程序执行方向是顺序执行还是倒叙执行。
+NRC_CreateNoFlieRunqueue
+创建一个无文件运行队列。
+NRC_StartRunNoFlieRunqueue
+单步运行作业文件一行指令。
+NRC_PauseRunNoFlieRunqueue
+暂停运行无文件运行队列。
+NRC_StopRunNoFlieRunqueue
+停止运行无文件运行队列。
+NRC_StopRunNoFlieRunqueueNotPowero
+ff
+运动队列停止运行并且不下使能。
+NRC_JobfileEraseCmd
+删除作业文件指令。
+NRC_InsertNoFlieRunqueue
+将一组指令数据插入到运行队列中。
+NRC_OpenInstrAppendRunMode
+开启追加运行模式，添加运行队列即可直接响应运行。
+NRC_CloseInstrAppendRunMode
+关闭追加运行模式。
+NRC_AppendRunInstr
+追加运行模式下,添加运行队列。
+NRC_PauseInstrAppendRun
+暂停追加运行。
+NRC_PauseInstrAppendRunAsynchronous
+异步暂停追加运行。
+NRC_RestartInstrAppendRun  
+再启动追加运行。
+NRC_PauseInstrAppendedRunInBreakpoi
+nt
+断点模式暂停追加运行。
+NRC_RestartInstrAppendRunInBreakpoint
+断点模式重启追加运行。
+NRC_StopInstrAppendRun
+停止追加运行。
+NRC_StopInstrAppendRunNotPoweroff
+停止已追加的运行。
+NRC_GetIsInstrAppendRunMode
+获取当前是否是追加运行模式。
+NRC_GetRestAppendInstrNum
+获取追加运行当前剩余指令数目。
+
+
+## Page 109
+
+NRC_GetCurrentInstrRestPosNum
+获取当前运行指令剩余点数。
+NRC_SetCompleteOneInstrCallBack
+设置执行完一条指令时的回调函数，当执行完一条指令时，将会调用此回调函
+数。
+NRC_SetCompleteOneInstrCallBack
+设置执行完一条指令时的回调函数，当执行完一条指令时，将会调用此回调函
+数，该回调函数会将用户参数传入。
+NRC_RunqueueInsertMOVJ
+运行队列插入MOVJ指令。
+NRC_RunqueueInsertMOVL
+运行队列插入MOVL指令。
+NRC_RunqueueInsertMOVS
+运行队列插入MOVS指令。
+NRC_RunqueueInsertMOVC
+运行队列插入MOVC指令。
+NRC_RunqueueInsertIMOV
+运行队列插入IMOV指令。
+NRC_RunqueueInsertDOUT
+运行队列插入DOUT指令。
+NRC_RunqueueInsertTIMER
+运行队列插入TIMER指令。
+NRC_RunqueueInsertWAIT
+运行队列插入WAIT指令。
+NRC_RunqueueInsertUNTIL
+运行队列插入UNTIL指令。
+NRC_RunqueueInsertENDUNTIL
+运行队列插入ENDUNTIL指令。
+NRC_RunqueueInsertIF
+运行队列插入IF指令。
+NRC_RunqueueInsertWHILE
+运行队列插入WHILE指令。
+NRC_RunqueueInsertELSE
+运行队列插入ELSE指令。
+NRC_RunqueueInsertENDWHILE
+运行队列插入ENDWHILE指令。
+NRC_RunqueueInsertENDIF
+运行队列插入ENDIF指令。
+NRC_RunqueueInsertPALON
+运行队列插入PALON指令。
+NRC_RunqueueInsertPALOFF
+运行队列插入PALOFF指令。
+NRC_RunqueueInsertPALGRIPPER
+运行队列插入PALGRIPPER指令。
+NRC_RunqueueInsertPALCLEAR
+运行队列插入PALCLEAR指令。
+NRC_RunqueueInsertPALENTER
+运行队列插入PALENTER指令。
+NRC_RunqueueInsertPALSHIFT
+运行队列插入PALSHIFT指令。
+NRC_RunqueueInsertPALREAL
+运行队列插入PALREAL指令。
+NRC_RunqueueInsertTOFFSETON
+运行队列插入TOFFSETON指令。
+NRC_RunqueueInsertTOFFSETOFF
+运行队列插入TOFFSETOFF指令。
+NRC_RunqueueInsertARCON
+运行队列插入ARCON指令。
+NRC_RunqueueInsertARCOFF
+运行队列插入ARCOFF指令。
+NRC_RunqueueInsertCustomInstruction
+运行队列插入CustomInstruction指令。
+NRC_JobfileInsertMOVJ
+作业文件插入MOVJ指令。
+NRC_JobfileInsertMOVL
+作业文件插入MOVL指令。
+NRC_JobfileInsertMOVS
+作业文件插入MOVS指令。
+NRC_JobfileInsertMOVC
+作业文件插入MOVC指令。
+NRC_JobfileInsertIMOV
+作业文件插入IMOV指令。
+
+
+## Page 110
+
+NRC_JobfileInsertDOUT
+作业文件插入DOUT指令。
+NRC_JobfileInsertTIMER
+作业文件插入TIMER指令。
+NRC_JobfileInsertWAIT
+作业文件插入WAIT指令。
+NRC_JobfileInsertUNTIL
+作业文件插入UNTIL指令。
+NRC_JobfileInsertENDUNTIL
+作业文件插入ENDUNTIL指令。
+NRC_JobfileInsertIF
+作业文件插入IF指令。
+NRC_JobfileInsertVarIF
+作业文件插入带参数的IF指令。
+NRC_JobfileInsertWHILE
+作业文件插入WHILE指令。
+NRC_JobfileInsertVarWHILE
+作业文件插入带参数的WHILE指令。
+NRC_JobfileInsertELSE
+作业文件插入ELSE指令。
+NRC_JobfileInsertENDWHILE
+作业文件插入ENDWHILE指令。
+NRC_JobfileInsertENDIF
+作业文件插入ENDIF指令。
+NRC_JobfileInsertPAUSERUN
+作业文件插入PAUSERUN指令。
+NRC_JobfileInsertCONTINUERUN
+作业文件插入CONTINUERUN指令。
+NRC_JobfileInsertSTOPRUN
+作业文件插入STOPRUN指令。
+NRC_JobfileInsertRESTARTRUN
+作业文件插入RESTARTRUN指令。
+NRC_JobfileInsertCMDNOTE
+作业文件插入CMDNOTE指令。
+NRC_JobfileInsertPthreadStart
+作业文件插入PTHREAD_START指令。
+NRC_JobfileInsertPthreadEnd
+作业文件插入PTHREAD_END指令。
+NRC_JobfileInsertSETVAR
+作业文件插入SETVAR指令。
+NRC_JobfileInsertOPCmd
+作业文件插入OPCmd指令。
+NRC_JobfileInsertPALON
+作业文件插入PALON指令。
+NRC_JobfileInsertPALOFF
+作业文件插入PALOFF指令。
+NRC_JobfileInsertPALGRIPPER
+作业文件插入PALGRIPPER指令。
+NRC_JobfileInsertPALCLEAR
+作业文件插入PALCLEAR指令。
+NRC_JobfileInsertPALENTER
+作业文件插入PALENTER指令。
+NRC_JobfileInsertPALSHIFT
+作业文件插入PALSHIFT指令。
+NRC_JobfileInsertPALREAL
+作业文件插入PALREAL指令。
+NRC_JobfileInsertTOFFSETON
+作业文件插入TOFFSETON指令。
+NRC_JobfileInsertTOFFSETOFF
+作业文件插入TOFFSETOFF指令。
+NRC_JobfileInsertARCON
+作业文件插入ARCON指令。
+NRC_JobfileInsertARCOFF
+作业文件插入ARCOFF指令。
+NRC_JobfileInsertCustomInstruction
+作业文件插入CustomInstruction指令。
+NRC_GetRunqueueCurrentRunLine
+获取当前运行队列运行的行号。
+NRC_GetJobfileCurrentRunLine
+获取当前运行作业文件运行的行号。
+NRC_GetCycleIndex
+获取当前作业文件要运行的总次数。
+
+
+## Page 111
+
+NRC_GetCycleCount
+获取当前作业文件已运行的次数。
+NRC_GetCycleTimeSec
+获取当前作业文件已运行的时间。
+NRC_SetCycleIndex
+设置当前作业文件要运行的总次数。
+NRC_RunqueueInsertMOVJEXT
+运行队列插入MOVJEXT指令。
+NRC_JobfileInsertMOVJEXT
+作业文件插入MOVJEXT指令。
+NRC_RunqueueInsertMOVLEXT
+运行队列插入MOVLEXT指令。
+NRC_JobfileInsertMOVLEXT
+作业文件插入MOVLEXT指令。
+NRC_RunqueueInsertMOVCEXT
+运行队列插入MOVCEXT指令。
+NRC_JobfileInsertMOVCEXT
+作业文件插入MOVCEXT指令。
+NRC_JobfileInsertPOSCALALL
+作业文件插入点位全改指令。
+NRC_RunqueueInsertPOSCALALL
+运行队列插入点位全改指令。
+NRC_CreateJobfile
+函数原型
+int NRC_CreateJobfile(std::string jobname);
+功能描述
+新建作业文件。
+参数说明
+输入参数：
+jobname  要新建的作业文件名称
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_OpenJobfile
+函数原型
+int NRC_OpenJobfile(std::string jobname);
+功能描述
+打开作业文件。
+参数说明
+输入参数：
+jobname  要打开的作业文件名称
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_DeleteJobfile
+
+
+## Page 112
+
+函数原型
+int NRC_DeleteJobfile(std::string jobname);
+功能描述
+删除作业文件。
+参数说明
+输入参数：
+jobname  要删除的作业文件名称
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回  
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_JudgeJobIsExist
+函数原型
+int NRC_JudgeJobIsExist(std::string jobname);
+功能描述
+检测作业文件是否存在。
+参数说明
+输入参数：
+jobname  要检测的作业文件名称
+返回值
+返回查询的作业文件是否存在
+0 作业文件不存在
+1 作业文件已存在
+备注说明
+无
+NRC_CreatePthreadJobfile
+函数原型
+int NRC_CreatePthreadJobfile(std::string jobname);
+功能描述
+新建局部后台程序。
+参数说明
+输入参数：
+jobname   要新建的局部后台程序名称
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+后台程序不能插入任何运动指令，只能进行逻辑操作
+NRC_OpenPthreadJobfile
+
+
+## Page 113
+
+函数原型
+int NRC_OpenPthreadJobfile(std::string jobname);
+功能描述
+打开局部后台程序。
+参数说明
+输入参数：
+jobname   要打开的局部后台程序名称
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_DeletePthreadJobfile
+函数原型
+int NRC_DeletePthreadJobfile(std::string jobname);
+功能描述
+删除局部后台程序。
+参数说明
+输入参数：
+jobname   要删除的局部后台程序名称
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_JudgePthreadJobIsExist
+函数原型
+int NRC_JudgePthreadJobIsExist(std::string jobname);
+功能描述
+检测局部后台程序是否存在。
+参数说明
+输入参数：
+jobname   要检测的局部后台程序名称
+返回值
+返回查询的作业文件是否存在
+0 局部后台程序不存在
+1 局部后台程序已存在
+备注说明
+无
+NRC_GetJobfileLineSum
+函数原型
+int NRC_GetJobfileLineSum();
+功能描述
+当前打开的作业文件的总行数。
+参数说明
+无
+返回值
+返回当前打开的作业文件的总行数
+备注说明
+调用该函数前，请先调用
+NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创建或打开一个作业文件
+
+
+## Page 114
+
+NRC_StartRunJobfile
+函数原型
+int NRC_StartRunJobfile(const std::string &jobname);
+功能描述
+开始/继续运行作业文件。
+参数说明
+输入参数：
+ jobname 要开始运行的作业文件，继续运行时该参数无效
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+该函数仅在运行模式下有效！
+成功调用该函数后，机器人将开始运动，请注意安全！
+NRC_StepRunJobfile
+函数原型
+int NRC_StepRunJobfile(const std::string &jobname, int line);
+功能描述
+单步运行作业文件一行指令。
+参数说明
+输入参数：
+ jobname 要单步运行运行的作业文件，继续运行时该参数无效
+line 要单步运行的指令行号，继续运行时该参数无效
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+该函数仅在运行模式下有效！
+成功调用该函数后，机器人将开始运动，请注意安全！
+NRC_PauseRunJobfile
+函数原型
+int NRC_PauseRunJobfile();
+功能描述
+暂停运行作业文件。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+暂停运行作业文件，调用 NRC_StartRunJobfile() 将继续运行
+NRC_StopRunJobfile
+
+
+## Page 115
+
+函数原型
+int NRC_StopRunJobfile();
+功能描述
+停止运行作业文件。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+停止运行作业文件，执行后再调用 NRC_StartRunJobfile(std::string jobname) 将从头开始运行
+NRC_GetDistanceToOldTrack
+函数原型
+int NRC_GetDistanceToOldTrack(int robot, double &distance);
+功能描述
+获取当前位置距离原插补轨迹停止点的距离。
+参数说明
+输入参数：
+robot 机器人编号
+distance 停止点和当前点位的直线距离
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_StopRunJobfileNotPoweroff
+函数原型
+int NRC_StopRunJobfileNotPoweroff();
+功能描述
+停止运行作业文件并且不下使能。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+停止运行作业文件，并且不会下使能，执行后再调用 NRC_StartRunJobfile(std::string jobname) 将从头开始运
+行
+NRC_GetCurrentOrderRuns
+
+
+## Page 116
+
+函数原型
+int NRC_GetCurrentOrderRuns(bool &order);
+功能描述
+获取当前程序执行方向是顺序执行还是倒叙执行。
+参数说明
+输出参数：
+order 执行方向 true/false(顺序执行/倒叙执行)
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_CreateNoFlieRunqueue
+函数原型
+int NRC_CreateNoFlieRunqueue();
+功能描述
+创建一个无文件运行队列。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+创建一个无文件运行队列后，调用插入指令函数后，调用开始运行无文件运行队列函数，即可进行一条或多条
+指令运动
+NRC_StartRunNoFlieRunqueue
+函数原型
+int NRC_StartRunNoFlieRunqueue();
+功能描述
+单步运行作业文件一行指令。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+开始运行后，若要添加新的运行指令，请在本次运行结束后重新重新创建一个无文件运行队列
+成功调用该函数后，机器人将开始运动，请注意安全
+NRC_PauseRunNoFlieRunqueue
+
+
+## Page 117
+
+函数原型
+int NRC_PauseRunNoFlieRunqueue();
+功能描述
+暂停运行无文件运行队列。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+暂停运行无文件运行队列，调用 NRC_StartRunNoFlieRunqueue() 将继续运行
+NRC_StopRunNoFlieRunqueue
+函数原型
+int NRC_StopRunNoFlieRunqueue();
+功能描述
+停止运行无文件运行队列。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+停止后，若要继续运行，请重新创建一个无文件运行队列
+NRC_StopRunNoFlieRunqueueNotPoweroff
+函数原型
+int NRC_StopRunNoFlieRunqueueNotPoweroff();
+功能描述
+运动队列停止运行无文件运行队列并且不下使能。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+停止后，若要继续运行，请重新创建一个无文件运行队列
+NRC_JobfileEraseCmd
+
+
+## Page 118
+
+函数原型
+int NRC_JobfileEraseCmd(int line);
+功能描述
+删除作业文件指令。
+参数说明
+输入参数： 
+line 要删除的指令所在的行号，参数范围：0 < line <= NRC_GetJobfileLineSum()
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_InsertNoFlieRunqueue
+函数原型
+int NRC_InsertNoFlieRunqueue(std::vector<NRC_InstrDataBase*>& instrVec);
+功能描述
+将一组指令数据插入到运行队列中。
+参数说明
+输入参数：
+instrVec 要插入的一组指令数据
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+示例：
+std::vector<NRC_InstrDataBase*> instrVec;
+//可以不创建队列，会自动创建
+instrVec.push_back(new NRC_InstrDataMOVJ(50, pos1, 5));
+instrVec.push_back(new NRC_InstrDataMOVL(30, pos2, 2));
+instrVec.push_back(new NRC_InstrDataMOVC(20, pos0, 3));
+instrVec.push_back(new NRC_InstrDataMOVC(20, pos1, 3));
+NRC_InsertNoFlieRunqueue(instrVec);
+//可以分成多组分次插入，后面插入的会接在之前插入的后面
+instrVec.clear();
+instrVec.push_back(new NRC_InstrDataIMOV(40, dev1, 0));
+instrVec.push_back(new NRC_InstrDataDOUT(5, 1));
+instrVec.push_back(new NRC_InstrDataTIMER(3.3));
+instrVec.push_back(new   NRC_InstrDataWAIT(new NRC_ConditionJudge(NRC_ConditionJudge::INT_, 3,
+NRC_ConditionJudge::LESS, NRC_ConditionJudge::DOUBLE_, 5), 2.2));
+instrVec.push_back(new NRC_InstrDataWAIT(new NRC_ConditionJudge(NRC_ConditionJudge::DIN_, 2,
+NRC_ConditionJudge::EQUAL_TO, NRC_ConditionJudge::CONST_, 1), 0));
+instrVec.push_back(new NRC_InstrDataMOVJ(30, pos1, 1));
+NRC_InsertNoFlieRunqueue(instrVec);
+//开始执行队列
+NRC_StartRunNoFlieRunqueue();
+NRC_OpenInstrAppendRunMode
+
+
+## Page 119
+
+函数原型
+int NRC_OpenInstrAppendRunMode();
+功能描述
+开启追加运行模式，添加运行队列即可直接响应运行。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+成功调用该函数后，机器人自动上使能，请注意安全
+只有伺服在就绪状态下才可开启追加运行模式，即 NRC_GetServoStatus() == 1 时
+在追加运行模式中，出现伺服报错、运行报错、解析报错，将自动退出追加运行模式，并下使能
+在追加运行模式中，切换示教、运行模式，将会自动退出追加运行模式，并下使能
+NRC_CloseInstrAppendRunMode
+函数原型
+int NRC_CloseInstrAppendRunMode();
+功能描述
+关闭追加运行模式。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+成功调用该函数后，机器人会自动下使能
+只有在无运行队列或全部运行队列已运行完毕的情况下才可关闭追加运行模式，即
+NRC_GetProgramRunStatus() == 0 时
+NRC_AppendRunInstr
+
+
+## Page 120
+
+函数原型
+int NRC_AppendRunInstr(std::vector<NRC_InstrDataBase*>& instrVec);
+功能描述
+追加运行模式下,添加运行队列。
+参数说明
+输入参数：
+instrVec  要插入的一组指令数据
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+ 添加运行队列后，机器人将会立即执行加入的队列，请注意安全
+添加的运行队列只能是机器人移动指令
+示例：
+//开启追加运行模式，机器人自动上使能
+NRC_OpenInstrAppendRunMode();
+std::vector<NRC_InstrDataBase*> instrVec;
+instrVec.push_back(new NRC_InstrDataMOVJ(50, pos1, 5));
+instrVec.push_back(new NRC_InstrDataMOVL(30, pos2, 2));
+//添加队列后，机器人直接运行
+NRC_AppendRunInstr(instrVec);
+......
+instrVec.clear();
+instrVec.push_back(new NRC_InstrDataMOVC(20, pos0, 3));
+instrVec.push_back(new NRC_InstrDataMOVC(20, pos1, 3));
+//机器人运行完之前添加的队列后，会接上本次添加的队列
+NRC_AppendRunInstr(instrVec);
+......
+NRC_PauseInstrAppendRun();//暂停运行
+......
+instrVec.clear();
+instrVec.push_back(new NRC_InstrDataMOVJ(50, pos1, 5));
+instrVec.push_back(new NRC_InstrDataMOVL(30, pos2, 2));
+//暂停时添加的队列，调用再启动运行后，也可正常运行
+NRC_AppendRunInstr(instrVec);
+......
+NRC_RestartInstrAppendRun();//再启动运行
+......
+//停止运行，机器人停止，并清空全部队列
+NRC_StopInstrAppendRun();
+//关闭追加运行模式，机器人自动下使能
+NRC_CloseInstrAppendRunMode();
+NRC_PauseInstrAppendRun
+函数原型
+NRC_PauseInstrAppendRun();NRC_PauseInstrAppendRun();
+功能描述
+暂停追加运行。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+成功调用该函数后，机器人将暂停运行，该函数会在机器人停止后或调用500毫秒后退出,调用
+NRC_RestartInstrAppendRun() 可继续运行
+暂停时添加的运行队列，不会立刻运行，而是放入缓存队列中，调用再启动后，才会运行该队列
+
+
+## Page 121
+
+NRC_PauseInstrAppendRunAsynchronous
+函数原型
+int NRC_PauseInstrAppendRunAsynchronous();
+功能描述
+异步暂停追加运行。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+成功调用该函数后，机器人将暂停运行，该函数会直接退出,调用 NRC_RestartInstrAppendRun() 可继续运行
+暂停时添加的运行队列，不会立刻运行，而是放入缓存队列中，调用再启动后，才会运行该队列
+NRC_RestartInstrAppendRun  
+函数原型
+int NRC_RestartInstrAppendRun();
+功能描述
+再启动追加运行。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+在机器人将暂停时，调用该函数可使机器人继续运行
+NRC_PauseInstrAppendedRunInBreakpoint
+函数原型
+int NRC_PauseInstrAppendedRunInBreakpoint();
+功能描述
+断点模式暂停追加运行。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+成功调用该函数后，机器人将暂停运行，并记录当前断点处运行状态，下电，该函数会在机器人停止后或调用
+500毫秒后退出,调用 NRC_RestartInstrAppendRunInBreakpoint() 可继续运行
+暂停时添加的运行队列，不会立刻运行，而是放入缓存队列中，调用再启动后，才会运行该队列
+NRC_RestartInstrAppendRunInBreakpoint
+
+
+## Page 122
+
+函数原型
+int NRC_RestartInstrAppendRunInBreakpoint();
+功能描述
+断点模式重启追加运行。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+在机器人断点停止时，调用该函数可使机器人继续运行
+NRC_StopInstrAppendRun
+函数原型
+int NRC_StopInstrAppendRun();
+功能描述
+停止追加运行。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+成功调用该函数后，机器人将停止运行，并清空全部运行队列，退出追加模式
+NRC_StopInstrAppendRunNotPoweroff
+函数原型
+int NRC_StopInstrAppendRunNotPoweroff();
+功能描述
+停止已追加的运行。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+成功调用该函数后，机器人将停止运行，并清空全部运行队列，仍在追加模式，不下电
+需要调用 NRC_RestartInstrAppendRun() 才能继续运行新追加队列
+NRC_GetIsInstrAppendRunMode
+函数原型
+int NRC_GetIsInstrAppendRunMode();
+功能描述
+获取当前是否是追加运行模式。
+参数说明
+无
+返回值
+当前是否是追加运行模式 0-当前不是追加运行模式  1-当前处于追加运行模式
+备注说明
+无
+
+
+## Page 123
+
+NRC_GetRestAppendInstrNum
+函数原型
+int NRC_GetRestAppendInstrNum();
+功能描述
+获取追加运行当前剩余指令数目。
+参数说明
+无
+返回值
+当前剩余指令数目
+备注说明
+对于MOVC指令，两条为一对，在插入指令时，插入了两条，但在运行时，是记作一条的
+NRC_GetCurrentInstrRestPosNum
+函数原型
+int NRC_GetCurrentInstrRestPosNum();
+功能描述
+获取当前运行指令剩余点数。
+参数说明
+无
+返回值
+当前运行指令剩余点数。
+当该指令未计算计算时，返回为-1。
+备注说明
+无
+NRC_SetCompleteOneInstrCallBack
+函数原型
+int NRC_SetCompleteOneInstrCallBack(void (*fun)());
+功能描述
+设置执行完一条指令时的回调函数，当执行完一条指令时，将会调用此回调函数。
+参数说明
+输入参数：
+fun 回调函数的函数指针
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+该函数与 NRC_SetCompleteOneInstrCallBack(void (*fun)(NRC_InstrDataBase::NRC_UserParam)) ，仅最后一
+次调用的函数生效
+该回调函数不可含有耗时操作，否则将对程序的运行产生严重影响
+NRC_SetCompleteOneInstrCallBack
+
+
+## Page 124
+
+函数原型
+int NRC_SetCompleteOneInstrCallBack(void (*fun)(NRC_InstrDataBase::NRC_UserParam));
+功能描述
+设置执行完一条指令时的回调函数，当执行完一条指令时，将会调用此回调函数，该回调函数会将用户参数传
+入。
+参数说明
+输入参数：
+fun 回调函数的函数指针
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+该函数与 NRC_SetCompleteOneInstrCallBack(void (*fun)(NRC_InstrDataBase::NRC_UserParam)) ，仅最后一
+次调用的函数生效
+该回调函数不可含有耗时操作，否则将对程序的运行产生严重影响
+NRC_RunqueueInsertMOVJ
+函数原型
+int NRC_RunqueueInsertMOVJ(int vel, int acc, int dec, const NRC_Position& target, int pl=0,int tm = 0);
+功能描述
+运行队列插入MOVJ指令。
+参数说明
+输入参数： 
+vel 机器人的运行速度，为机器人最大速度的百分比，参数范围：0 < vel <= 100
+acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+target 机器人运动目标位置
+pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范围：0 <= pl <=
+5
+tm 提前执行时间，本条指令运行结束前 tm 秒开始执行下一条指令
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+NRC_RunqueueInsertMOVL
+
+
+## Page 125
+
+函数原型
+int NRC_RunqueueInsertMOVL(int vel, int acc, int dec, const NRC_Position& target, int pl=0,int tm = 0);
+功能描述
+运行队列插入MOVL指令。
+参数说明
+输入参数： 
+vel 机器人的运行速度，为机器人最大速度的百分比，参数范围：0 < vel <= 100
+acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+target 机器人运动目标位置
+pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范围：0 <= pl <=
+5
+tm 提前执行时间，本条指令运行结束前 tm 秒开始执行下一条指令
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+NRC_RunqueueInsertMOVS
+函数原型
+int NRC_RunqueueInsertMOVS(int vel, int acc, int dec, const NRC_Position& target, int pl=0,int tm = 0);
+功能描述
+运行队列插入MOVS指令。
+参数说明
+输入参数： 
+vel 机器人的运行速度，为机器人最大速度的百分比，参数范围：0 < vel <= 100
+acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+target 机器人运动目标位置
+pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范围：0 <= pl <=
+5
+tm 提前执行时间，本条指令运行结束前 tm 秒开始执行下一条指令
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+NRC_RunqueueInsertMOVC
+
+
+## Page 126
+
+函数原型
+int NRC_RunqueueInsertMOVC(int vel, int acc, int dec, const NRC_Position& target, int pl=0,int tm = 0);
+功能描述
+运行队列插入MOVC指令。
+参数说明
+输入参数： 
+vel 机器人的运行速度，为机器人最大速度的百分比，参数范围：0 < vel <= 100
+acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+target 机器人运动目标位置
+pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范围：0 <= pl <=
+5
+tm 提前执行时间，本条指令运行结束前 tm 秒开始执行下一条指令
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+NRC_RunqueueInsertIMOV
+函数原型
+int NRC_RunqueueInsertIMOV(int vel, int acc, int dec, const NRC_Position& deviation, int pl=0,int tm = 0);
+功能描述
+运行队列插入IMOV指令。
+参数说明
+输入参数： 
+vel 机器人的运行速度，为机器人最大速度的百分比，参数范围：0 < vel <= 100
+acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+target 机器人运动目标位置
+pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范围：0 <= pl <=
+5
+tm 提前执行时间，本条指令运行结束前 tm 秒开始执行下一条指令
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+NRC_RunqueueInsertDOUT
+
+
+## Page 127
+
+函数原型
+int NRC_RunqueueInsertDOUT(int port, int value, double time_sec);
+功能描述
+运行队列插入DOUT指令。
+参数说明
+输入参数： 
+port 要输出的数字输出端口号，参数范围：port > 0
+value 端口输出的状态 0-输出低电平 1-输出高电平
+timeSec 端口输出的状态持续时间
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+NRC_RunqueueInsertTIMER
+函数原型
+int NRC_RunqueueInsertTIMER(double timeSec);
+功能描述
+运行队列插入TIMER指令。
+参数说明
+输入参数： 
+timeSec 要延时的时间，单位为秒，参数范围：timeSec > 0
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+NRC_RunqueueInsertWAIT
+函数原型
+int NRC_RunqueueInsertWAIT( int port, int value, double timeoutSec, bool now = false);
+功能描述
+运行队列插入WAIT指令。
+参数说明
+输入参数： 
+port 要输出的数字输出端口号，参数范围：port > 0
+value 端口输出的状态 0-输出低电平 1-输出高电平
+timeoutSec 超时时间，单位为秒，参数范围：timeSec >= 0
+now  PL是否连续  true 连续  false 不连续
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+NRC_RunqueueInsertUNTIL
+
+
+## Page 128
+
+函数原型
+int NRC_RunqueueInsertUNTIL( int port, int value);
+功能描述
+运行队列插入UNTIL指令。
+参数说明
+输入参数： 
+port  要检测的数字输入端口号，参数范围：port > 0
+value 端口输出的状态 0-输出低电平 1-输出高电平
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+NRC_RunqueueInsertENDUNTIL
+函数原型
+int NRC_RunqueueInsertENDUNTIL();
+功能描述
+运行队列插入ENDUNTIL指令。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+需要和 NRC_RunqueueInsertUNTIL( int port, int value) 配合使用
+NRC_RunqueueInsertIF
+函数原型
+int NRC_RunqueueInsertIF( int port, int value);
+功能描述
+运行队列插入IF指令。
+参数说明
+输入参数：
+port  要检测的数字输入端口号，参数范围：port > 0
+value 端口输出的状态 0-输出低电平 1-输出高电平
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+需要和 NRC_RunqueueInsertENDIF() 配合使用
+NRC_RunqueueInsertWHILE
+
+
+## Page 129
+
+函数原型
+int NRC_RunqueueInsertWHILE();
+功能描述
+运行队列插入WHILE指令。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+需要和 NRC_RunqueueInsertENDWHILE()配合使用
+NRC_RunqueueInsertELSE
+函数原型
+int NRC_RunqueueInsertELSE();
+功能描述
+运行队列插入ELSE指令。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+需要和 NRC_RunqueueInsertIF( int port, int value) , NRC_RunqueueInsertENDIF() 配合使用
+NRC_RunqueueInsertENDWHILE
+函数原型
+int NRC_RunqueueInsertENDWHILE();
+功能描述
+运行队列插入ENDWHILE指令。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+需要和 NRC_RunqueueInsertWHILE( int port, int value) 配合使用
+NRC_RunqueueInsertENDIF
+
+
+## Page 130
+
+函数原型
+int NRC_RunqueueInsertENDIF();
+功能描述
+运行队列插入ENDIF指令。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+需要和 NRC_RunqueueInsertIF( int port, int value) 配合使用
+NRC_RunqueueInsertPALON
+函数原型
+int NRC_RunqueueInsertPALON(int id, int type, int var1=0, int var2=0, int var3=0);
+功能描述
+运行队列插入PALON指令。
+参数说明
+输入参数：
+id   码垛工艺的工艺号，参数范围：1 <= id <= 99
+type 码垛类型  0-码垛  1-卸垛
+var1 存放当前已码工件总数，0表示不存放，1-100表示变量GI001-GI100，参数范围：0 <= var1 <= 100
+var2 存放当前已码层数，0表示不存放，1-100表示变量GI001-GI100，参数范围：0 <= var1 <= 100
+var3 存放当前层已码工件数，0表示不存放，1-100表示变量GI001-GI100，参数范围：0 <= var1 <= 100
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+需要和 NRC_RunqueueInsertPALOFF(int id, int var) 配合使用
+NRC_RunqueueInsertPALOFF
+函数原型
+int NRC_RunqueueInsertPALOFF(int id, int var=0);
+功能描述
+运行队列插入PALOFF指令。
+参数说明
+输入参数：
+id   码垛工艺的工艺号，参数范围：1 <= id <= 99
+var  存放码垛是否结束判断，0表示不存放，1-100表示变量GB001-GB100，参数范围：0 <= var <= 100
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+需要和 NRC_RunqueueInsertPALON(int id, int type, int var1, int var2, int var3) 配合使用
+NRC_RunqueueInsertPALGRIPPER
+
+
+## Page 131
+
+函数原型
+int NRC_RunqueueInsertPALGRIPPER(int id, int tool);
+功能描述
+运行队列插入PALGRIPPER指令。
+参数说明
+输入参数：
+id   码垛工艺的工艺号，参数范围：1 <= id <= 99
+tool  要更换的抓手编号，参数范围：1 <= id <= 4
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+NRC_RunqueueInsertPALCLEAR
+函数原型
+int NRC_RunqueueInsertPALCLEAR(int id);
+功能描述
+运行队列插入PALCLEAR指令。
+参数说明
+输入参数：
+id   码垛工艺的工艺号，参数范围：1 <= id <= 99
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+NRC_RunqueueInsertPALENTER
+函数原型
+int NRC_RunqueueInsertPALENTER(int id, int moveType, int vel, int acc, int dec, int pl);
+功能描述
+运行队列插入PALENTER指令。
+参数说明
+输入参数：
+id   码垛工艺的工艺号，参数范围：1 <= id <= 99
+moveType  该条指令所使用的插补方式 1-关节插补 2-直线插补 3-圆弧插补
+ vel  机器人的运行速度，插补方式为关节时  为机器人最大速度的百分比，参数范围：0 < vel <= 100，插补方
+式为直线或圆弧时  为机器人末端位置点绝对运行速度，单位为 毫米每秒（mm/s），参数范围：vel > 1
+acc  机器人运行加速度，参数范围：0 < vel <= 100，插补方式为关节时  为机器人各关节最大加速度的百分
+比，插补方式为直线或圆弧时  为机器人笛卡尔最大加速度的百分比
+dec  机器人运行减速度，参数范围：0 < vel <= 100，插补方式为关节时  为机器人各关节最大减速度的百分
+比，插补方式为直线或圆弧时  为机器人笛卡尔最大减速度的百分比
+pl   平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范围：0 <= pl
+<= 5
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+
+
+## Page 132
+
+NRC_RunqueueInsertPALSHIFT
+函数原型
+int NRC_RunqueueInsertPALSHIFT(int id, int moveType, int vel, int acc, int dec, int pl);
+功能描述
+运行队列插入PALSHIFT指令。
+参数说明
+输入参数：
+id   码垛工艺的工艺号，参数范围：1 <= id <= 99
+moveType  该条指令所使用的插补方式 1-关节插补 2-直线插补 3-圆弧插补
+ vel  机器人的运行速度，插补方式为关节时  为机器人最大速度的百分比，参数范围：0 < vel <= 100，插补方
+式为直线或圆弧时  为机器人末端位置点绝对运行速度，单位为 毫米每秒（mm/s），参数范围：vel > 1
+acc  机器人运行加速度，参数范围：0 < vel <= 100，插补方式为关节时  为机器人各关节最大加速度的百分
+比，插补方式为直线或圆弧时  为机器人笛卡尔最大加速度的百分比
+dec  机器人运行减速度，参数范围：0 < vel <= 100，插补方式为关节时  为机器人各关节最大减速度的百分
+比，插补方式为直线或圆弧时  为机器人笛卡尔最大减速度的百分比
+pl   平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范围：0 <= pl
+<= 5
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+NRC_RunqueueInsertPALREAL
+函数原型
+int NRC_RunqueueInsertPALREAL(int id, int moveType, int vel, int acc, int dec, int pl);
+功能描述
+运行队列插入PALREAL指令。
+参数说明
+输入参数：
+id   码垛工艺的工艺号，参数范围：1 <= id <= 99
+moveType  该条指令所使用的插补方式 1-关节插补 2-直线插补 3-圆弧插补
+ vel  机器人的运行速度，插补方式为关节时  为机器人最大速度的百分比，参数范围：0 < vel <= 100，插补方
+式为直线或圆弧时  为机器人末端位置点绝对运行速度，单位为 毫米每秒（mm/s），参数范围：vel > 1
+acc  机器人运行加速度，参数范围：0 < vel <= 100，插补方式为关节时  为机器人各关节最大加速度的百分
+比，插补方式为直线或圆弧时  为机器人笛卡尔最大加速度的百分比
+dec  机器人运行减速度，参数范围：0 < vel <= 100，插补方式为关节时  为机器人各关节最大减速度的百分
+比，插补方式为直线或圆弧时  为机器人笛卡尔最大减速度的百分比
+pl   平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范围：0 <= pl
+<= 5
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+NRC_RunqueueInsertTOFFSETON
+
+
+## Page 133
+
+函数原型
+int NRC_RunqueueInsertTOFFSETON(const NRC_Position& data);
+功能描述
+运行队列插入TOFFSETON指令。
+参数说明
+输入参数：
+data 偏移量
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+需要和 NRC_RunqueueInsertTOFFSETOFF() 配合使用
+NRC_RunqueueInsertTOFFSETOFF
+函数原型
+int NRC_RunqueueInsertTOFFSETOFF();
+功能描述
+运行队列插入TOFFSETOFF指令。
+参数说明
+无
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+需要和NRC_RunqueueInsertTOFFSETON(const NRC_Position& data) 配合使用
+NRC_RunqueueInsertARCON
+函数原型
+int NRC_RunqueueInsertARCON(int id);
+功能描述
+运行队列插入ARCON指令。
+参数说明
+输入参数：
+id  码垛工艺的工艺号，参数范围：1 <= id <= 99
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+需要和 NRC_RunqueueInsertARCOFF(int id) 配合使用
+NRC_RunqueueInsertARCOFF
+
+
+## Page 134
+
+函数原型
+int NRC_RunqueueInsertARCOFF(int id);
+功能描述
+运行队列插入ARCOFF指令。
+参数说明
+输入参数：
+id  码垛工艺的工艺号，参数范围：1 <= id <= 99
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+需要和 NRC_RunqueueInsertARCON(int id) 配合使用
+NRC_RunqueueInsertCustomInstruction
+函数原型
+int NRC_RunqueueInsertCustomInstruction(int id, const std::string& cmd_param = "");
+功能描述
+运行队列插入CustomInstruction指令。
+参数说明
+输入参数：
+id  自定义指令的ID
+cmd_param  自定义指令的标识
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+NRC_JobfileInsertMOVJ
+函数原型
+int NRC_JobfileInsertMOVJ(int line, int vel, int acc, int dec, const NRC_Position& target, int pl=0,int tm = 0);
+功能描述
+作业文件插入MOVJ指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+vel 机器人的运行速度，为机器人最大速度的百分比，参数范围：0 < vel <= 100
+acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+target 机器人运动目标位置
+pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范围：0 <= pl <=
+5
+tm 提前执行时间，本条指令运行结束前 tm 秒开始执行下一条指令
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+
+
+## Page 135
+
+NRC_JobfileInsertMOVL
+函数原型
+int NRC_JobfileInsertMOVL(int line, int vel, int acc, int dec, const NRC_Position& target, int pl=0,int tm = 0);
+功能描述
+作业文件插入MOVL指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+vel 机器人的运行速度，为机器人最大速度的百分比，参数范围：0 < vel <= 100
+acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+target 机器人运动目标位置
+pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范围：0 <= pl <=
+5
+tm 提前执行时间，本条指令运行结束前 tm 秒开始执行下一条指令
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+NRC_JobfileInsertMOVS
+函数原型
+int NRC_JobfileInsertMOVS(int line, int vel, int acc, int dec, const NRC_Position& target, int pl=0,int tm = 0);
+功能描述
+作业文件插入MOVS指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+vel 机器人的运行速度，为机器人最大速度的百分比，参数范围：0 < vel <= 100
+acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+target 机器人运动目标位置
+pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范围：0 <= pl <=
+5
+tm 提前执行时间，本条指令运行结束前 tm 秒开始执行下一条指令
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+NRC_JobfileInsertMOVC
+
+
+## Page 136
+
+函数原型
+int NRC_JobfileInsertMOVC(int line, int vel, int acc, int dec, const NRC_Position& target, int pl=0,int tm = 0);
+功能描述
+作业文件插入MOVC指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+vel 机器人的运行速度，为机器人最大速度的百分比，参数范围：0 < vel <= 100
+acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+target 机器人运动目标位置
+pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范围：0 <= pl <=
+5
+tm 提前执行时间，本条指令运行结束前 tm 秒开始执行下一条指令
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+NRC_JobfileInsertIMOV
+函数原型
+int NRC_JobfileInsertIMOV(int line, int vel, int acc, int dec, const NRC_Position& deviation, int pl=0,int tm =
+0);
+功能描述
+作业文件插入IMOV指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+vel 机器人的运行速度，为机器人最大速度的百分比，参数范围：0 < vel <= 100
+acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+target 机器人运动目标位置
+pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范围：0 <= pl <=
+5
+tm 提前执行时间，本条指令运行结束前 tm 秒开始执行下一条指令
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+deviation.coord为NRC_ACS时，该指令将使用关节插补方式，deviation.coord为其他值时，使用直线插补方式
+NRC_JobfileInsertDOUT
+
+
+## Page 137
+
+函数原型
+int NRC_JobfileInsertDOUT(int line, int port, int value, double time_sec);
+功能描述
+作业文件插入DOUT指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+port 要输出的数字输出端口号，参数范围：port > 0
+value 端口输出的状态 0-输出低电平 1-输出高电平
+time_sec 端口输出的状态持续时间
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+NRC_JobfileInsertTIMER
+函数原型
+int NRC_JobfileInsertTIMER(int line, double timeSec);
+功能描述
+作业文件插入TIMER指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+timeSec 要延时的时间，单位为秒，参数范围：timeSec > 0
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+NRC_JobfileInsertWAIT
+
+
+## Page 138
+
+函数原型
+int NRC_JobfileInsertWAIT(int line,  int port, int value, double timeoutSec, bool now = false);
+功能描述
+作业文件插入WAIT指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+port 要输出的数字输出端口号，参数范围：port > 0
+value 端口输出的状态 0-输出低电平 1-输出高电平
+timeoutSec 超时时间，单位为秒，参数范围：timeSec >= 0
+如果等待timeoutSec时间仍未满足要求，将不再继续等待，本条指令执行结束，值为0时，将无限时间等待，直
+到条件成立
+ now  PL是否连续 true 连续  false 不连续
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+NRC_JobfileInsertUNTIL
+函数原型
+int NRC_JobfileInsertUNTIL(int line,  int port, int value);
+功能描述
+作业文件插入UNTIL指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+port 要输出的数字输出端口号，参数范围：port > 0
+value 端口输出的状态 0-输出低电平 1-输出高电平
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+需要和 NRC_JobfileInsertENDUNTIL(int line) 配合使用
+NRC_JobfileInsertENDUNTIL
+函数原型
+int NRC_JobfileInsertENDUNTIL(int line);
+功能描述
+作业文件插入ENDUNTIL指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+
+
+## Page 139
+
+NRC_JobfileInsertIF
+函数原型
+int NRC_JobfileInsertIF(int line,  int port, int value);
+功能描述
+作业文件插入IF指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+port 要输出的数字输出端口号，参数范围：port > 0
+value 端口输出的状态 0-输出低电平 1-输出高电平
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+NRC_JobfileInsertVarIF
+函数原型
+int NRC_JobfileInsertVarIF(int line, const std::string &varName, NRC_JUDGE type, double value);
+功能描述
+作业文件插入带参数的IF指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+varName 要比较的参数，例如 “GI001”
+type  比较的方法
+value  要比较的大小
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+NRC_JobfileInsertWHILE
+
+
+## Page 140
+
+函数原型
+int NRC_JobfileInsertWHILE(int line,  int port, int value);
+功能描述
+作业文件插入WHILE指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+port 要输出的数字输出端口号，参数范围：port > 0
+value 端口输出的状态 0-输出低电平 1-输出高电平
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+需要和 NRC_JobfileInsertENDWHILE(int line) 配合使用！
+NRC_JobfileInsertVarWHILE
+函数原型
+int NRC_JobfileInsertVarWHILE(int line, const std::string &varName, NRC_JUDGE type, double value);
+功能描述
+作业文件插入带参数的WHILE指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+varName  要比较的参数，例如 “GI001”
+type  比较的方法
+value  要比较的大小
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+需要和 NRC_JobfileInsertENDWHILE(int line) 配合使用！
+NRC_JobfileInsertELSE
+函数原型
+int NRC_JobfileInsertELSE(int line);
+功能描述
+作业文件插入ELSE指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+需要和 NRC_JobfileInsertIF(int line,  int port, int value), NRC_JobfileInsertENDIF(int line) 配合使用
+
+
+## Page 141
+
+NRC_JobfileInsertENDWHILE
+函数原型
+int NRC_JobfileInsertENDWHILE(int line);
+功能描述
+作业文件插入ENDWHILE指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+需要和 NRC_JobfileInsertWHILE(int line,  int port, int value) 配合使用！
+NRC_JobfileInsertENDIF
+函数原型
+int NRC_JobfileInsertENDIF(int line);
+功能描述
+作业文件插入ENDIF指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+需要和 NRC_JobfileInsertIF(int line,  int port, int value) 配合使用
+NRC_JobfileInsertPAUSERUN
+函数原型
+int NRC_JobfileInsertPAUSERUN(int line);
+功能描述
+作业文件插入PAUSERUN指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+需要和 NRC_JobfileInsertIF(int line,  int port, int value) 配合使用
+NRC_JobfileInsertCONTINUERUN
+
+
+## Page 142
+
+函数原型
+int NRC_JobfileInsertCONTINUERUN(int line,int programtype,const std::string& jobName);
+功能描述
+作业文件插入CONTINUERUN指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+programtype  程序类型：1-主程序  2-后台程序
+jobName 程序名
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+NRC_JobfileInsertSTOPRUN
+函数原型
+int NRC_JobfileInsertSTOPRUN(int line);
+功能描述
+作业文件插入STOPRUN指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+需要和 NRC_JobfileInsertIF(int line,  int port, int value) 配合使用
+NRC_JobfileInsertRESTARTRUN
+函数原型
+int NRC_JobfileInsertRESTARTRUN(int line);
+功能描述
+作业文件插入RESTARTRUN指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+需要和 NRC_JobfileInsertIF(int line,  int port, int value) 配合使用
+NRC_JobfileInsertCMDNOTE
+
+
+## Page 143
+
+函数原型
+int NRC_JobfileInsertCMDNOTE(int line,  const std::string note);
+功能描述
+作业文件插入CMDNOTE指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+note 备注内容
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+NRC_JobfileInsertPthreadStart
+函数原型
+int NRC_JobfileInsertPthreadStart(int line,  const std::string &jobName);
+功能描述
+作业文件插入PTHREAD_START指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+jobName 要开启的局部后台程序名称
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+NRC_JobfileInsertPthreadEnd
+函数原型
+int NRC_JobfileInsertPthreadEnd(int line,  const std::string &jobName);
+功能描述
+作业文件插入PTHREAD_END指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+jobName 要结束的局部后台程序名称
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+NRC_JobfileInsertSETVAR
+
+
+## Page 144
+
+函数原型
+int NRC_JobfileInsertSETVAR(int line, std::string varName, double varValue);
+功能描述
+作业文件插入SETVAR指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+varName 要写入的变量名，如“GI001”，“B099”
+varValue 要写入的值
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+NRC_JobfileInsertOPCmd
+函数原型
+int NRC_JobfileInsertOPCmd(int line, const std::string &varName, NRC_OPREATION type, double value);
+功能描述
+作业文件插入OPCmd指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+varName 运算参数
+type 运算类型
+value 运算值
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+NRC_JobfileInsertPALON
+
+
+## Page 145
+
+函数原型
+int NRC_JobfileInsertPALON(int line, int id, int type, int var1=0, int var2=0, int var3=0);
+功能描述
+作业文件插入PALON指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+id  备注内容
+type 码垛类型 0-码垛 1-卸垛
+var1存放当前已码工件总数，0表示不存放，1-100表示变量GI001-GI100，参数范围：0 <= var1 <= 100
+var2存放当前已码层数，0表示不存放，1-100表示变量GI001-GI100，参数范围：0 <= var2 <= 100
+var3存放当前层已码工件数，0表示不存放，1-100表示变量GI001-GI100，参数范围：0 <= var3 <= 100
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+需要和 NRC_JobfileInsertPALOFF(int line, int id, int var) 配合使用
+NRC_JobfileInsertPALOFF
+函数原型
+int NRC_JobfileInsertPALOFF(int line, int id, int var=0);
+功能描述
+作业文件插入PALOFF指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+id  码垛工艺的工艺号，参数范围：1 <= id <= 99
+var 存放码垛是否结束判断，0表示不存放，1-100表示变量GB001-GB100，参数范围：0 <= var <= 100
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+需要和 NRC_JobfileInsertPALON(int line, int id, int type, int var1, int var2, int var3) 配合使用
+NRC_JobfileInsertPALGRIPPER
+
+
+## Page 146
+
+函数原型
+int NRC_JobfileInsertPALGRIPPER(int line, int id, int tool);
+功能描述
+作业文件插入PALGRIPPER指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+id  码垛工艺的工艺号，参数范围：1 <= id <= 99
+tool 要更换的抓手编号，参数范围：1 <= id <= 4
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+NRC_JobfileInsertPALCLEAR
+函数原型
+int NRC_JobfileInsertPALCLEAR(int line, int id);
+功能描述
+作业文件插入PALCLEAR指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+id  码垛工艺的工艺号，参数范围：1 <= id <= 99
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+NRC_JobfileInsertPALENTER
+
+
+## Page 147
+
+函数原型
+int NRC_JobfileInsertPALENTER(int line, int id, int moveType, int vel, int acc, int dec, int pl);
+功能描述
+作业文件插入PALENTER指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+id  码垛工艺的工艺号，参数范围：1 <= id <= 99
+moveType 该条指令所使用的插补方式 1-关节插补 2-直线插补 3-圆弧插补
+vel 机器人的运行速度：
+插补方式为关节时  为机器人最大速度的百分比，参数范围：0 < vel <= 100
+插补方式为直线或圆弧时  为机器人末端位置点绝对运行速度，单位为 毫米每秒（mm/s），参数范围：vel > 1
+acc 机器人运行加速度，参数范围：0 < vel <= 100
+dec 机器人运行减速度，参数范围：0 < vel <= 100
+pl  平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范围：0 <= pl
+<= 5
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+NRC_JobfileInsertPALSHIFT
+函数原型
+int NRC_JobfileInsertPALSHIFT(int line, int id, int moveType, int vel, int acc, int dec, int pl);
+功能描述
+作业文件插入PALSHIFT指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+id  码垛工艺的工艺号，参数范围：1 <= id <= 99
+moveType 该条指令所使用的插补方式 1-关节插补 2-直线插补 3-圆弧插补
+vel 机器人的运行速度：
+插补方式为关节时  为机器人最大速度的百分比，参数范围：0 < vel <= 100
+插补方式为直线或圆弧时  为机器人末端位置点绝对运行速度，单位为 毫米每秒（mm/s），参数范围：vel > 1
+acc 机器人运行加速度，参数范围：0 < vel <= 100
+dec 机器人运行减速度，参数范围：0 < vel <= 100
+pl  平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范围：0 <= pl
+<= 5
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+NRC_JobfileInsertPALREAL
+
+
+## Page 148
+
+函数原型
+int NRC_JobfileInsertPALREAL(int line, int id, int moveType, int vel, int acc, int dec, int pl);
+功能描述
+作业文件插入PALREAL指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+id  码垛工艺的工艺号，参数范围：1 <= id <= 99
+moveType 该条指令所使用的插补方式 1-关节插补 2-直线插补 3-圆弧插补
+vel 机器人的运行速度：
+插补方式为关节时  为机器人最大速度的百分比，参数范围：0 < vel <= 100
+插补方式为直线或圆弧时  为机器人末端位置点绝对运行速度，单位为 毫米每秒（mm/s），参数范围：vel > 1
+acc 机器人运行加速度，参数范围：0 < vel <= 100
+dec 机器人运行减速度，参数范围：0 < vel <= 100
+pl  平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范围：0 <= pl
+<= 5
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+NRC_JobfileInsertTOFFSETON
+函数原型
+int NRC_JobfileInsertTOFFSETON(int line, const NRC_Position& data);
+功能描述
+作业文件插入TOFFSETON指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+data 偏移量
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+需要和 NRC_JobfileInsertTOFFSETOFF(int line) 配合使用
+NRC_JobfileInsertTOFFSETOFF
+
+
+## Page 149
+
+函数原型
+int NRC_JobfileInsertTOFFSETOFF(int line);
+功能描述
+作业文件插入TOFFSETOFF指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+需要和 NRC_JobfileInsertTOFFSETON(int line, const NRC_Position& data) 配合使用
+NRC_JobfileInsertARCON
+函数原型
+int NRC_JobfileInsertARCON(int line, int id);
+功能描述
+作业文件插入ARCON指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+id  码垛工艺的工艺号，参数范围：1 <= id <= 99
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+需要和 NRC_JobfileInsertARCOFF(int line, int id) 配合使用
+NRC_JobfileInsertARCOFF
+函数原型
+int NRC_JobfileInsertARCOFF(int line, int id);
+功能描述
+作业文件插入ARCOFF指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+id  码垛工艺的工艺号，参数范围：1 <= id <= 99
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+需要和 NRC_JobfileInsertARCON(int line, int id) 配合使用
+NRC_JobfileInsertCustomInstruction
+
+
+## Page 150
+
+函数原型
+int NRC_JobfileInsertCustomInstruction(int line, int id, const std::string& cmdParam = "");
+功能描述
+作业文件插入CustomInstruction指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+id 自定义指令的ID
+cmd_param  自定义指令的标识
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+NRC_GetRunqueueCurrentRunLine
+函数原型
+int NRC_GetRunqueueCurrentRunLine();
+功能描述
+获取当前运行队列运行的行号。
+参数说明
+无
+返回值
+返回当前运行队列运行的行号
+备注说明
+无
+NRC_GetJobfileCurrentRunLine
+函数原型
+int NRC_GetJobfileCurrentRunLine();
+功能描述
+获取当前运行作业文件运行的行号。
+参数说明
+无
+返回值
+返回当前运行作业文件运行的行号
+备注说明
+无
+NRC_GetCycleIndex
+函数原型
+int NRC_GetCycleIndex();
+功能描述
+获取当前作业文件要运行的总次数。
+参数说明
+无
+返回值
+返回当前作业文件要运行的总次数
+备注说明
+无
+NRC_GetCycleCount
+
+
+## Page 151
+
+函数原型
+int NRC_GetCycleCount();
+功能描述
+获取当前作业文件已运行的次数。
+参数说明
+无
+返回值
+返回当前作业文件已运行的次数
+备注说明
+无
+NRC_GetCycleTimeSec
+函数原型
+int NRC_GetCycleTimeSec();
+功能描述
+获取当前作业文件已运行的时间。
+参数说明
+无
+返回值
+返回当前作业文件已运行的时间
+备注说明
+无
+NRC_SetCycleIndex
+函数原型
+int NRC_SetCycleIndex(int index);
+功能描述
+设置当前作业文件要运行的总次数。
+参数说明
+输出参数：
+index  当前作业文件要运行的总次数，设置为0时循环运行，参数范围：index >= 0
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_RunqueueInsertMOVJEXT
+
+
+## Page 152
+
+函数原型
+int NRC_RunqueueInsertMOVJEXT(int vel, int acc, int dec, const NRC_Position& target,const
+NRC_SyncPosition& targetSync, int pl = 0,int tm = 0);
+功能描述
+运行队列插入MOVJEXT指令。
+参数说明
+输入参数：
+vel 机器人的运行速度，为机器人最大速度的百分比，参数范围：0 < vel <= 100
+acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+target 机器人运动目标位置，详见 NRC_Position
+targetSync 外部轴运动目标位置，详见 NRC_SyncPosition
+pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范围：0 <= pl <=
+5
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+NRC_JobfileInsertMOVJEXT
+函数原型
+int NRC_JobfileInsertMOVJEXT(int line, int vel, int acc, int dec, const NRC_Position& target,const
+NRC_SyncPosition& targetSync, int pl = 0,int tm = 0);
+功能描述
+作业文件插入MOVJEXT指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+vel 机器人的运行速度，为机器人最大速度的百分比，参数范围：0 < vel <= 100
+acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+target 机器人运动目标位置，详见 NRC_Position
+targetSync 外部轴运动目标位置，详见 NRC_SyncPosition
+pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范围：0 <= pl <=
+5
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+NRC_RunqueueInsertMOVLEXT
+
+
+## Page 153
+
+函数原型
+int NRC_RunqueueInsertMOVLEXT(int vel, int acc, int dec, const NRC_Position& target,const
+NRC_SyncPosition& targetSync, int pl = 0,int tm = 0);
+功能描述
+运行队列插入MOVLEXT指令。
+参数说明
+输入参数：
+vel 机器人的运行速度，为机器人最大速度的百分比，参数范围：0 < vel <= 100
+acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+target 机器人运动目标位置，详见 NRC_Position
+targetSync 外部轴运动目标位置，详见 NRC_SyncPosition
+pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范围：0 <= pl <=
+5
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+NRC_JobfileInsertMOVLEXT
+函数原型
+int NRC_JobfileInsertMOVLEXT(int line, int vel, int acc, int dec, const NRC_Position& target,const
+NRC_SyncPosition& targetSync, int pl = 0,int tm = 0);
+功能描述
+作业文件插入MOVLEXT指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+vel 机器人的运行速度，为机器人最大速度的百分比，参数范围：0 < vel <= 100
+acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+target 机器人运动目标位置，详见 NRC_Position
+targetSync 外部轴运动目标位置，详见 NRC_SyncPosition
+pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范围：0 <= pl <=
+5
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+NRC_RunqueueInsertMOVCEXT
+
+
+## Page 154
+
+函数原型
+int NRC_RunqueueInsertMOVCEXT(int vel, int acc, int dec, const NRC_Position& target,const
+NRC_SyncPosition& targetSync, int pl = 0,int tm = 0);
+功能描述
+运行队列插入MOVCEXT指令。
+参数说明
+输入参数：
+vel 机器人的运行速度，为机器人最大速度的百分比，参数范围：0 < vel <= 100
+acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+target 机器人运动目标位置，详见 NRC_Position
+targetSync 外部轴运动目标位置，详见 NRC_SyncPosition
+pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范围：0 <= pl <=
+5
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateNoFlieRunqueue() 创建一个无文件运行队列
+NRC_JobfileInsertMOVCEXT
+函数原型
+int NRC_JobfileInsertMOVCEXT(int line, int vel, int acc, int dec, const NRC_Position& target,const
+NRC_SyncPosition& targetSync, int pl = 0,int tm = 0);
+功能描述
+作业文件插入MOVCEXT指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+vel 机器人的运行速度，为机器人最大速度的百分比，参数范围：0 < vel <= 100
+acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+target 机器人运动目标位置，详见 NRC_Position
+targetSync 外部轴运动目标位置，详见 NRC_SyncPosition
+pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范围：0 <= pl <=
+5
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+调用该函数前，请先调用 NRC_CreateJobfile(std::string jobname) 或 NRC_OpenJobfile(std::string jobname) 创
+建或打开一个作业文件
+NRC_JobfileInsertPOSCALALL
+
+
+## Page 155
+
+函数原型
+int NRC_JobfileInsertPOSCALALL(int line, std::string pos_name,const NRC_Position& change, const
+NRC_SyncPosition& sync_change);
+功能描述
+作业文件插入点位全改指令。
+参数说明
+输入参数：
+line 将指令插入到第line行，参数范围：0 < line <= (NRC_GetJobfileLineSum()+1)
+pos_name 需要修改的全局点位名称，范围 "GE0001"~"GE9999"
+change 详见 NRC_Position(NRC_COORD coo, int usr, int tool, int con, double axis_pos1, double axis_pos2,
+double axis_pos3, double axis_pos4, double axis_pos5, double axis_pos6, double axis_pos7)
+sync_change 详见 NRC_SyncPosition
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+注意，无论是 change 还是 sync_change，不存在的轴必需传入 99999
+NRC_RunqueueInsertPOSCALALL
+函数原型
+int NRC_RunqueueInsertPOSCALALL(std::string pos_name,const NRC_Position& change, const
+NRC_SyncPosition& sync_change);
+功能描述
+运行队列插入点位全改指令。
+参数说明
+输入参数：
+pos_name 需要修改的全局点位名称，范围 "GE0001"~"GE9999"
+change 详见 NRC_Position(NRC_COORD coo, int usr, int tool, int con, double axis_pos1, double axis_pos2,
+double axis_pos3, double axis_pos4, double axis_pos5, double axis_pos6, double axis_pos7)
+sync_change 详见 NRC_SyncPosition
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+注意，无论是 change 还是 sync_change，不存在的轴必需传入 99999
+二次开发API（码垛工艺）
+概述
+本章旨在帮助用户对于二次开发的库和函数接口的调用，参数的设置等。
+版本信息
+二次开发版
+本
+公司
+1.0.0
+INEXBOT
+
+
+## Page 156
+
+版本迭代
+版本
+修改日期
+修改人
+描述
+1.0.0
+20260402
+Shanyufeng
+初始版本
+函数库 API说明
+此章节用于对函数库的API的功能说明及其使用方法介绍。
+NexIghLib API 函数列表
+函数名称
+函数功能
+NRC_Pallet_SetUsePalletType
+设置使用简易码垛还是完整码垛。
+NRC_Pallet_GetUsePalletType
+获取使用的是使用简易码垛还是完整码垛。
+NRC_Pallet_SetGripperParm
+设置码垛抓手数据。
+NRC_Pallet_GetGripperParm
+获取码垛抓手数据。
+NRC_Pallet_SetSimplePosParm
+设置简易码垛位置数据。
+NRC_Pallet_GetSimplePosParm
+获取简易码垛位置数据。
+NRC_Pallet_SetSimpleNumParm
+设置简易码垛个数数据。
+NRC_Pallet_GetSimpleNumParm
+获取简易码垛个数数据。
+NRC_Pallet_ClearCurrentStatus
+清除码垛当前状态。
+NRC_Pallet_SetPalletedWpNum
+设置码垛已码个数。
+NRC_Pallet_GetPalletedWpNum
+获取码垛已码个数。
+NRC_Pallet_SetUsePalletType
+
+
+## Page 157
+
+函数原型
+int NRC_Pallet_SetUsePalletType(int id, int type);
+功能描述
+设置使用简易码垛还是完整码垛。
+参数说明
+输入参数：
+id  码垛工艺的工艺号，参数范围：1 <= id <= 99
+type  使用的码垛类型  0-简易码垛  1-完整码垛
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_Pallet_GetUsePalletType
+函数原型
+int NRC_Pallet_GetUsePalletType(int id);
+功能描述
+获取使用的是使用简易码垛还是完整码垛。
+参数说明
+输入参数：
+id  码垛工艺的工艺号，参数范围：1 <= id <= 99
+返回值
+使用的码垛类型： 0-简易码垛 1-完整码垛
+备注说明
+无
+NRC_Pallet_SetGripperParm
+函数原型
+int NRC_Pallet_SetGripperParm(int id, int gripperSum, int gripper[4]);
+功能描述
+设置码垛抓手数据。
+参数说明
+输入参数：
+id  码垛工艺的工艺号，参数范围：1 <= id <= 99
+gripperSum 可用抓手总数，参数范围：1 <= gripperSum <= 4
+gripper  每个抓手所绑定的工具坐标号，1 <= gripper[i] <= 9
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_Pallet_GetGripperParm
+
+
+## Page 158
+
+函数原型
+int NRC_Pallet_GetGripperParm((int id, int &gripperSum, int &gripper[4]);
+功能描述
+获取码垛抓手数据。
+参数说明
+输入参数：
+id  码垛工艺的工艺号，参数范围：1 <= id <= 99
+输出参数：
+gripperSum 获取到的可用抓手总数
+gripper  获取到的每个抓手所绑定的工具坐标号
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_Pallet_SetSimplePosParm
+函数原型
+int NRC_Pallet_SetSimplePosParm(int id, int posType, NRC_Position pos);
+功能描述
+设置简易码垛位置数据。
+参数说明
+输入参数：
+id  码垛工艺的工艺号，参数范围：1 <= id <= 99
+posType 简易码垛的位置类型：  - 0 起始工件点  - 1 列末端  - 2 行末端  - 3 高末端  - 4 起始辅助点  - 5 起始入口
+点
+pos 点位数据
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_Pallet_GetSimplePosParm
+函数原型
+int NRC_Pallet_GetSimplePosParm(int id, int posType, NRC_Position& pos);
+功能描述
+获取简易码垛位置数据。
+参数说明
+输入参数：
+id  码垛工艺的工艺号，参数范围：1 <= id <= 99
+posType 简易码垛的位置类型：  - 0 起始工件点  - 1 列末端  - 2 行末端  - 3 高末端  - 4 起始辅助点  - 5 起始入口
+点
+输出参数：
+pos 点位数据
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+
+
+## Page 159
+
+NRC_Pallet_SetSimpleNumParm
+函数原型
+int NRC_Pallet_SetSimpleNumParm(int id, int numX, int numY, int numZ);
+功能描述
+设置简易码垛个数数据。
+参数说明
+输入参数：
+id  码垛工艺的工艺号，参数范围：1 <= id <= 99
+numX 简易码垛在其托盘X方向(对应用户坐标的X方向)上的工件数目，即行数
+numY 简易码垛在其托盘Y方向(对应用户坐标的Y方向)上的工件数目，即列数
+numZ 简易码垛在其托盘Z方向(对应用户坐标的Z方向)上的工件数目，即层数
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_Pallet_GetSimpleNumParm
+函数原型
+int NRC_Pallet_GetSimpleNumParm(int id, int& numX, int& numY, int& numZ);
+功能描述
+获取简易码垛个数数据。
+参数说明
+输入参数：
+id  码垛工艺的工艺号，参数范围：1 <= id <= 99
+输出参数：
+numX 简易码垛在其托盘X方向(对应用户坐标的X方向)上的工件数目，即行数
+numY 简易码垛在其托盘Y方向(对应用户坐标的Y方向)上的工件数目，即列数
+numZ 简易码垛在其托盘Z方向(对应用户坐标的Z方向)上的工件数目，即层数
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_Pallet_ClearCurrentStatus
+函数原型
+int NRC_Pallet_ClearCurrentStatus(int id);
+功能描述
+清除码垛当前状态。
+参数说明
+输入参数：
+id  码垛工艺的工艺号，参数范围：1 <= id <= 99
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+
+
+## Page 160
+
+NRC_Pallet_SetPalletedWpNum
+函数原型
+int NRC_Pallet_SetPalletedWpNum(int id, int layerNum, int layerPalletedWpNum);
+功能描述
+设置码垛已码个数。
+参数说明
+输入参数：
+id  码垛工艺的工艺号，参数范围：1 <= id <= 99
+layerNum 要修改的已码层数
+layerPalletedWpNum 要修改的层已码工件数
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+无
+NRC_Pallet_GetPalletedWpNum
+函数原型
+int NRC_Pallet_GetPalletedWpNum(int id, int& curPalletedWpSum, int& curLayerNum, int&
+curLayerPalletedWpNum, int& totalWpNum, int& totalLayerNum, int& curLayerWpSum);
+功能描述
+获取码垛已码个数。
+参数说明
+输入参数：
+id  码垛工艺的工艺号，参数范围：1 <= id <= 99
+输出参数：
+curPalletedWpSum 当前已码工件数
+curLayerNum 当前已码层数
+curLayerPalletedWpNum 当前层的已码工件数
+totalWpNum 垛堆工件总数
+totalLayerNum 垛堆总层数
+curLayerWpSum 当前层的工件总数
+返回值
+0：函数调用成功返回
+-101：无效的输入参数返回
+-102：目标对象不存在，一般出现在系统初始化未完成时，调用其他函数时可能返回该值返回
+-103：目标对象当前处于不可操作状态返回
+备注说明
+对于用作返回值的6个参数，当其值为-1时，表示个数未知
+示例
+包含自定义指令、虚拟IO板的示例
+自定义指令
+
+
+## Page 161
+
+控制器二次开发demo在相关下载当中的控制器SDK下，自行下载
+1，介绍自定义指令所用到接口函数
+下列函数都包括在SDK中的头文件中:
+/**
+ * @brief 供自定义作业文件指令调用的MOVJ指令，不可直接调用
+ * @param robotNum 机器人编号[1-4]
+ * @param pos　机器人运动目标位置，详见 NRC_Position
+ * @param vel 机器人的运行速度，为机器人最大速度的百分比，参数范围：0 < vel <= 100
+ * @param acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+ * @param dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+ * @param pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范
+围：0 <= pl <= 5
+ * @param moveToNextLine 是否跳行，只需要在最后的一条指令将moveToNextLine置为true
+ */
+void NRC_Jobrun_MoveDirect(int robotNum, const NRC_Position & pos, double vel,  d
+ouble acc, double dec, int pl, bool moveToNextLine = false);
+/**
+ * @brief 供自定义作业文件指令调用的MOVL指令，不可直接调用
+ * @param robotNum 机器人编号[1-4]
+ * @param pos　机器人运动目标位置，详见 NRC_Position
+ * @param vel 机器人的运行速度，为机器人末端位置点绝对运行速度，单位为 毫米每秒（mm/s），参数范
+围：vel > 1
+ * @param acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+ * @param dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+ * @param pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范
+围：0 <= pl <= 5
+ * @param moveToNextLine 是否跳行，只需要在最后的一条指令将moveToNextLine置为true
+ */
+void NRC_Jobrun_MoveLinear(int robotNum, const NRC_Position & pos, double vel, do
+uble acc, double dec, int pl, bool moveToNextLine = false);
+/**
+ * @brief 供自定义作业文件指令调用的MOVC指令，不可直接调用
+ * @param robotNum 机器人编号[1-4]
+ * @param mid_pos,end_pos　机器人运动目标位置，详见 NRC_Position
+ * @param vel 机器人的运行速度，为机器人末端位置点绝对运行速度，单位为 毫米每秒（mm/s），参数范
+围：vel > 1
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+
+
+## Page 162
+
+ * @param acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+ * @param dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+ * @param pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范
+围：0 <= pl <= 5
+ * @param moveToNextLine 是否跳行，只需要在最后的一条指令将moveToNextLine置为true
+ * @note 注意，MOVC不可作为第一条指令运行，且第一次调用时前面必须要有MOVJ或者MOVL指令
+ */
+void NRC_Jobrun_MoveC(int robotNum, const NRC_Position& mid_pos,const NRC_Positio
+n& end_pos, double vel, double acc, double dec, int pl, bool moveToNextLine = fal
+se);
+/**
+ * @brief 供自定义作业文件指令调用的MOVS指令，不可直接调用
+ * @param robotNum 机器人编号[1-4]
+ * @param pos 机器人运动目标位置容器，大小不可小于4(即pos.size() >= 4)，点位设置详见 NRC_Po
+sition
+ * @param vel 机器人的运行速度，为机器人末端位置点绝对运行速度，单位为 毫米每秒（mm/s），参数范
+围：vel > 1
+ * @param acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+ * @param dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+ * @param pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范
+围：0 <= pl <= 5
+ * @param moveToNextLine 是否跳行，只需要在最后的一条指令将moveToNextLine置为true
+ * @note 注意，MOVS不可作为第一条指令运行，且第一次调用时前面必须要有MOVJ或者MOVL指令
+ */
+void NRC_Jobrun_MoveS(int robotNum, int pointNum, const std::vector< NRC_Position
+>& pos, double vel, double acc, double dec, int pl, bool moveToNextLine = false);
+/**
+ * @brief 供自定义作业文件指令调用的IMOV指令，不可直接调用
+ * @param robotNum 机器人编号[1-4]
+ * @param pos 机器人运动目标位置容器，大小不可小于4(即pos.size() >= 4)，点位设置详见 NRC_Po
+sition
+ * @param vel 机器人的运行速度，为机器人末端位置点绝对运行速度，单位为 毫米每秒（mm/s），参数范
+围：vel > 1
+ * @param acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+ * @param dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+ * @param pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范
+围：0 <= pl <= 5
+ * @param moveToNextLine 是否跳行，只需要在最后的一条指令将moveToNextLine置为true
+ * @param tm 提前执行时间，范围：[0,999999],可不填，默认为0
+ * @note 注意，IMOV不可作为第一条指令运行，在其之前必须要有运动类指令
+ */
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+
+
+## Page 163
+
+int NRC_Jobrun_IMOV(int robotNum, const NRC_Position& offset, double vel, double
+ acc, double dec, int pl, int tm = 0, bool moveToNextLine = false);
+/**
+ * @brief 供自定义作业文件指令调用的MOVJEXT指令，不可直接调用
+ * @param robotNum 机器人编号[1-4]
+ * @param pos　机器人运动目标位置，详见 NRC_Position
+ * @param syncPos　机器人运动目标位置，详见 NRC_SyncPosition
+ * @param vel 机器人的运行速度，为机器人最大速度的百分比，参数范围：0 < vel <= 100
+ * @param acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+ * @param dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+ * @param pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范
+围：0 <= pl <= 5
+ * @param moveToNextLine 是否跳行，只需要在最后的一条指令将moveToNextLine置为true
+ */
+void NRC_Jobrun_MoveDirectSync(int robotNum, const NRC_Position & pos, const NRC_
+SyncPosition & syncPos, double vel, double acc, double dec, int pl, bool moveToNe
+xtLine = false);
+/**
+ * @brief 供自定义作业文件指令调用的MOVLEXT指令，不可直接调用
+ * @param robotNum 机器人编号[1-4]
+ * @param pos　机器人运动目标位置，详见 NRC_Position
+ * @param syncPos　机器人运动目标位置，详见 NRC_SyncPosition
+ * @param vel 机器人的运行速度，为机器人末端位置点绝对运行速度，单位为 毫米每秒（mm/s），参数范
+围：vel > 1
+ * @param acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+ * @param dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+ * @param pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范
+围：0 <= pl <= 5
+ * @param moveToNextLine 是否跳行，只需要在最后的一条指令将moveToNextLine置为true
+ * @param sync 是否协同
+ */
+void NRC_Jobrun_MoveLinearSync(int robotNum, const NRC_Position & pos, const NRC_
+SyncPosition & syncPos, double vel, double acc, double dec, int pl, int sync, boo
+l moveToNextLine = false);
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+2，自定义指令函数使用示例
+
+
+## Page 164
+
+NRC_SetJobFileCustomInstructionCB注册一个自
+定义指令调用的函数
+自定义运行自定义指令时候运行的函数
+bool test_cmd(int line, const std::string &paramStr,
+const std::string &posName)
+在程序主函数当中注册该回调函数 
+NRC_SetJobFileCustomInstructionCB(test_cmd);
+当作业文件运行自定义指令
+示教器
+执行 
+test_cmd函数 
+#include "nrcAPI.h"
+#include "nrcAPI_advance.h"
+#include "json/json.h"
+#include <atomic>
+#include <chrono>
+#include <cstdlib>
+#include <iostream>
+#include <mutex>
+#include <sstream>
+#include <stdio.h>
+#include <string>
+#include <thread>
+#include <unistd.h>
+#include <vector>
+#include <functional>
+#include <cstdint>
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+
+
+## Page 165
+
+#include <cstring>
+#include <fstream>
+using namespace std;
+bool test_cmd(int line, const std::string &paramStr, const std::string &posName)
+ {
+  int robotNum = 1;             //机器人1
+  NRC_Position pos1 = {NRC_ACS, 40, 0, 0, 0, 0, 0};
+  NRC_Position pos2 = {NRC_ACS, 0, 0, 0, 0, 0, 0};
+  NRC_Position pos3 = {NRC_ACS, -40, 0, 0, 0, 0, 0};       //机器人运行的目标点位
+  NRC_Jobrun_MoveDirect(robotNum, pos1, 50, 80, 80, 5);
+  NRC_Jobrun_MoveDirect(robotNum, pos2, 50, 80, 80, 5);
+  NRC_Jobrun_MoveDirect(robotNum, pos3, 50, 80, 80, 5, true);    //最后需要跳行move
+ToNextLine传true
+}
+int main() {
+  // 输出Nexmotion版本库信息
+  std::cout << "库版本：" << NRC_GetNexMotionLibVersion() << std::endl;
+  // 启动控制系统
+  NRC_StartController();
+  // 阻塞等待系统初始化完成
+  while (NRC_GetControlInitComplete() != 1 )
+  {
+    NRC_Delayms(100);
+  }
+  NRC_ClearServoError();
+  NRC_SetServoReadyStatus(1);
+  NRC_Delayms(2000);
+  NRC_SetJobFileCustomInstructionCB(test_cmd);     //注册自定义指令的回调函数
+  while (1) //保持二次开发程序继续运行
+  {
+    NRC_Delayms(1000);
+  }
+}
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+
+
+## Page 166
+
+test_cmd
+创建目标点位
+NRC_Position pos3 = {NRC_ACS, -40, 0, 0, 0, 0, 0};
+机器人开始走pos的点位
+机器人点到点运动
+NRC_Jobrun_MoveDirect(robotNum, pos1, 50, 80, 80, 5);
+3，运行自定义指令
+自定义指令只有二次开发示教器才有，用户可在相关下载，下载对应的示教器二次开发
+
+
+## Page 167
+
+切换到运行模式，启动运行作业文件
+当程序执行到ID = 1指令时，就开始运
+行在控制器二次开发代码中写的
+test_cmd函数
+示教器实现
+接口介绍
+以下接口都在示教器的SDK中的头文件中可以找到
+
+
+## Page 168
+
+自定义指令中的信号接口，需要跟槽函数一起使用
+/**
+ * @brief 调用插入自定义指令界面的信号
+ * @note 信号用于初始化自定义界面，即作业文件指令插入时显示的界面
+ * @param cmdNum 其编号，对应插入时自定义指令类中从上到下第几个
+ */
+void signal_userdefine_cmd_init(int cmdNum);
+/**
+ * @brief 调用修改自定义指令界面的信号
+ * @note 信号用于修改自定义指令，即作业文件指令修改时显示的界面
+ * @param cmdNum 编号，对应插入时自定义指令类中从上到下第几个
+ * @param cmdParam 插入时传入的字符串参数，用于显示当前字符串参数
+ * @param posName 插入时传入的点位名，可选用
+*/
+void signal_userdefine_cmd_alter(int cmdNum, QString cmdParam, QString posName);
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+signal_userdefine_cmd_init：用于打开用户自己写的自定义指令
+界面，如下图为自定义的界面：
+
+
+## Page 169
+
+cmdNum参数：在指令插入界面的自定义指令类内从上到下的第几个：
+
+
+## Page 170
+
+signal_userdefine_cmd_alter：用于修改已经插入到作业文件中
+的自定义指令，调用后同样会打开用户自己写的自定义指令的界
+面
+
+
+## Page 171
+
+cmdNum参数：需要修改的是哪一条自定义指令，具体哪一条指令按照下图去分辨：
+
+
+## Page 172
+
+自定义指令接口
+/**
+ * @brief 插入自定义指令
+ * @param cmdNum 编号，对应插入时自定义指令类中从上到下第几个
+ * @param cmdParam 传入的自定义字符串参数
+ */
+void userdefine_cmd_insert(int cmdNum, QString cmdParam);
+/**
+ * @brief 修改自定义指令显示在插入界面的名称
+ * @param EnglishName 英文名称
+ * @param ChineseName 中文名称
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+
+## Page 173
+
+ * @note 插入的数量决定自定义指令的个数
+ * @note 请在使用connect调用信号signal_userdefine_cmd_init(int)绑定界面后调用此参数，否则
+会失效
+ */
+void userdefined_cmd_name_change(QStringList &EnglishName,QStringList &ChineseNam
+e);
+/**
+ * @brief 关闭自定义指令界面
+ * @note 插入和修改自定义点位需要取消时，请调用此接口以确保系统正确处理标志位
+ */
+void close_userdefine_cmd_widget(QWidget *);
+11
+12
+13
+14
+15
+16
+17
+18
+19
+userdefined_cmd_name_change：使用示例
+QStringList ENname ;
+ENname <<"SWITCHGUN"<<"SWITCHGUNPOS";
+QStringList CNname;
+CNname << tr("换枪动作")<<tr("移动到换枪位置");
+Nextp::getInstance()->userdefined_cmd_name_change(ENname, CNname);
+1
+2
+3
+4
+5
+
+
+## Page 174
+
+示教器自定义指令使用示例
+本文档只适用于有QT开发基础的用户
+本文主要围绕相关下载内的示教器二次开发demo进行教学，需要结合demo中的代码一起看
+1，自定义指令界面
+用户可以按照自己的喜好自己设计指令的界面，也可以直接使用我们的模板界面，下图是demo中设计好的
+一个界面示例（用户可以直接用这个示例进行修改或者复制添加新的界面）
+
+
+## Page 175
+
+2，设置指令插入界面的自定义指令类中的指令
+主要使用的接口：
+userdefined_cmd_name_change：修改自定义指令显示在插入界面的名称，效果如下图：
+QStringList ENname ;
+ENname <<"SWITCHGUN"<<"SWITCHGUNPOS";
+QStringList CNname;
+CNname << tr("换枪动作")<<tr("移动到换枪位置");
+Nextp::getInstance()->userdefined_cmd_name_change(ENname, CNname);
+1
+2
+3
+4
+5
+
+
+## Page 176
+
+3，打开自定义指令界面
+主要使用到的接口是：
+signal_userdefine_cmd_init ：该函数是qt中的一个信号函数，需要跟槽函数连接使用，用于打开用户自己
+写的自定义指令界面
+connect(Nextp::getInstance(),SIGNAL(signal_userdefine_cmd_init(int)),this,SLOT(sl
+ot_userdefine_cmd_init(int)));
+void WidgetManager::slot_userdefine_cmd_init(int cmd_num)    //cmd_num对应指令插入界
+面自上而下的顺序
+{
+    if(cmd_num == 1)                                        //对应界面中的换枪动作指令
+    {
+    }
+1
+2
+3
+4
+5
+6
+
+
+## Page 177
+
+    if(cmd_num == 2)                                       //对应界面中的移动到换枪位
+置指令
+    {
+        //设置二次开发界面在窗口中的位置，并且打开该界面
+        Nextp::getInstance()->setWidgetParentLocation((QWidget *)SwitchGunPosComm
+and::getInstance(), 86, 96);//设置界面的打开的位置
+        SwitchGunPosCommand::getInstance()->initSwitchGunPosCmd();
+        SwitchGunPosCommand::getInstance()->raise();
+        SwitchGunPosCommand::getInstance()->show();     //打开界面
+    }
+}
+7
+8
+9
+10
+11
+12
+13
+14
+15
+Ps：SwitchGunPosCommand是我们第一步的自定义指令界面
+4，插入自定义指令
+自定义指令界面当中的确定控件的点击事件绑定了slot_cmdInsertEnsureClicked槽函数：
+SwitchGunPosBtnEnsure为确定控件的名称
+connect(ui->SwitchGunPosBtnEnsure, SIGNAL(clicked()), this, SLOT(slot_cmdInsertEn
+sureClicked()));
+1
+void SwitchGunPosCommand::slot_cmdInsertEnsureClicked()
+{
+    int ID = ui->m_pcomboBoxGP_ID->currentIndex()+1;
+    int moveType = ui->m_pcomboBoxGP_TYPE->currentIndex();
+    double vel = ui->m_pLineEditSwitchGP_V->text().toDouble();
+    double acc = ui->m_pLineEditSwitchGP_ACC->text().toDouble();
+    double dec = ui->m_pLineEditSwitchGP_DEC->text().toDouble();
+    int pl = ui->m_pLineEditSwitchGP_PL->text().toInt();
+    QString Param = "移动到换枪位置 " + QString::number(ID) + " " + QString::number
+(moveType) + " " + QString::number(vel) +         " " + QString::number(acc)
+             + " " + QString::number(dec) + " " + QString::number(pl);    //封装需
+要发送的参数
+    Nextp::getInstance()->userdefine_cmd_insert(2,Param);  // 2：自定义指令的编号，对
+应控制器回调函数的第一个int形参
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+
+
+## Page 178
+
+    this->hide();      //指令插入后关闭自定义界面
+}
+12
+13
+将界面当中需要发送给控制器的参数封装成字符串类型，然后通过userdefine_cmd_insert接口将指令插入
+到作业文件当中
+5，修改自定义指令
+当自定义指令已经插入到作业文件当中后还需要修改指令当中的参数
+主要使用到的接口：
+signal_userdefine_cmd_alter：调用修改自定义指令界面的信号函数
+
+
+## Page 179
+
+connect(Nextp::getInstance(),SIGNAL(signal_userdefine_cmd_alter(int,QString,QStri
+ng)),this,SLOT(slot_userdefine_cmd_alter(int,QString,QString)));      //当光标选中
+自定义指令并点击修改控件的时候就会触发这个槽函数
+void WidgetManager::slot_userdefine_cmd_alter(int cmd_num, QString cmd_param, QSt
+ring pos_name)
+{
+    if(cmd_num == 1)                                        //对应界面中的换枪动作指令
+    {
+    }
+    if(cmd_num == 2)                                       //对应界面中的移动到换枪位
+置指令
+    {
+        //设置二次开发界面在窗口中的位置，并且打开该界面
+        Nextp::getInstance()->setWidgetParentLocation((QWidget *)SwitchGunPosComm
+and::getInstance(), 86, 96);//设置界面的打开的位置
+        SwitchGunPosCommand::getInstance()->initSwitchGunPosCmd();
+        SwitchGunPosCommand::getInstance()->raise();
+        SwitchGunPosCommand::getInstance()->show();     //打开界面
+    }
+}
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+6，关闭自定义指令界面
+当用户打开了自定义指令界面后又不想插入指令时，可以直接关闭这个界面，就可以回到上一级的界面
+在界面当中创建一个返回或者取消的控件，将这个控件绑定一个关闭界面的槽函数即可
+SwitchGunPosBtnCancel为demo中的自定义指令界面的取消控件，示例如下：
+connect(ui->SwitchGunPosBtnCancel, SIGNAL(clicked()), this, SLOT(slot_cmdInsertCa
+ncelClicked()));
+void SwitchGunPosCommand::slot_cmdInsertCancelClicked()
+{
+    this->close();
+}
+1
+2
+3
+4
+5
+
+
+## Page 180
+
+控制器实现
+接口介绍
+以下接口都在控制器的SDK中的头文件中可以找到
+/**
+ * @brief 设置作业文件自定义指令回调函数
+ * @note 该函数的功能是将一个函数绑定到自定义指令中
+ * @param (*fun)(int,std::string,std::string) 函数指针，即自定义指令要调用的函数
+ * @note 回调函数指针中的参数分别为该自定义指令的编号，该自定义指令的字符串参数，该自定义指令调用
+的点位名称（未调用则此参数为空）
+ */
+1
+2
+3
+4
+5
+6
+
+
+## Page 181
+
+int NRC_SetJobFileCustomInstructionCB(bool (*fun)(int,const std::string &,const s
+td::string &));
+/**
+ * @brief 供自定义作业文件指令调用的MOVJ指令，不可直接调用
+ * @param robotNum 机器人编号[1-4]
+ * @param pos　机器人运动目标位置，详见 NRC_Position
+ * @param vel 机器人的运行速度，为机器人最大速度的百分比，参数范围：0 < vel <= 100
+ * @param acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+ * @param dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+ * @param pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范
+围：0 <= pl <= 5
+ * @param moveToNextLine 是否跳行，只需要在最后的一条指令将moveToNextLine置为true
+ */
+void NRC_Jobrun_MoveDirect(int robotNum, const NRC_Position & pos, double vel,  d
+ouble acc, double dec, int pl, bool moveToNextLine = false);
+/**
+ * @brief 供自定义作业文件指令调用的MOVL指令，不可直接调用
+ * @param robotNum 机器人编号[1-4]
+ * @param pos　机器人运动目标位置，详见 NRC_Position
+ * @param vel 机器人的运行速度，为机器人末端位置点绝对运行速度，单位为 毫米每秒（mm/s），参数范
+围：vel > 1
+ * @param acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+ * @param dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+ * @param pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范
+围：0 <= pl <= 5
+ * @param moveToNextLine 是否跳行，只需要在最后的一条指令将moveToNextLine置为true
+ */
+void NRC_Jobrun_MoveLinear(int robotNum, const NRC_Position & pos, double vel, do
+uble acc, double dec, int pl, bool moveToNextLine = false);
+/**
+ * @brief 供自定义作业文件指令调用的MOVC指令，不可直接调用
+ * @param robotNum 机器人编号[1-4]
+ * @param mid_pos,end_pos　机器人运动目标位置，详见 NRC_Position
+ * @param vel 机器人的运行速度，为机器人末端位置点绝对运行速度，单位为 毫米每秒（mm/s），参数范
+围：vel > 1
+ * @param acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+ * @param dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+ * @param pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范
+围：0 <= pl <= 5
+ * @param moveToNextLine 是否跳行，只需要在最后的一条指令将moveToNextLine置为true
+ * @note 注意，MOVC不可作为第一条指令运行，且第一次调用时前面必须要有MOVJ或者MOVL指令
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+
+
+## Page 182
+
+ */
+void NRC_Jobrun_MoveC(int robotNum, const NRC_Position& mid_pos,const NRC_Positio
+n& end_pos, double vel, double acc, double dec, int pl, bool moveToNextLine = fal
+se);
+/**
+ * @brief 供自定义作业文件指令调用的MOVS指令，不可直接调用
+ * @param robotNum 机器人编号[1-4]
+ * @param pos 机器人运动目标位置容器，大小不可小于4(即pos.size() >= 4)，点位设置详见 NRC_Po
+sition
+ * @param vel 机器人的运行速度，为机器人末端位置点绝对运行速度，单位为 毫米每秒（mm/s），参数范
+围：vel > 1
+ * @param acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+ * @param dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+ * @param pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范
+围：0 <= pl <= 5
+ * @param moveToNextLine 是否跳行，只需要在最后的一条指令将moveToNextLine置为true
+ * @note 注意，MOVS不可作为第一条指令运行，且第一次调用时前面必须要有MOVJ或者MOVL指令
+ */
+void NRC_Jobrun_MoveS(int robotNum, int pointNum, const std::vector< NRC_Position
+>& pos, double vel, double acc, double dec, int pl, bool moveToNextLine = false);
+/**
+ * @brief 供自定义作业文件指令调用的IMOV指令，不可直接调用
+ * @param robotNum 机器人编号[1-4]
+ * @param pos 机器人运动目标位置容器，大小不可小于4(即pos.size() >= 4)，点位设置详见 NRC_Po
+sition
+ * @param vel 机器人的运行速度，为机器人末端位置点绝对运行速度，单位为 毫米每秒（mm/s），参数范
+围：vel > 1
+ * @param acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+ * @param dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+ * @param pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范
+围：0 <= pl <= 5
+ * @param moveToNextLine 是否跳行，只需要在最后的一条指令将moveToNextLine置为true
+ * @param tm 提前执行时间，范围：[0,999999],可不填，默认为0
+ * @note 注意，IMOV不可作为第一条指令运行，在其之前必须要有运动类指令
+ */
+int NRC_Jobrun_IMOV(int robotNum, const NRC_Position& offset, double vel, double
+ acc, double dec, int pl, int tm = 0, bool moveToNextLine = false);
+/**
+ * @brief 供自定义作业文件指令调用的MOVJEXT指令，不可直接调用
+ * @param robotNum 机器人编号[1-4]
+ * @param pos　机器人运动目标位置，详见 NRC_Position
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+
+
+## Page 183
+
+ * @param syncPos　机器人运动目标位置，详见 NRC_SyncPosition
+ * @param vel 机器人的运行速度，为机器人最大速度的百分比，参数范围：0 < vel <= 100
+ * @param acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+ * @param dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+ * @param pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范
+围：0 <= pl <= 5
+ * @param moveToNextLine 是否跳行，只需要在最后的一条指令将moveToNextLine置为true
+ */
+void NRC_Jobrun_MoveDirectSync(int robotNum, const NRC_Position & pos, const NRC_
+SyncPosition & syncPos, double vel, double acc, double dec, int pl, bool moveToNe
+xtLine = false);
+/**
+ * @brief 供自定义作业文件指令调用的MOVLEXT指令，不可直接调用
+ * @param robotNum 机器人编号[1-4]
+ * @param pos　机器人运动目标位置，详见 NRC_Position
+ * @param syncPos　机器人运动目标位置，详见 NRC_SyncPosition
+ * @param vel 机器人的运行速度，为机器人末端位置点绝对运行速度，单位为 毫米每秒（mm/s），参数范
+围：vel > 1
+ * @param acc 机器人运行加速度，为机器人各关节最大加速度的百分比，参数范围：0 < vel <= 100
+ * @param dec 机器人运行减速度，为机器人各关节最大减速度的百分比，参数范围：0 < vel <= 100
+ * @param pl 平滑度，将和后面一条移动指令进行平滑过渡，数值越大，越平滑，轨迹偏差也越大，参数范
+围：0 <= pl <= 5
+ * @param moveToNextLine 是否跳行，只需要在最后的一条指令将moveToNextLine置为true
+ * @param sync 是否协同
+ */
+void NRC_Jobrun_MoveLinearSync(int robotNum, const NRC_Position & pos, const NRC_
+SyncPosition & syncPos, double vel, double acc, double dec, int pl, int sync, boo
+l moveToNextLine = false);
+/**
+ * @brief 阻塞非运动指令，当当前存在机器人运动指令未执行完成时，会阻塞在此接口中，阻止程序向下执
+行;
+ * @brief 在断点恢复时，程序会从停止时程序停留的此接口处继续向下执行
+ */
+void NRC_JobRun_BlockNotMoveInstruction();
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+控制器自定义指令使用示例
+本文档只适用于有C++开发基础的用户
+本文主要围绕相关下载内的控制器二次开发demo进行教学，需要结合demo中的代码一起看
+
+
+## Page 184
+
+1，注册自定义指令的回调函数
+NRC_SetJobFileCustomInstructionCB(userdefinecmd);       //注册自定义指令的回调函数
+1
+注册的函数：
+bool userdefinecmd(int id, const std::string & paramStr,const std::string & posNa
+me)
+{
+	
+//id : 对应示教器接口userdefine_cmd_insert中的第一位参数
+	
+//paramStr : 对应示教器接口userdefine_cmd_insert中的第二位参数
+	
+return true;
+}
+1
+2
+3
+4
+5
+6
+2，封装获取示教器端发送的自定义指令参数函数（可选，也可以
+自己开发解析的这部分）
+封装解析接收到的的字符串的函数：
+//功能函数，用于切分字符串并存入容器中
+std::vector<std::string> split(const std::string& s, char delimiter)
+{
+	
+std::vector<std::string> tokens;
+	
+std::string token;
+	
+std::istringstream tokenStream(s);
+	
+while (std::getline(tokenStream, token, delimiter))
+	
+{
+	
+	
+tokens.push_back(token);
+	
+}
+	
+return tokens;
+}
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+split函数的使用示例：
+
+
+## Page 185
+
+std::vector<std::string> param = split(paramStr,' ');
+param.erase(param.begin());
+double vel = atoi(param.at(2).c_str());
+double acc = atoi(param.at(3).c_str());
+double dec = atoi(param.at(4).c_str());
+1
+2
+3
+4
+5
+3，使用示例
+将示教器发送的速度，加速度，减速度参数解析出来使用，下面是自定义指令运行三条MOVJ运动的示例：
+注意：自定义指令内运动类的指令只能使用接口介绍中的运动类接口
+bool userdefinecmd(int id, const std::string & paramStr,const std::string & posNa
+me)
+{
+	
+//id : 对应示教器接口userdefine_cmd_insert中的第一位参数
+	
+//paramStr : 对应示教器接口userdefine_cmd_insert中的第二位参数
+	
+int robotNum = 1;                                               //定义需要
+控制器的机器人编号
+	
+if (id == 1)
+	
+{
+	
+}
+	
+else if (id == 2)
+	
+{
+	
+	
+//分隔字符串获取参数
+	
+	
+std::vector<std::string> param = split(paramStr,' ');
+	
+	
+param.erase(param.begin());
+	
+	
+double vel = atoi(param.at(2).c_str());
+	
+	
+double acc = atoi(param.at(3).c_str());
+	
+	
+double dec = atoi(param.at(4).c_str());                     //取出
+示教器封装的各参数
+	
+	
+NRC_Position pos1 = {NRC_ACS, 40, 0, 0, 0, 0, 0};
+	
+	
+NRC_Position pos2 = {NRC_ACS, 0, 0, 0, 0, 0, 0};
+	
+	
+NRC_Position pos3 = {NRC_ACS, -40, 0, 0, 0, 0, 0};       //机器人运
+行的目标点位
+	
+	
+NRC_Jobrun_MoveDirect(robotNum, pos1, vel, acc, dec, 5);      //MO
+VJ运动指令
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+
+## Page 186
+
+	
+	
+NRC_Jobrun_MoveDirect(robotNum, pos2, vel, acc, dec, 5);
+	
+	
+NRC_Jobrun_MoveDirect(robotNum, pos3, vel, acc, dec, 5, true);   
+ //最后一条运动类指令需要跳行，将moveToNextLine传true!!!否则会出现机器人飞车事故！
+	
+}
+	
+else
+	
+{
+	
+	
+printf("no this cmd");
+	
+}
+	
+return true;
+}
+21
+22
+23
+24
+25
+26
+27
+28
+29
+4，运行自定义指令
+至此，代码部分已经完成。将示教器和控制器的二次开发程序编译好之后分别升级到示教器和控制器当中
+（关于如何编译的问题，参考文档中的控制器快速开始教程和示教器快速开始的教程），程序都升级完成
+之后，在作业文件当中插入我们刚刚写的自定义指令到作业文件当中，如图：
+
+
+## Page 187
+
+作业文件指令插入完成之后，切换到运行模式，启动程序。当程序运行到”移动到换枪位置 1 0 50 50 50
+0“这条自定义指令的时候，就开始执行上面的例子中的userdefinecmd函数内的全部代码（三条MOVJ运
+动）。
+5，进阶教程
+当用户需要机器人运动到某一个点位的时候，进行一些对程序的控制，对机器人状态的控制，对IO的控
+制，或者用户自己的一些功能代码时，如果直接将这部分代码直接添加注册的自定义指令函数内，然后在
+示教器运行自定义指令则出现，机器人机器人一直在运动但是用户的代码在执行自定义指令刚开始时就已
+经跑完了，这个时候就需要用到下面的这个阻塞接口，将程序阻塞在需要的地方。
+/**
+ * @brief 阻塞非运动指令，当当前存在机器人运动指令未执行完成时，会阻塞在此接口中，阻止程序向下执
+行;
+1
+2
+
+
+## Page 188
+
+ * @brief 在断点恢复时，程序会从停止时程序停留的此接口处继续向下执行
+ */
+void NRC_JobRun_BlockNotMoveInstruction();
+3
+4
+5
+示例一：当机器人运动到某一个点位之后需要打开IO输出
+bool userdefinecmd(int id, const std::string & paramStr,const std::string & posNa
+me)
+{
+	
+//id : 对应示教器接口userdefine_cmd_insert中的第一位参数
+	
+//paramStr : 对应示教器接口userdefine_cmd_insert中的第二位参数
+	
+int robotNum = 1;             //定义需要控制器的机器人编号
+	
+if (id == 1)
+	
+{
+	
+}
+	
+else if (id == 2)
+	
+{
+	
+        NRC_Position pos1 = {NRC_ACS, 40, 0, 0, 0, 0, 0};
+	
+	
+NRC_Position pos2 = {NRC_ACS, 0, 0, 0, 0, 0, 0};
+	
+	
+NRC_Position pos3 = {NRC_ACS, -40, 0, 0, 0, 0, 0};       //机器人运
+行的目标点位
+	
+	
+NRC_Jobrun_MoveDirect(robotNum, pos1, 80, 50, 50, 0);
+	
+	
+NRC_Jobrun_MoveDirect(robotNum, pos2, 80, 50, 50, 0);
+	
+	
+NRC_JobRun_BlockNotMoveInstruction();//阻塞接口，将程序阻塞在该位置，等
+待上一条的MOVJ运动到目标点位后解除阻塞
+	
+	
+NRC_DigOut(1, 1);      //打开对应的IO数字输出
+	
+	
+NRC_Jobrun_MoveDirect(robotNum, pos3, 80, 50, 50, 0, true);    //
+最后一条运动类指令需要跳行，将moveToNextLine传true!!!否则会出现机器人飞车事故！
+	
+}
+	
+else
+	
+{
+	
+	
+printf("no this cmd");
+	
+}
+	
+return true;
+}
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+其中nrcAPI.h头文件中的非运动类的接口大部分都是可以写在注册函数当中进行适用的。
+
+
+## Page 189
+
+示例二：当机器人运动到某一点位之后，需要执行用户自己写的功能函数:
+当机器人运动到pos2的目标位置之后就开始执行用户自己写的功能函数，注意：用户在添加自己的功能函
+数的最后需要自己增加阻塞，防止功能函数还没执行完就开始执行下面的MOVJ运动！
+bool userdefinecmd(int id, const std::string & paramStr,const std::string & posNa
+me)
+{
+	
+//id : 对应示教器接口userdefine_cmd_insert中的第一位参数
+	
+//paramStr : 对应示教器接口userdefine_cmd_insert中的第二位参数
+	
+int robotNum = 1;             //定义需要控制器的机器人编号
+	
+if (id == 1)
+	
+{
+	
+}
+	
+else if (id == 2)
+	
+{
+	
+        NRC_Position pos1 = {NRC_ACS, 40, 0, 0, 0, 0, 0};
+	
+	
+NRC_Position pos2 = {NRC_ACS, 0, 0, 0, 0, 0, 0};
+	
+	
+NRC_Position pos3 = {NRC_ACS, -40, 0, 0, 0, 0, 0};       //机器人运
+行的目标点位
+	
+	
+NRC_Jobrun_MoveDirect(robotNum, pos1, 80, 50, 50, 0);
+	
+	
+NRC_Jobrun_MoveDirect(robotNum, pos2, 80, 50, 50, 0);
+	
+	
+NRC_JobRun_BlockNotMoveInstruction();//阻塞接口，将程序阻塞在该位置，等
+待上一条的MOVJ运动到目标点位后解除阻塞
+	
+	
+/**
+                 * ........................
+                 *   用户自己写的功能函数
+                 * ........................
+                */
+	
+	
+NRC_Jobrun_MoveDirect(robotNum, pos3, 80, 50, 50, 0, true);    //
+最后一条运动类指令需要跳行，将moveToNextLine传true!!!否则会出现机器人飞车事故！
+	
+}
+	
+else
+	
+{
+	
+	
+printf("no this cmd");
+	
+}
+	
+return true;
+}
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+
+
+## Page 190
+
+自定义指令demo
+该demo的版本为rtl-22.07.64版本，适用于C1201控制器（如果需要其他版本的SDK，请到相关下载内下载
+对应的库进行替换）
+控制器自定义指令二次开发demo
+Controller-demo.zip
+16.55 MB
+2025-10-22 15:18
+示教器自定义指令二次开发demo
+NextpMode.zip
+93.11 MB
+2025-10-22 15:18
