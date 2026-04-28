@@ -18,6 +18,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -29,10 +31,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs mkdocs-material pymdown-extensions
+          pip install --no-cache-dir mkdocs mkdocs-material pymdown-extensions 2>&1
 
       - name: Build MkDocs
-        run: mkdocs build
+        run: |
+          mkdocs build 2>&1
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
